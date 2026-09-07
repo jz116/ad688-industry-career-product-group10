@@ -1,1 +1,4 @@
 .env
+
+/.quarto/
+**/*.quarto_ipynb

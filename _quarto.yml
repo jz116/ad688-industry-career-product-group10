@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Career Evaluation Product"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: introduction.qmd
+        text: Introduction
+      - href: data_preparation.qmd
+        text: Data Preparation
+      - href: market_baseline.qmd
+        text: Market Baseline
+      - href: skill_gap_analysis.qmd
+        text: Skill Gaps
+      - href: career_evaluation.qmd
+        text: Career Evaluation
+      - href: final_recommendations.qmd
+        text: Recommendations
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
