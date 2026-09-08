@@ -1,0 +1,53 @@
+---
+title: "Research Introduction"
+bibliography: references.bib
+csl: csl/apa.csl
+format:
+  html:
+    toc: true
+---
+
+## Project Scope
+
+**Career pathway:** Data Scientist  
+**Industry:** Software Publishers  
+**NAICS 2022 code:** 513210  
+**Primary focus area:** Skill and Career Readiness  
+**Target user:** College students and recent graduates seeking entry-level data-science opportunities in the U.S. software publishing industry.  
+
+## Product Question
+
+> Which skills are most frequently required for entry-level data-science opportunities in the software publishing industry, how well does a student’s current profile match those requirements, and which learning priorities would most improve the student’s employability?
+
+## Introduction
+
+Data science has become increasingly important as organizations use data, statistical methods, and machine-learning models to improve products and support business decisions. However, a strong general outlook for data-science employment does not tell students which skills are needed in a particular industry or which positions are realistic early-career targets.
+
+This project focuses on the Data Scientist career pathway within Software Publishers, classified under 2022 NAICS code 513210. The U.S. Census Bureau defines this industry as establishments primarily engaged in software publishing [@census2022]. Narrowing the project to one pathway and one industry will allow our team to produce focused and actionable guidance instead of a general labor-market report.
+
+## Research and Product Rationale
+
+Students preparing for data-science careers must make several connected decisions: which skills to develop, which positions to target, and how to determine whether they are ready to apply. Job titles alone may not answer these questions because positions with similar titles can require different combinations of programming, statistics, machine learning, business knowledge, communication, and experience.
+
+The proposed career evaluation product will convert job-posting information into a skill benchmark for aspiring data scientists. It will eventually compare the skills requested by software-publishing employers with a student’s current profile, identify important gaps, and recommend learning priorities. Salary, experience, location, and remote-work status will provide supporting context, but the primary decision supported by the product is what a student should learn next and which opportunities are currently attainable.
+
+## Literature Review
+
+The labor-market outlook supports examining data science as an early-career pathway. The U.S. Bureau of Labor Statistics projects data-scientist employment to grow 35% from 2025 to 2035, compared with 3% for all occupations. It also identifies analytical, computer, communication, mathematical, and problem-solving abilities as important qualities for the occupation [@bls2026]. These findings indicate strong overall potential, but national occupational statistics do not reveal the specific skill combinations requested by software publishers.
+
+Research based on job advertisements demonstrates why a skill-centered analysis is appropriate. De Mauro et al. classified big-data positions into distinct job families and organized employer requirements into multiple skill groups [@demauro2018]. Their findings suggest that related data occupations should not be treated as interchangeable and that structured analysis of job postings can clarify the differences between career pathways.
+
+Skill requirements in technology-intensive careers also change over time. Deming and Noray found that the skill content of STEM occupations changes more rapidly than that of many other occupations, creating a continuing risk of skill obsolescence [@demingnoray2020]. Therefore, career guidance should be based on current employer demand and should help students identify continuing upskilling priorities.
+
+The World Economic Forum similarly identifies analytical thinking as a leading core skill and AI and big-data capabilities among the fastest-growing skill areas [@wef2025]. It also emphasizes the continued value of human capabilities such as adaptability and collaboration. Together, these sources support evaluating both technical and professional skills rather than defining career readiness through programming knowledge alone.
+
+## Expected Exploration
+
+In later modules, our team expects to determine which technical and professional skills appear most frequently in entry-level data-science postings within NAICS 513210. We expect to investigate whether employers seek combinations of programming, database, statistical, machine-learning, communication, and product-oriented skills rather than one isolated tool.
+
+We will compare these market requirements with a current student profile, distinguish currently attainable opportunities from longer-term targets, and identify the missing skills that would provide the greatest improvement in employability. The final product is expected to include an explainable career-readiness scorecard and prioritized recommendations for learning and job applications.
+
+## References
+
+::: {#refs}
+:::
