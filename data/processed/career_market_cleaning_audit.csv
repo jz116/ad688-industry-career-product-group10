@@ -1,0 +1,22 @@
+metric,value,notes
+source_rows,165386,All rows across the 17 Parquet partitions.
+rows_with_nonblank_id,165386,Rows eligible for ID deduplication.
+duplicate_id_rows_removed,0,Latest updated record retained per ID.
+industry_rows_in_date_window,1003,"NAICS 513210, 2026-01-01 through 2026-07-31."
+industry_name_fallback_rows,66,Canonical Software Publishers name used when the raw code did not contain 513210.
+final_panel_rows,66,One row per included posting.
+core_data_scientist_rows,1,Core tier.
+adjacent_ai_ml_rows,65,Adjacent tier.
+valid_salary_rows,39,Nonmissing midpoint after zero and plausibility cleaning.
+zero_salary_placeholders,18,"Converted to missing, not interpreted as pay."
+salary_iqr_q1,192410.5,Q1 among cleaned midpoint salaries.
+salary_iqr_q3,238000.0,Q3 among cleaned midpoint salaries.
+salary_outlier_lower_limit,124026.25,"Lower 1.5-IQR flagging limit, bounded by plausibility threshold."
+salary_outlier_upper_limit,306384.25,"Upper 1.5-IQR flagging limit, bounded by plausibility threshold."
+salary_outlier_rows,5,Flagged but retained.
+rows_missing_reported_experience,66,Title proxy supplied separately; no years imputed.
+unknown_remote_rows,60,Not recoded as onsite.
+rows_missing_state,4,Location incompleteness retained.
+rows_with_structured_skills,6,At least one parsed structured skill.
+rows_with_description_skills,4,At least one controlled keyword match.
+near_duplicate_flagged_rows,0,Flagged using employer/title/date/city/state fingerprint.

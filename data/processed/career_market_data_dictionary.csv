@@ -1,0 +1,50 @@
+variable,type,description,cleaning_notes
+JOB_ID,string,Unique posting identifier.,Blank IDs removed; duplicate IDs retain latest update.
+POSTED_DATE,date,Posting date.,Converted from POSTED.
+EXPIRED_DATE,date,Expiration date.,Converted from EXPIRED; missing in this cohort.
+TITLE_RAW,string,Original posting title.,Trimmed; preserved for auditing.
+TITLE_CLEAN,string,Cleaned posting title.,Trimmed Lightcast field.
+TITLE_STANDARDIZED,string,Standardized title or occupation label.,Trimmed Lightcast field.
+SCOPE_TIER,category,Core Data Scientist or adjacent technical role.,Created by documented role rules.
+ROLE_SEGMENT,category,"Data Scientist, AI, ML, or another included role segment.",Mutually exclusive title/mapping classification.
+ROLE_MATCH_REASON,string,Rule that caused the posting to be included.,Created for filter transparency.
+SENIORITY_PROXY,category,Title-based seniority indicator.,Used because reported years are missing; does not impute years.
+EXPERIENCE_DATA_SOURCE,category,Source of experience information.,Reported years when present; otherwise title proxy.
+MIN_YEARS_EXPERIENCE,double,Reported minimum experience years.,Safely converted; missing values remain null.
+MAX_YEARS_EXPERIENCE,double,Reported maximum experience years.,Safely converted; missing values remain null.
+EDUCATION_REQUIRED,category,Normalized minimum education requirement.,Standardized from MIN_EDULEVELS_NAME.
+EDUCATION_RAW,string,Original minimum education label.,Trimmed and preserved.
+EMPLOYMENT_TYPE,category,Normalized employment type.,"Full Time, Internship, other known type, or Unknown."
+IS_INTERNSHIP,boolean,Whether the posting is an internship.,Source flag supplemented with title pattern.
+REMOTE_STATUS,category,"Remote, Hybrid, Onsite, or Unknown.",Unknown is never treated as onsite.
+REMOTE_RAW,string,Original remote-work label.,Trimmed and preserved.
+LOCATION_CLEAN,string,Combined cleaned location.,City/state preferred; raw location fallback.
+CITY,string,Cleaned city name.,Blank converted to null.
+COUNTY,string,Cleaned county name.,Blank converted to null.
+STATE,string,Cleaned state name.,Blank converted to null.
+COMPANY_NAME,string,Cleaned employer name.,Trimmed Lightcast field.
+COMPANY_RAW,string,Original employer name.,Trimmed and preserved.
+COMPANY_IS_STAFFING,boolean,Whether employer is identified as staffing firm.,Normalized from string boolean.
+SALARY_FROM_ANNUAL,double,Cleaned annual lower salary bound in USD when identified.,Zero/nonpositive and implausible values become null; supported periods annualized.
+SALARY_TO_ANNUAL,double,Cleaned annual upper salary bound in USD when identified.,Bounds ordered; zero/nonpositive and implausible values become null.
+SALARY_MIDPOINT_ANNUAL,double,Midpoint of valid annual salary bounds.,Uses one valid bound when only one exists.
+SALARY_CURRENCY,string,Currency identified from raw salary text.,USD only when explicitly identified.
+SALARY_STATUS,category,Salary cleaning result.,"Distinguishes valid, missing, zero placeholder, and invalid values."
+SALARY_OUTLIER_FLAG,boolean,Whether midpoint is outside 1.5-IQR limits.,Flagged but not deleted.
+SALARY_RAW,string,Original salary description.,Preserved for audit.
+ORIGINAL_PAY_PERIOD,string,Original salary pay period.,Retained; recognized periods annualized.
+SKILLS_CLEAN,JSON array,Deduplicated normalized skills.,Union of structured fields and controlled description keywords.
+SKILL_COUNT,integer,Number of cleaned skills identified.,Count of SKILLS_CLEAN elements.
+SKILL_SOURCE,category,Origin of cleaned skills.,"Structured fields, description keywords, both, or unavailable."
+SKILLS_RAW,string,Original general skills array.,Preserved when supplied.
+SPECIALIZED_SKILLS_RAW,string,Original specialized skills array.,Preserved when supplied.
+SOFTWARE_SKILLS_RAW,string,Original software skills array.,Preserved when supplied.
+CERTIFICATIONS_RAW,string,Original certifications array.,Preserved when supplied.
+ONET_NAME,string,O*NET occupation name.,Trimmed Lightcast field.
+SOC_5,string,Detailed SOC code.,Trimmed Lightcast field.
+SOC_5_NAME,string,Detailed SOC occupation name.,Trimmed Lightcast field.
+NAICS_2022_6,string,Six-digit 2022 NAICS code.,Standardized to 513210 after a code or canonical-name match.
+NAICS_2022_6_NAME,string,Six-digit 2022 NAICS industry name.,Standardized to Software Publishers.
+INDUSTRY_MATCH_METHOD,category,Whether the source matched by code or canonical industry name.,Preserves transparency when the raw code is missing.
+NEAR_DUPLICATE_FLAG,boolean,Same employer/title/date/city/state fingerprint appears more than once.,Flagged for review rather than automatically removed.
+SOURCE_DUPLICATE_INDICATOR,string,Original source duplicate indicator.,Preserved for auditing.
