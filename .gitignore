@@ -2,3 +2,10 @@
 
 /.quarto/
 **/*.quarto_ipynb
+
+.spark-tmp/
+
+data/MET_CareerCompass_2026/
+_output/
+
+.venv/
