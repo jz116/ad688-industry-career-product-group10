@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>data_preparation – Career Evaluation Product</title>
+<title>Data Preparation – Career Evaluation Product</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,7 +26,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -45,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7c0f67eba7e864f644f943ef9a6fd48f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -134,19 +153,286 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#analytical-scope" id="toc-analytical-scope" class="nav-link" data-scroll-target="#analytical-scope">Analytical scope</a></li>
+  <li><a href="#source-data-and-relational-restructuring" id="toc-source-data-and-relational-restructuring" class="nav-link" data-scroll-target="#source-data-and-relational-restructuring">Source data and relational restructuring</a></li>
+  <li><a href="#industry-code-normalization" id="toc-industry-code-normalization" class="nav-link" data-scroll-target="#industry-code-normalization">Industry-code normalization</a></li>
+  <li><a href="#career-pathway-filter" id="toc-career-pathway-filter" class="nav-link" data-scroll-target="#career-pathway-filter">Career-pathway filter</a></li>
+  <li><a href="#cleaning-decisions" id="toc-cleaning-decisions" class="nav-link" data-scroll-target="#cleaning-decisions">Cleaning decisions</a></li>
+  <li><a href="#data-completeness" id="toc-data-completeness" class="nav-link" data-scroll-target="#data-completeness">Data completeness</a></li>
+  <li><a href="#output-files" id="toc-output-files" class="nav-link" data-scroll-target="#output-files">Output files</a></li>
+  <li><a href="#interpretation-limits" id="toc-interpretation-limits" class="nav-link" data-scroll-target="#interpretation-limits">Interpretation limits</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Preparation</h1>
+<p class="subtitle lead">Software Publishers AI/ML Career-Market Dataset</p>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>This page documents how the raw MET Employability Career Match postings were converted into a posting-level analytical dataset for the team’s selected market. The final panel contains <strong>66 unique postings</strong> in the <strong>Software Publishers</strong> industry and the <strong>Data Scientist plus adjacent AI/ML technical</strong> career pathway.</p>
+<p>The design deliberately separates the core occupation from adjacent roles. Only one posting was a core Data Scientist role; the other 65 were explicitly labeled AI or machine-learning technical roles. This preserves a usable market sample without presenting every AI/ML posting as a Data Scientist job.</p>
+</section>
+<section id="analytical-scope" class="level2">
+<h2 class="anchored" data-anchor-id="analytical-scope">Analytical scope</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimension</th>
+<th>Operational definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Selected industry</td>
+<td>Software Publishers, standardized to 2022 NAICS <code>513210</code></td>
+</tr>
+<tr class="even">
+<td>Career pathway</td>
+<td>Core Data Scientist roles plus adjacent AI/ML engineers, developers, scientists, architects, and interns</td>
+</tr>
+<tr class="odd">
+<td>Filter window</td>
+<td>Posting dates from January 1 through July 31, 2026</td>
+</tr>
+<tr class="even">
+<td>Observed dates in final panel</td>
+<td>June 3 through July 21, 2026</td>
+</tr>
+<tr class="odd">
+<td>Unit of analysis</td>
+<td>One unique job posting ID</td>
+</tr>
+<tr class="even">
+<td>Final sample</td>
+<td>66 postings: 1 core and 65 adjacent</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="source-data-and-relational-restructuring" class="level2">
+<h2 class="anchored" data-anchor-id="source-data-and-relational-restructuring">Source data and relational restructuring</h2>
+<p>The source consists of 17 Parquet partitions containing <strong>165,386 rows and 115 fields</strong>. The lab restructuring step separated those fields into six relational CSV tables:</p>
+<ol type="1">
+<li><code>job_postings.csv</code></li>
+<li><code>company.csv</code></li>
+<li><code>job_location.csv</code></li>
+<li><code>soc_details.csv</code></li>
+<li><code>lot_details.csv</code></li>
+<li><code>naics_details.csv</code></li>
+</ol>
+<p>Each posting-level child table uses job <code>ID</code> as its key. The company table uses <code>COMPANY_ID</code>; every posting’s company key matched a company record. LOT source fields were not present in this release, so the required LOT table was created with job IDs and documented blank LOT attributes rather than fabricated values.</p>
+</section>
+<section id="industry-code-normalization" class="level2">
+<h2 class="anchored" data-anchor-id="industry-code-normalization">Industry-code normalization</h2>
+<p>The source audit found a systematic coding issue that required explicit treatment:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Audit result</th>
+<th style="text-align: right;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Final-panel jobs found in <code>naics_details.csv</code></td>
+<td style="text-align: right;">66</td>
+</tr>
+<tr class="even">
+<td>Raw values containing <code>513210</code></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td>Raw values containing legacy <code>511210</code></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>Raw values named <code>Software Publishers</code></td>
+<td style="text-align: right;">66</td>
+</tr>
+<tr class="odd">
+<td>Raw code/name pair</td>
+<td style="text-align: right;"><code>513200</code> / <code>Software Publishers</code></td>
+</tr>
+</tbody>
+</table>
+<p>The official 2022 NAICS hierarchy places Software Publishers under group <code>5132</code>, industry <code>51321</code>, and six-digit U.S. industry <code>513210</code> <span class="citation" data-cites="census2022">(<a href="#ref-census2022" role="doc-biblioref">U.S. Census Bureau (2022)</a>)</span>. The source value <code>513200</code> therefore behaves as a zero-padded representation of group <code>5132</code>, not as a valid six-digit leaf code. Records were admitted only when the canonical source name was Software Publishers, then the analytical code was standardized to <code>513210</code>. The raw source result remains separately auditable in <code>target_naics_source_audit.csv</code>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The raw data did <strong>not</strong> contain code <code>513210</code>. The panel’s <code>513210</code> value is a documented taxonomy normalization supported by the canonical industry name and the official NAICS hierarchy; it is not a claim about the unmodified source code.</p>
+</div>
+</div>
+</section>
+<section id="career-pathway-filter" class="level2">
+<h2 class="anchored" data-anchor-id="career-pathway-filter">Career-pathway filter</h2>
+<p>Filtering was applied to titles and occupation mappings, not to the full job description. This avoids admitting a posting merely because its description mentions a data-science team or an AI skill.</p>
+<p>The mutually exclusive role rules were applied in this order:</p>
+<ol type="1">
+<li><strong>Core Data Scientist:</strong> an explicit Data Scientist/Data Science role title or a Data Scientists SOC/O*NET mapping.</li>
+<li><strong>Adjacent scientist roles:</strong> applied, decision, or research-scientist titles with an explicit data-science, AI, or ML signal.</li>
+<li><strong>Adjacent technical roles:</strong> an explicit <code>machine learning</code>, <code>ML</code>, <code>artificial intelligence</code>, or standalone <code>AI</code> title signal combined with engineer, developer, scientist, architect, or intern language.</li>
+<li><strong>Analytics Engineer:</strong> an explicit Analytics Engineer title.</li>
+</ol>
+<p>Generic software jobs with AI/ML only in the description were excluded. An <code>.ai</code> company or product-domain suffix alone was also excluded from the AI rule. The resulting cohort contains 54 AI technical roles, 11 machine-learning technical roles, and one Data Scientist role; none of the other allowed segments appeared in the final sample.</p>
+</section>
+<section id="cleaning-decisions" class="level2">
+<h2 class="anchored" data-anchor-id="cleaning-decisions">Cleaning decisions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable group</th>
+<th>Cleaning rule</th>
+<th>Result or audit decision</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Posting IDs and duplicates</td>
+<td>Drop blank IDs; for repeated IDs retain the record with the latest update timestamp. Flag, but do not automatically delete, identical employer-title-date-location fingerprints.</td>
+<td>All 165,386 source IDs were nonmissing and unique; zero exact-ID rows were removed and zero final near-duplicates were flagged.</td>
+</tr>
+<tr class="even">
+<td>Dates</td>
+<td>Safely parse posting and expiration values; malformed or blank values remain missing. Apply the stated posting-date window.</td>
+<td>The final observed range is June 3–July 21, 2026.</td>
+</tr>
+<tr class="odd">
+<td>Salary</td>
+<td>Parse numeric bounds, order reversed bounds, and annualize annual/hourly/weekly/monthly/daily periods. Treat nonpositive values as missing and retain only plausible annual values from $15,000 to $1,000,000.</td>
+<td>39 usable midpoints; 18 zero placeholders set to missing; 9 otherwise missing.</td>
+</tr>
+<tr class="even">
+<td>Salary outliers</td>
+<td>Apply a 1.5-IQR flag after plausibility cleaning. Preserve the observations so legitimate high-paying senior AI roles are not silently discarded.</td>
+<td>Five observations flagged and retained; audit limits were $124,026.25 and $306,384.25.</td>
+</tr>
+<tr class="odd">
+<td>Experience</td>
+<td>Safely convert reported minimum and maximum years. Do not infer numeric years when absent. Create a separate seniority proxy from explicit title language.</td>
+<td>All 66 postings lack reported experience years. The proxy is clearly labeled and is not an imputation.</td>
+</tr>
+<tr class="even">
+<td>Education</td>
+<td>Normalize minimum education into consistent degree categories.</td>
+<td>63 bachelor’s-degree and 3 master’s-degree requirements.</td>
+</tr>
+<tr class="odd">
+<td>Employment type</td>
+<td>Normalize explicit source labels; use title/internship fields to identify internships; preserve unknown values.</td>
+<td>54 full-time, 3 internship, and 9 unknown.</td>
+</tr>
+<tr class="even">
+<td>Remote status</td>
+<td>Map only explicit remote, hybrid, or onsite source labels.</td>
+<td>6 remote and 60 unknown. Unknown is not recoded as onsite.</td>
+</tr>
+<tr class="odd">
+<td>Geography</td>
+<td>Trim city, county, and state; form a city/state label when available; otherwise retain a source-location fallback.</td>
+<td>State is usable for 62 postings; four remain unspecified.</td>
+</tr>
+<tr class="even">
+<td>Employers</td>
+<td>Preserve source company labels in the panel. Standardize obvious domain-style labels only in presentation summaries.</td>
+<td>Raw labels remain available for audit.</td>
+</tr>
+<tr class="odd">
+<td>Skills</td>
+<td>Parse and deduplicate structured skill arrays. If absent, supplement them with a controlled keyword dictionary applied to the title and description. Track the extraction source.</td>
+<td>Only 10 postings have at least one usable skill: 6 from structured fields and 4 from controlled description matches.</td>
+</tr>
+<tr class="even">
+<td>Industry and occupation</td>
+<td>Preserve SOC/O*NET fields and record the inclusion rule. Standardize the documented Software Publishers source group to <code>513210</code>.</td>
+<td>Every final posting has an explicit role-match reason and industry-match method.</td>
+</tr>
+<tr class="odd">
+<td>Missing values</td>
+<td>Keep meaningful missingness as null or <code>Unknown</code>; do not fill absent salary, experience, remote, skill, or location values with invented values.</td>
+<td>Missingness is part of the reported baseline and limits interpretation.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="data-completeness" class="level2">
+<h2 class="anchored" data-anchor-id="data-completeness">Data completeness</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step2/data_completeness.png" class="img-fluid figure-img" alt="Posting date, employer, and education have 100 percent coverage. State has 93.9 percent, employment type 86.4 percent, salary 59.1 percent, skills 15.2 percent, remote status 9.1 percent, and experience years zero percent."></p>
+<figcaption>Bar chart showing coverage of posting date, employer, education, state, employment type, salary, skills, remote status, and reported experience.</figcaption>
+</figure>
+</div>
+<p>The source supports a credible baseline for job volume, broad role mix, education, state, and the subset with published salary. It does not support a reliable years-of-experience distribution, a true remote-versus-onsite split, or a comprehensive skill ranking. Those gaps are displayed rather than hidden.</p>
+</section>
+<section id="output-files" class="level2">
+<h2 class="anchored" data-anchor-id="output-files">Output files</h2>
+<p>The preparation workflow creates the following reusable products:</p>
+<ul>
+<li><code>data/processed/career_market_panel.csv</code>: one row per filtered posting.</li>
+<li><code>data/processed/career_market_skills.csv</code>: normalized posting-skill bridge table.</li>
+<li><code>data/processed/career_market_data_dictionary.csv</code>: variable definitions and cleaning notes.</li>
+<li><code>data/processed/career_market_cleaning_audit.csv</code>: row counts, missingness, and salary checks.</li>
+<li><code>data/processed/target_naics_source_audit.csv</code>: raw-versus-standardized NAICS evidence.</li>
+<li><code>outputs/step2/*.csv</code>: website summary tables created from the final panel.</li>
+<li><code>figures/step2/*.png</code>: static figures used on the baseline pages.</li>
+</ul>
+<p>The scripts <code>restructure_data.py</code>, <code>prepare_market_panel.py</code>, <code>audit_naics_scope.py</code>, and <code>build_step2_outputs.py</code> make the workflow reproducible. Large raw Parquet files and lab-scale relational exports should remain excluded from Git.</p>
+</section>
+<section id="interpretation-limits" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation-limits">Interpretation limits</h2>
+<p>This is a narrow, source-defined market snapshot. The 66 records cover only postings observed from June 3 through July 21 despite the broader filter window. Source industry tagging was not independently reclassified employer by employer, so the panel can contain firms whose primary business is not obviously software publishing. Results describe the filtered posting sample, not all U.S. hiring or the probability that a particular applicant will receive an offer.</p>
 
 
 
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-census2022" class="csl-entry" role="listitem">
+<span class="smallcaps">U.S. Census Bureau</span>. (2022): <span>“<a href="https://www.census.gov/naics/?details=513210&amp;input=software&amp;year=2022">2022 NAICS Definition: 513210 Software Publishers</a>,”</span>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

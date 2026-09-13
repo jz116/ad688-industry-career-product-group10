@@ -1,0 +1,67 @@
+JOB_ID,TITLE_RAW,COMPANY_NAME,NAICS6_RAW,NAICS6_NAME_RAW,MATCHES_513210,MATCHES_LEGACY_511210,MATCHES_SOFTWARE_PUBLISHERS_NAME
+416038,Sr. Lead Software Engineer - AWS Data Engineer - AI/ML,Jpmc.fa.oraclecloud.com,513200,Software Publishers,False,False,True
+404916,Principal Software Engineer - ITSM Process Automation & AI,Careers.humana.com,513200,Software Publishers,False,False,True
+405473,Staff Engineer - Software & AI,Careers.wexinc.com,513200,Software Publishers,False,False,True
+388185,Lead Software Engineer - AI Developer,Jpmc.fa.oraclecloud.com,513200,Software Publishers,False,False,True
+390741,Staff Software Engineer (AI & Backend),Careers.wexinc.com,513200,Software Publishers,False,False,True
+343471,"Sr Lead Software Engineer - Java FS with React, AI",Jpmc.fa.oraclecloud.com,513200,Software Publishers,False,False,True
+322431,Senior Lead Software Engineer- AI Platform engineer,Jpmc.fa.oraclecloud.com,513200,Software Publishers,False,False,True
+261952,"Senior Software Engineer, AI-Augmented Backend",Careers.wexinc.com,513200,Software Publishers,False,False,True
+239150,Senior Lead Software Engineer - AI,Jpmc.fa.oraclecloud.com,513200,Software Publishers,False,False,True
+744351,"Staff+ Software Engineer, Safeguards ML Infrastructure",Anthropic,513200,Software Publishers,False,False,True
+744368,"Staff Software Engineer, Labs - Applied AI",Anthropic,513200,Software Publishers,False,False,True
+744485,"Staff Software Engineer, AI Reliability",Anthropic,513200,Software Publishers,False,False,True
+745051,Applied AI Software Engineer,MediaAlpha,513200,Software Publishers,False,False,True
+745336,"Software Engineer, AI Compiler",Tenstorrent,513200,Software Publishers,False,False,True
+746160,"Staff Software Engineer, AI & App Experience",Chime,513200,Software Publishers,False,False,True
+738558,"Sr. Software Engineer, Marketplace ML Platform",Waymo,513200,Software Publishers,False,False,True
+739815,"Staff Software Engineer, AI Tooling",Vast Data,513200,Software Publishers,False,False,True
+741599,Software Engineer - AI,Lightspeed DMS,513200,Software Publishers,False,False,True
+732218,AI Lead Software Engineer,Nice,513200,Software Publishers,False,False,True
+732654,"Senior Software Engineer, AI Platform",Harvey AI,513200,Software Publishers,False,False,True
+732655,"Staff Software Engineer, AI Platform",Harvey AI,513200,Software Publishers,False,False,True
+734102,"Senior Software Engineer, Applied AI",Coreweave,513200,Software Publishers,False,False,True
+734201,Staff Software Engineer- AI Workload Orchestration,Coreweave,513200,Software Publishers,False,False,True
+734216,"Software Engineer, Inference AI/ML",Coreweave,513200,Software Publishers,False,False,True
+734225,"Senior Software Engineer II, AI Workload Orchestration",Coreweave,513200,Software Publishers,False,False,True
+737976,"Staff Software Engineer, ML Infrastructure",SimpliSafe,513200,Software Publishers,False,False,True
+725170,"Sr. Software Engineer I, Data & ML Platform",Zoro,513200,Software Publishers,False,False,True
+725647,"Senior Software Engineer, AI Native Web Platform",Databricks,513200,Software Publishers,False,False,True
+725714,Staff Software Engineer - AI Platform (NYC),Databricks,513200,Software Publishers,False,False,True
+725730,Staff Backend Software Engineer- (AI Platform),Databricks,513200,Software Publishers,False,False,True
+725804,Senior Software Engineer (Backend) - AI/ML Environments,Databricks,513200,Software Publishers,False,False,True
+725847,"Staff Software Engineer, AI Runtime",Databricks,513200,Software Publishers,False,False,True
+725848,"Senior Software Engineer, AI Runtime",Databricks,513200,Software Publishers,False,False,True
+725856,"Staff Software Engineer, AI Search",Databricks,513200,Software Publishers,False,False,True
+726782,"Lead Software Engineer, AI & Robotics Test Infrastructure",Roboforce,513200,Software Publishers,False,False,True
+727347,"Software Engineer, AI Platforms",Figma,513200,Software Publishers,False,False,True
+727376,Senior Staff Software Engineer - AI Innovation,SpyCloud,513200,Software Publishers,False,False,True
+731289,"AI Senior Software Engineer - Data Team (AWS, Flink, OpenSearch)",Nice,513200,Software Publishers,False,False,True
+731583,"Staff Software Engineer, AI Platform",Flex,513200,Software Publishers,False,False,True
+723119,"Staff Software Engineer, AI Native Web Platform",Databricks,513200,Software Publishers,False,False,True
+710045,"Senior R&D Software Engineer, Fivetran AI",Fivetran,513200,Software Publishers,False,False,True
+710087,"Senior Staff R&D Software Engineer, Fivetran AI",Fivetran,513200,Software Publishers,False,False,True
+710643,"Software Engineer, ML Platform (ML Training)",Zoox,513200,Software Publishers,False,False,True
+711484,"Software Engineer, Applied AI (Starlink)",SpaceX,513200,Software Publishers,False,False,True
+712370,Sr. AI Security Software Engineer (Starshield),SpaceX,513200,Software Publishers,False,False,True
+713666,"ML Software Engineer, ETA",Lyft,513200,Software Publishers,False,False,True
+714124,"Staff Software Engineer, ML/AI Platform",Attentive,513200,Software Publishers,False,False,True
+714900,"Senior Software Engineer, ML/AI Platform",Attentive,513200,Software Publishers,False,False,True
+715728,"Senior Software Engineer, AI Trading",OKX,513200,Software Publishers,False,False,True
+716037,Sr Software Engineer - AI DevEx,Compass,513200,Software Publishers,False,False,True
+716040,Sr Software Engineer - AI DevEx,Compass,513200,Software Publishers,False,False,True
+716160,"Senior Software Engineer, AI",Okta,513200,Software Publishers,False,False,True
+716164,"Senior Software Engineer, AI",Okta,513200,Software Publishers,False,False,True
+716167,"Senior Software Engineer, AI",Okta,513200,Software Publishers,False,False,True
+716465,Senior AI Software Engineer,Appnovation,513200,Software Publishers,False,False,True
+717335,"Staff Security Software Engineer, AI Security",Databricks,513200,Software Publishers,False,False,True
+718909,AI Software Intern (Fall 2026),Formlabs,513200,Software Publishers,False,False,True
+699130,AI Software Engineer,HP IQ,513200,Software Publishers,False,False,True
+699481,"Sr. Software Engineer, Embedded Agentic AI",Roku,513200,Software Publishers,False,False,True
+699484,"Software Engineer, Embedded Agentic AI",Roku,513200,Software Publishers,False,False,True
+700527,Senior Software and AI Engineer,Coreweave,513200,Software Publishers,False,False,True
+701067,"Staff R&D Software Engineer, Fivetran AI",Fivetran,513200,Software Publishers,False,False,True
+702215,"Software Engineer, Developer Platforms and Generative AI",The New York Times,513200,Software Publishers,False,False,True
+709445,Software Engineer - AI Agent Platforms,Workato,513200,Software Publishers,False,False,True
+709532,"Senior Software Engineer (Ruby/RoR, Chatbots & AI)",Workato,513200,Software Publishers,False,False,True
+709648,Lead AI Architect - Data Platform,Banyan Software,513200,Software Publishers,False,False,True

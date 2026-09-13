@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>market_baseline – Career Evaluation Product</title>
+<title>Market Baseline – Career Evaluation Product</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,7 +26,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -45,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7c0f67eba7e864f644f943ef9a6fd48f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -134,19 +153,189 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#baseline-at-a-glance" id="toc-baseline-at-a-glance" class="nav-link active" data-scroll-target="#baseline-at-a-glance">Baseline at a glance</a></li>
+  <li><a href="#job-volume-and-pathway-composition" id="toc-job-volume-and-pathway-composition" class="nav-link" data-scroll-target="#job-volume-and-pathway-composition">Job volume and pathway composition</a></li>
+  <li><a href="#salary-distribution" id="toc-salary-distribution" class="nav-link" data-scroll-target="#salary-distribution">Salary distribution</a></li>
+  <li><a href="#hiring-geography" id="toc-hiring-geography" class="nav-link" data-scroll-target="#hiring-geography">Hiring geography</a></li>
+  <li><a href="#experience-requirements" id="toc-experience-requirements" class="nav-link" data-scroll-target="#experience-requirements">Experience requirements</a></li>
+  <li><a href="#remote-work-reporting" id="toc-remote-work-reporting" class="nav-link" data-scroll-target="#remote-work-reporting">Remote-work reporting</a></li>
+  <li><a href="#top-employers" id="toc-top-employers" class="nav-link" data-scroll-target="#top-employers">Top employers</a></li>
+  <li><a href="#education-requirements" id="toc-education-requirements" class="nav-link" data-scroll-target="#education-requirements">Education requirements</a></li>
+  <li><a href="#skills-evidence" id="toc-skills-evidence" class="nav-link" data-scroll-target="#skills-evidence">Skills evidence</a></li>
+  <li><a href="#what-this-baseline-means" id="toc-what-this-baseline-means" class="nav-link" data-scroll-target="#what-this-baseline-means">What this baseline means</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Market Baseline</h1>
+<p class="subtitle lead">Data Science and Adjacent AI/ML Roles in Software Publishers</p>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="baseline-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="baseline-at-a-glance">Baseline at a glance</h2>
+<p>This page describes the <strong>66 distinct postings</strong> remaining after the documented industry, pathway, date, and cleaning rules. The sample is a short observed snapshot—June 3 through July 21, 2026—within the January–July analysis window.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Indicator</th>
+<th style="text-align: right;">Baseline result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Core Data Scientist postings</td>
+<td style="text-align: right;">1 (1.5%)</td>
+</tr>
+<tr class="even">
+<td>Adjacent AI/ML technical postings</td>
+<td style="text-align: right;">65 (98.5%)</td>
+</tr>
+<tr class="odd">
+<td>Senior or Staff/Principal/Lead title signals</td>
+<td style="text-align: right;">53 (80.3%)</td>
+</tr>
+<tr class="even">
+<td>Postings with a usable salary midpoint</td>
+<td style="text-align: right;">39 (59.1%)</td>
+</tr>
+<tr class="odd">
+<td>Median annual salary midpoint</td>
+<td style="text-align: right;">$215,000</td>
+</tr>
+<tr class="even">
+<td>Explicitly remote postings</td>
+<td style="text-align: right;">6 (9.1%)</td>
+</tr>
+<tr class="odd">
+<td>Remote status unknown</td>
+<td style="text-align: right;">60 (90.9%)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The source stored the canonical Software Publishers name with raw code <code>513200</code>. The analytical code is standardized to official 2022 NAICS <code>513210</code> under the documented procedure on the Data Preparation page <span class="citation" data-cites="census2022">(<a href="#ref-census2022" role="doc-biblioref">U.S. Census Bureau (2022)</a>)</span>.</p>
+</div>
+</div>
+</section>
+<section id="job-volume-and-pathway-composition" class="level2">
+<h2 class="anchored" data-anchor-id="job-volume-and-pathway-composition">Job volume and pathway composition</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step2/job_volume_by_segment.png" class="img-fluid figure-img" alt="The 66-posting sample contains 54 AI technical roles, 11 machine-learning technical roles, and one Data Scientist role."></p>
+<figcaption>Horizontal bar chart showing 54 AI technical roles, 11 machine-learning technical roles, and one Data Scientist role.</figcaption>
+</figure>
+</div>
+<p>The clearest market signal is scarcity of the exact target title. Only <strong>one</strong> posting qualified as a core Data Scientist role. Demand is much larger for adjacent implementation-oriented work: AI technical roles account for 54 postings and machine-learning technical roles account for 11. For career planning, this supports treating AI/ML engineering as a realistic adjacent pathway while continuing to label it separately from data science.</p>
+</section>
+<section id="salary-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="salary-distribution">Salary distribution</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step2/salary_distribution.png" class="img-fluid figure-img" alt="Usable annualized salary midpoints for 39 postings range from 113,500 dollars to 405,000 dollars, with a median of 215,000 dollars. Five observations are flagged as IQR outliers and retained."></p>
+<figcaption>Histogram of annualized salary midpoints with a median line at $215,000 and markers for five retained IQR outliers.</figcaption>
+</figure>
+</div>
+<p>Among the 39 postings with usable salary data, the annualized midpoint has a <strong>median of $215,000</strong>, a mean of <strong>$221,789</strong>, and a range from <strong>$113,500 to $405,000</strong>. The wide upper tail is consistent with the sample’s concentration in senior and staff-level roles. Five values fall outside the 1.5-IQR limits; they remain in the dataset because inspection showed plausible compensation for an internship at the low end and advanced AI roles at the high end. Salary conclusions apply only to the 59.1% of postings with usable reported pay.</p>
+</section>
+<section id="hiring-geography" class="level2">
+<h2 class="anchored" data-anchor-id="hiring-geography">Hiring geography</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step2/top_states.png" class="img-fluid figure-img" alt="California has 21 postings, New York 12, Texas and Washington seven each, District of Columbia five, and four postings have no state."></p>
+<figcaption>Horizontal bar chart of distinct postings by state.</figcaption>
+</figure>
+</div>
+<p>California leads with <strong>21 postings (31.8%)</strong>, followed by New York with <strong>12 (18.2%)</strong>. Together they represent half of the sample. Texas and Washington each have seven postings, and the District of Columbia has five. Four records describe a national or U.S.-level location without a usable state; they remain explicitly unspecified rather than being assigned to a state.</p>
+</section>
+<section id="experience-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="experience-requirements">Experience requirements</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step2/seniority_distribution.png" class="img-fluid figure-img" alt="Thirty postings have Staff, Principal, or Lead title signals; 23 have Senior title signals; 10 have no explicit signal; and three are internships."></p>
+<figcaption>Horizontal bar chart showing title-based seniority signals.</figcaption>
+</figure>
+</div>
+<p>The raw experience-year fields are missing for all 66 postings, so a conventional years-of-experience distribution cannot be reported. Explicit title language nevertheless shows that <strong>53 postings (80.3%)</strong> are senior or Staff/Principal/Lead roles. Ten titles have no explicit seniority signal, and three are internships. This is a role-level signal, not a conversion to assumed years.</p>
+</section>
+<section id="remote-work-reporting" class="level2">
+<h2 class="anchored" data-anchor-id="remote-work-reporting">Remote-work reporting</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step2/remote_status.png" class="img-fluid figure-img" alt="Six postings are explicitly remote and 60 have unknown remote status."></p>
+<figcaption>Horizontal bar chart showing six remote postings and 60 postings with unknown remote status.</figcaption>
+</figure>
+</div>
+<p>Only six postings are explicitly marked remote. The other 60 are <strong>unknown</strong>, not confirmed onsite. Consequently, the defensible result is that at least 9.1% of the sample is explicitly remote; the dataset cannot support a true remote-versus-onsite market share.</p>
+</section>
+<section id="top-employers" class="level2">
+<h2 class="anchored" data-anchor-id="top-employers">Top employers</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step2/top_employers.png" class="img-fluid figure-img" alt="Databricks has nine postings. JPMorgan Chase and CoreWeave have five each. WEX, Anthropic, Fivetran, and Okta have three each."></p>
+<figcaption>Horizontal bar chart of the ten employers with the most postings.</figcaption>
+</figure>
+</div>
+<p>Databricks is the largest observed employer with <strong>nine postings (13.6%)</strong>. JPMorgan Chase and CoreWeave each have five; WEX, Anthropic, Fivetran, and Okta each have three. Obvious domain-style source labels were normalized for this display only, while original company labels remain in the analytical panel. Employer rankings inherit the source’s industry assignments; the project did not independently reclassify each firm’s primary industry.</p>
+</section>
+<section id="education-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="education-requirements">Education requirements</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step2/education_distribution.png" class="img-fluid figure-img" alt="Sixty-three postings require a bachelor's degree and three require a master's degree."></p>
+<figcaption>Horizontal bar chart showing minimum education requirements.</figcaption>
+</figure>
+</div>
+<p>The cleaned minimum requirement is a bachelor’s degree for <strong>63 postings (95.5%)</strong> and a master’s degree for three. This variable is much more complete than experience, remote, or skill fields and suggests that a bachelor’s degree is the dominant formal education threshold in this filtered sample.</p>
+</section>
+<section id="skills-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="skills-evidence">Skills evidence</h2>
+<p>A market-wide top-skills chart would be misleading here. Only <strong>10 of 66 postings (15.2%)</strong> contain a usable normalized skill: six through structured source fields and four through controlled description-keyword extraction. Individual skill counts never exceed two postings. The current skill table should be retained for transparency and later gap analysis, but it is not strong enough to characterize overall market demand without a richer source or improved description extraction.</p>
+</section>
+<section id="what-this-baseline-means" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-baseline-means">What this baseline means</h2>
+<p>For this source and time period, the selected market is best characterized as a small, high-paying, senior-skewed AI/ML technical market rather than a broad entry-level Data Scientist market. The strongest actionable finding is the role mix: students targeting Software Publishers should evaluate adjacent AI/ML engineering readiness as well as exact Data Scientist titles. Salary and geography provide useful directional context; remote, experience-year, and skill conclusions remain constrained by source completeness.</p>
 
 
 
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-census2022" class="csl-entry" role="listitem">
+<span class="smallcaps">U.S. Census Bureau</span>. (2022): <span>“<a href="https://www.census.gov/naics/?details=513210&amp;input=software&amp;year=2022">2022 NAICS Definition: 513210 Software Publishers</a>,”</span>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

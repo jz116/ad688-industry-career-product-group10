@@ -1,0 +1,10 @@
+metric,value
+jobs_with_valid_salary,39.0
+coverage_percent,59.1
+mean_annual_midpoint,221788.53
+minimum_annual_midpoint,113500.0
+first_quartile_annual_midpoint,192455.25
+median_annual_midpoint,215000.0
+third_quartile_annual_midpoint,236700.0
+maximum_annual_midpoint,405000.0
+iqr_outliers_flagged_and_retained,5.0
