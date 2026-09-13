@@ -3,9 +3,26 @@
 /.quarto/
 **/*.quarto_ipynb
 
-.spark-tmp/
-
-data/MET_CareerCompass_2026/
-_output/
-
 .venv/
+
+# Raw and temporary Step 2 data
+MET_CareerCompass_2026/
+data/MET_CareerCompass_2026/
+data/MET_CareerCompass_2026_empty_backup/
+_output/
+.spark-tmp/
+step2_bundle_review/
+step2_website_bundle.zip
+*.log
+references.bib.before-fix
+cleaning_field_profile.txt
+refined_role_profile.txt
+target_market_profile.txt
+target_naics_scope.txt
+
+# Exploratory scripts not used by the final pipeline
+inspect_schema.py
+inspect_target_market.py
+profile_cleaning_fields.py
+refine_target_roles.py
+
