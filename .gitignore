@@ -26,3 +26,6 @@ inspect_target_market.py
 profile_cleaning_fields.py
 refine_target_roles.py
 
+data/raw/
+*.parquet
+*.zip
