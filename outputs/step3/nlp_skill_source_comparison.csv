@@ -1,0 +1,23 @@
+Skill,Description Count,Structured Count,Both Sources,Description Only,Structured Only,Largest Source Count
+Machine Learning,6,6,6,0,0,6
+Python,5,5,5,0,0,5
+MLOps,3,5,3,0,2,5
+AWS,4,4,4,0,0,4
+Generative AI,4,4,4,0,0,4
+Java,4,4,4,0,0,4
+Large Language Models,4,4,4,0,0,4
+Apache Kafka,3,3,3,0,0,3
+Azure,3,3,3,0,0,3
+Data Modeling,3,3,3,0,0,3
+Data Visualization,3,3,3,0,0,3
+Kubernetes,3,3,3,0,0,3
+SQL,3,3,3,0,0,3
+Predictive Modeling,0,3,0,0,3,3
+GitHub,2,0,0,2,0,2
+Google Cloud,2,2,2,0,0,2
+JavaScript,2,2,2,0,0,2
+Tableau,2,0,0,2,0,2
+Apache Spark,0,2,0,0,2,2
+Git,0,2,0,0,2,2
+Docker,1,1,1,0,0,1
+Power BI,0,0,0,0,0,0

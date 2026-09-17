@@ -1,0 +1,432 @@
+JOB_ID,TITLE_RAW,TITLE_STANDARDIZED,ROLE_SEGMENT,SCOPE_TIER,COMPANY_NAME,BODY,BODY_AVAILABLE,WORD_COUNT
+9fcc76415c05500ff5971f8b11594ab65f34533f,AI Solution Architect/Senior AI Solution Architect (Post-Sales),Sales Solution Architects,AI Technical Role,Adjacent,C3 Iot,"AI Solution Architect/Senior AI Solution Architect (Post-Sales)
+at C3 AI 
+Redwood City, CA
+
+C3.ai, Inc. (NYSE:AI) is a leading Enterprise AI software provider for accelerating digital transformation. The proven C3 AI Platform provides comprehensive services to build enterprise-scale AI applications more efficiently and cost-effectively than alternative approaches. The C3 AI Platform supports the value chain in any industry with prebuilt, configurable, high-value AI applications for reliability, fraud detection, sensor network health, supply network optimization, energy management, anti-money laundering, and customer engagement. Learn more at:C3 AI
+
+C3 AI is seeking an experienced professional to join our AI Solution Architecture team (post-sales). In this customer-facing role, you will have the opportunity to design, develop, and deploy custom and pre-built Enterprise AI applications using the C3 AI Platform. The C3 AI product suite is entirely data-driven, so a great candidate will have a passion for acquiring, analyzing, and transforming data to generate insights with advanced analytics. This role is very hands-on and requires a perfect combination of a big picture, solution-oriented mindset, and solid implementation skills.
+
+Responsibilities:
+
+Engage directly with customersin a post-sales capacityto configure and implement a full-stackAIsolutionaccording to functionaland performancerequirements
+Drive discussions on architecture and engineering to articulate the capabilities of the C3 AI Platform and its interoperability with existing systems
+Design and implement reference architectures to deliver scalable and reusable solutions
+Develop new specs, documentation, and participate in the development of technical procedures and user support guides
+Assess technical risks and come up with mitigation strategies
+Support, monitor, and execute production AI application jobs and processes
+Collaborate with internal engineering and product teams to incorporate customer feature and enhancement requests into core product offerings
+
+Qualifications:
+
+Bachelor's degree in engineering, computer science, or related fields
+Deep understanding of enterprise architecture and enterprise application integration (File, API, Queues, Streams)
+5+ years of experience for a Solution Architect (8+ years for Senior Solution Architect) with system/data integration, development, or implementation of enterprise and/or cloud software
+Extensive hands-on expertiseinBig Data, Distributed Systems, and Cloud Architectures(AWS, Azure, GCP)
+Demonstrated proficiency withPython,JavaScript, and/or Java
+Experience with relationaland NoSQLdatabases (any vendor)
+Solid understanding of data modeling best practices
+Strong organizational and troubleshooting skills with attention to detail
+Strong analytical ability,judgment,andproblem-solvingtechniques
+Interpersonaland communicationskills with the ability to work effectively in across-functionalteam
+Ability to travel up to 30%
+
+PreferredQualifications:
+
+Expertise in Postgres and Cassandra
+Experience with Hadoop, Spark,and Cloud databases (Snowflake,BigQuery, Redshift, Databricks)
+Experience withstream processing frameworks (Kafka, Kinesis)
+Experience with container-based deployments using Kubernetes or OpenShift
+Experiencedesigning and maintainingDataOpsandMLOpsin Production environments
+Working knowledge of Machine Learning algorithms
+Familiarity with AI/ML-related technologies and tools (MLFlow, KubeFlow, AWS SageMaker, Azure MLStudio)
+Experience with Information, Network, & Infrastructure Security concepts
+
+Candidates must be authorized to work in the United States without the need for current or future company sponsorship.
+
+C3 AI provides excellent benefits, a competitive compensation package and generous equity plan.
+
+California Pay Range
+$120,000$200,000 USD
+
+C3 AI is proud to be an Equal Opportunity and Affirmative Action Employer. We do not discriminate on the basis of any legally protected characteristics, including disabled and veteran status.",True,506
+0094418d419dc3a48fda36e0f6f5d4f41fd32459,"Senior Architect, Data Analytics /AI-ML",Data Analytics Architects,Machine Learning Technical Role,Adjacent,Guidewire Software,"Senior Architect, Data Analytics /AI-ML
+United States - San Mateo, CAProduct Development And Operations /Hybrid
+	
+Guidewire is searching for an experienced technical architect who is hungry for a rare chance to transform from the inside out. You will work with a diverse group of engineers, data scientists, and risk modelers to evolve a platform and application suite that mesh data and machine learning to tame an expanding array of use cases, including automated underwriting, pricing, directed claims handling, and cyber - the #1 threat to US national security, above nuclear weapons.
+
+
+Who We Are, What We Believe, & What We Build
+Guidewire is the AWS of insurance. As the market leader, 380 insurance companies run on our mission critical platform. Every second, we support underwriters crafting policies and agents settling claims. We believe that making a great decision should not require 100 in-house data scientists. Our products range from cyber risk quantification to potent ML sandboxes. We are a post-IPO company with the vision to revolutionize insurance. There is a lot to be done.
+
+
+Who you are
+You have deep expertise building scalable data analytics and machine learning architectures and deploying them seamlessly in Cloud-native environments. You have a natural curiosity for solving immense technical challenges, among them quantifying the ever-growing threat posed by cyber criminals to the world economy and institutions.
+Responsibilities:
+Design and develop a scalable Cloud-native data analytics platform and solutions
+Own architecture and provide technical leadership to multiple teams and mentor junior engineers on standards and best practices
+Hands-on coding > 30% of the time
+Assess, benchmark and select data analytics technologies
+Own and enforce well-architecture principles such as operational efficiency, scalability, availability, performance, cost and data security
+Identify areas of architectural risk and work with other engineering teams to address them
+Collaborate with stakeholders including product managers, data scientists and insurance domain experts to define requirements and design solutions. To be successful you must drive consensus and balance the needs of many different constituencies
+Represent our technical strategy and architecture with prospective customers during sales visits (typically CIOs and Heads of IT)
+
+
+Qualifications:
+BS or MS degree (Computer Science, Engineering, Mathematics, Statistics or related field)
+5+ years of required work experience with proven track record architecting and delivering scalable data analytics products and solutions
+Extensive experience working on a public cloud-like AWS and its associated tech stack (e.g. EC2, Kubernetes(EKS), ECS, EMR, S3, SageMaker, Redshift, Athena, Airflow, etc.)
+Ability to design large scale distributed Big Data processing systems using technologies such as Hadoop, Spark, Kafka, etc. and open data formats such as Apache Hudi, Iceberg, Parquet, etc..
+Excellent software design and development skills using languages such as Python, Java, Scala, etc.
+Experience with microservices architecture patterns and container technologies such as Docker and Kubernetes
+Hands-on knowledge of cyber-security concepts in operating systems, cross-platform systems, software, network protocols and Cloud infrastructure
+Solid understanding of CI/CD and DevOps and experience with meeting operational SLAs
+Collaborative leadership style and ability to earn the respect of a talented engineering team
+Excellent verbal and written communications skills
+
+
+Preferred:
+Experience in InsurTech, FinTech, and/or P&C domain knowledge
+Experience with data science and machine learning techniques, and operationalizing analytic models (MLOps)
+Experience or sound understanding of GenAI LLM models, frameworks, and tools
+$180,000 - $210,000 a year
+Our salary ranges are determined by role, level, and location. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position across all US locations. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
+
+
+Please note that the compensation details listed in US role postings reflect the base salary only, and do not include bonus, equity, or benefits.
+About Guidewire
+
+
+Guidewire is the platform P&C insurers trust to engage, innovate, and grow efficiently. We combine digital, core, analytics, and AI to deliver our platform as a cloudÂ service. More than 540+ insurers in 40 countries, from new ventures to the largest and most complex in the world,Â run on Guidewire.
+
+
+As a partner to our customers, we continually evolve to enable their success. We are proud of our unparalleled implementation track record with 1600+ successful projects, supported by the largest R D team and partner ecosystem in the industry. Our Marketplace provides hundreds of applications that accelerate integration, localization, and innovation.
+
+
+For more information, please visitÂ www.guidewire.comÂ and follow us on Twitter:Â @Guidewire_PandC.
+
+
+Guidewire Software, Inc. is proud to be an equal opportunity and affirmative action employer. We are committed to an inclusive workplace, and believe that a diversity of perspectives, abilities, and cultures is a key to our success. Qualified applicants will receive consideration without regard to race, color, ancestry, religion, sex, national origin, citizenship, marital status, age, sexual orientation, gender identity, gender expression, veteran status, or disability. All offers are contingent upon passing a criminal history and other background checks where it's applicable to the position.
+
+
+Disability Accommodations and Guidewire's Appeals Process. Guidewire provides accommodations to the hiring process to create a fair opportunity for candidates with disabilities to contend for open positions. Accommodation requests should be directed to (650) 356-4940 orÂ Accommodations@guidewire.com. If things do not go as hoped, we invite you to use our appeals process. Guidewire promises to independently review any denied accommodation and any decision not to offer you the position. The appeals process is the same in either case. Within five business days of receiving a notice of denial of an accommodation, or receiving a notice of your non-selection for a vacancy, call (650) 356-4940 or e-mailÂ Accommodations@guidewire.comÂ to make an appeal. Guidewire will assign a new decision-maker to review the request and/or hiring decision, who will then notify you in writing of a decision within 10 business days.",True,981
+869ab0ddb1fee45911ef8df7221ebeaf39487feb,"Senior Data Science Analyst, Customer Success Analytics & Operations",Customer Success Analysts,Data Science Adjacent Role,Adjacent,Klaviyo,"Senior Data Science Analyst, Customer Success Analytics & Operations
+KLAVIYO | BOSTON, MA, USA | HYBRID
+EMPLOYER PROVIDED SALARY: 96,000-144,000 ANNUALLY
+
+At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the traditional job requirements. If you're a close but not exact match with the description, we hope you'll still consider applying. Want to learn more about life at Klaviyo? Visit careers.klaviyo.com to see how we empower creators to own their own destiny.
+Summary:
+Klaviyo is looking for a Senior Advanced Analyst / Data Scientist to join our growing Customer Success Analytics & Operations team. In this role, you will report to the Senior Manager, OPS & Analytics. The successful candidate will leverage their quantitative and technical skillset, analyze data and build customer journey, archetype, and maturity models, and partner closely with Customer Success and Go-to-Market leadership. This role will have a meaningful impact via developing and maintaining models and delivering data-driven insights, analyzing customer behavior & business drivers, and developing strategies and solutions to drive results for Klaviyo's customers.
+The successful candidate will be instrumental in driving greater insight and measurement of the customer experience and identifying benchmarks for success, leading to improved customer strategies and greater retention and expansion outcomes for Klaviyo.
+The ideal candidate is intellectually curious, strategically and analytically minded, proactive in seeking solutions to challenging problems, and highly focused on solving problems for our customers by leveraging data science methodologies. This role requires a blend of analytical skills with a strategic mindset and a proven ability to communicate effectively with senior leadership.
+How you will make a difference:
+
+
+Collaborate with senior leaders across Go-To-Market operations and the Customer Success team, to drive strategic analytics and support initiatives that shape the growth trajectory of Klaviyo
+Determine appropriate modeling methodology, and subsequently build, train, deploy, and maintain predictive models (e.g., build model drift monitoring) that can proactively identify Customer opportunities and drive customer success.
+Own and develop reporting and analytics resources, identify and create new benchmarks and metrics that drive customer success, and tell data driven stories about the health of Klaviyo's customers
+Scope and plan end-to-end advanced analytics projects by identifying the business problem, leading exploratory data analysis, determining critical key performance indicators (KPIs) and implementing data-based solutions for appropriate business stakeholders.
+Dissect trends, quantify opportunities, and undertake customer and driver based journey analytics to support business planning & strategic decision making within Customer Success
+Convey findings in a cohesive story, including summarizing insights from analyses, identifying next steps and providing recommendations
+Collaborate with cross-functional teams across disciplines such as CS Systems & Engineering, Sales Operations, Marketing Operations, Product, Business Intelligence, Data Science and Finance
+
+
+Who you are:
+
+
+You have 5+ years of professional experience in an advanced analytics or data science role; prior experience with SaaS an advantage
+You have experience working with various supervised (e.g., regression, classification, decision trees) and unsupervised (clustering, principal component analysis, anomaly detection) data science modeling techniques to drive business decision making and outcomes
+You possess advanced experience working with Python, SQL R, DBT, Github, and Excel to support operating efficiently and developing solutions at scale
+You have experience modeling within Python packages (e.g., pandas, numpy, scikit-learn, xgboost, statsmodels) and building data visualization across various platforms (e.g., Tableau, Thoughtspot, matplotlib, seaborn, ggplot2, plotly, shiny).
+You have well developed communication and organizational skills, a demonstrated ability working cross functionally to partner with Senior Business leaders, experience operating to a roadmap, managing projects and setting clear milestones and deliverables, and experience preparing materials for an executive audience
+You balance attention to detail with swift execution, taking ownership and delivering work product in a timely manner to drive outcomes
+You are comfortable operating autonomously with a bias towards action, learning and constant iteration
+
+
+Get to know Klaviyo:
+Klaviyo is a world-leading marketing automation platform dedicated to accelerating revenue and customer connection for online businesses. Klaviyo makes it easy to store, access, analyze and use transactional and behavioral data to power highly-targeted customer and prospect communications. The company's hybrid customer-data and marketing-platform model allows companies to grow by fostering direct relationships with customers, without giving up their valuable data to popular big-tech ad platforms. Over 265,000 innovative companies like Unilever, Custom Ink, Living Proof and Huckberry sell more with Klaviyo. Learn more at www.klaviyo.com .
+#LI-Hybrid #LI-Dee
+The pay range for this role is listed below. Sales roles are also eligible for variable compensation and hourly non-exempt roles are eligible for overtime in accordance with applicable law. This role is eligible for benefits, including: medical, dental and vision coverage, health savings accounts, flexible spending accounts, 401(k), flexible paid time off and company-paid holidays and a culture of learning that includes a learning allowance and access to a professional coaching service for all employees.
+Base Pay Range For US Locations:
+$96,000 - $144,000 USD
+Get to Know Klaviyo
+We're Klaviyo (pronounced clay-vee-oh). We empower creators to own their destiny by making first-party data accessible and actionable like never before. We see limitless potential for the technology we're developing to nurture personalized experiences in ecommerce and beyond. To reach our goals, we need our own crew of remarkable creators-ambitious and collaborative teammates who stay focused on our north star: delighting our customers. If you're ready to do the best work of your career, where you'll be welcomed as your whole self from day one and supported with generous benefits, we hope you'll join us.
+Klaviyo is committed to a policy of equal opportunity and non-discrimination. We do not discriminate on the basis of race, ethnicity, citizenship, national origin, color, religion or religious creed, age, sex (including pregnancy), gender identity, sexual orientation, physical or mental disability, veteran or active military status, marital status, criminal record, genetics, retaliation, sexual harassment or any other characteristic protected by applicable law.
+IMPORTANT NOTICE: Our company takes the security and privacy of job applicants very seriously. We will never ask for payment, bank details, or personal financial information as part of the application process. All our legitimate job postings can be found on our official career site. Please be cautious of job offers that come from non-company email addresses (@klaviyo.com), instant messaging platforms, or unsolicited calls.",True,1055
+75a899f60472fef24729a24c1c418f77ceba9985,"Senior Data Science Analyst, Customer Success Analytics & Operations",Customer Success Analysts,Data Science Adjacent Role,Adjacent,Klaviyo,"Senior Data Science Analyst, Customer Success Analytics & Operations
+Go-to-market Operations
+Denver, CO
+Senior Data Science Analyst, Customer Success Analytics & Operations
+
+At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the traditional job requirements. If you're a close but not exact match with the description, we hope you'll still consider applying. Want to learn more about life at Klaviyo? Visit careers.klaviyo.com to see how we empower creators to own their own destiny.
+
+Summary:
+
+Klaviyo is looking for a Senior Advanced Analyst / Data Scientist to join our growing Customer Success Analytics & Operations team. In this role, you will report to the Senior Manager, OPS & Analytics. The successful candidate will leverage their quantitative and technical skillset, analyze data and build customer journey, archetype, and maturity models, and partner closely with Customer Success and Go-to-Market leadership. This role will have a meaningful impact via developing and maintaining models and delivering data-driven insights, analyzing customer behavior & business drivers, and developing strategies and solutions to drive results for Klaviyo's customers.Â 
+
+The successful candidate will be instrumental in driving greater insight and measurement of the customer experience and identifying benchmarks for success, leading to improved customer strategies and greater retention and expansion outcomes for Klaviyo.Â 
+
+The ideal candidate is intellectually curious, strategically and analytically minded, proactive in seeking solutions to challenging problems, and highly focused on solving problems for our customers by leveraging data science methodologies. This role requires a blend of analytical skills with a strategic mindset and a proven ability to communicate effectively with senior leadership.
+
+How you will make a difference:
+
+Collaborate with senior leaders across Go-To-Market operations and the Customer Success team, to drive strategic analytics and support initiatives that shape the growth trajectory of Klaviyo
+Determine appropriate modeling methodology, and subsequently build, train, deploy, and maintain predictive models (e.g., build model drift monitoring) that can proactively identify Customer opportunities and drive customer success.
+Own and develop reporting and analytics resources, identify and create new benchmarks and metrics that drive customer success, and tell data driven stories about the health of Klaviyo's customers
+Scope and plan end-to-end advanced analytics projects by identifying the business problem, leading exploratory data analysis, determining critical key performance indicators (KPIs) and implementing data-based solutions for appropriate business stakeholders.
+Dissect trends, quantify opportunities, and undertake customer and driver based journey analytics to support business planning & strategic decision making within Customer Success
+Convey findings in a cohesive story, including summarizing insights from analyses, identifying next steps and providing recommendations
+Collaborate with cross-functional teams across disciplines such as CS Systems & Engineering, Sales Operations, Marketing Operations, Product, Business Intelligence, Data Science and Finance
+
+Who you are:
+
+You have 5+ years of professional experience in an advanced analytics or data science role; prior experience with SaaS an advantage
+You have experience working with various supervised (e.g., regression, classification, decision trees) and unsupervised (clustering, principal component analysis, anomaly detection) data science modeling techniques to drive business decision making and outcomes
+You possess advanced experience working with Python, SQL R, DBT, Github, and Excel to support operating efficiently and developing solutions at scale
+You have experience modeling within Python packages (e.g., pandas, numpy, scikit-learn, xgboost, statsmodels) and building data visualization across various platforms (e.g., Tableau, Thoughtspot, matplotlib, seaborn, ggplot2, plotly, shiny).
+You have well developed communication and organizational skills, a demonstrated ability working cross functionally to partner with Senior Business leaders, experience operating to a roadmap, managing projects and setting clear milestones and deliverables, and experience preparing materials for an executive audience
+You balance attention to detail with swift execution, taking ownership and delivering work product in a timely manner to drive outcomesÂ 
+You are comfortable operating autonomously with a bias towards action, learning and constant iteration
+
+Get to know Klaviyo:
+
+Klaviyo is a world-leading marketing automation platform dedicated to accelerating revenue and customer connection for online businesses. Klaviyo makes it easy to store, access, analyze and use transactional and behavioral data to power highly-targeted customer and prospect communications. The company's hybrid customer-data and marketing-platform model allows companies to grow by fostering direct relationships with customers, without giving up their valuable data to popular big-tech ad platforms. Over 265,000 innovative companies like Unilever, Custom Ink, Living Proof and Huckberry sell more with Klaviyo. Learn more at www.klaviyo.com.
+
+#LI-Hybrid #LI-Dee
+
+The pay range for this role is listed below. Sales roles are also eligible for variable compensation and hourly non-exempt roles are eligible for overtime in accordance with applicable law. This role is eligible for benefits, including: medical, dental and vision coverage, health savings accounts, flexible spending accounts, 401(k), flexible paid time off and company-paid holidays and a culture of learning that includes a learning allowance and access to a professional coaching service for all employees.
+
+Base Pay Range For US Locations:
+$96,000â€”$144,000 USD
+
+Get to Know Klaviyo
+
+We're Klaviyo (pronounced clay-vee-oh). We empower creators to own their destiny by making first-party data accessible and actionable like never before. We see limitless potential for the technology we're developing to nurture personalized experiences in ecommerce and beyond. To reach our goals, we need our own crew of remarkable creatorsâ€”ambitious and collaborative teammates who stay focused on our north star: delighting our customers. If you're ready to do the best work of your career, where you'll be welcomed as your whole self from day one and supported with generous benefits, we hope you'll join us.
+
+Klaviyo is committed to a policy of equal opportunity and non-discrimination. We do not discriminate on the basis of race, ethnicity, citizenship, national origin, color, religion or religious creed, age, sex (including pregnancy), gender identity, sexual orientation, physical or mental disability, veteran or active military status, marital status, criminal record, genetics, retaliation, sexual harassment or any other characteristic protected by applicable law.
+
+IMPORTANT NOTICE: Our company takes the security and privacy of job applicants very seriously. We will never ask for payment, bank details, or personal financial information as part of the application process. All our legitimate job postings can be found on our official career site. Please be cautious of job offers that come from non-company email addresses (@klaviyo.com), instant messaging platforms, or unsolicited calls.",True,1053
+af86e8ce518e4926a5dee8b3a90a38d0c0d923ec,"Sr. Enterprise Architect, AI",Enterprise Architects,AI Technical Role,Adjacent,Workday,"Your work days are brighter here. At Workday, it all began with a conversation over breakfast. When our founders met at a sunny California diner, they came up with an idea to revolutionize the enterprise software market. And when we began to rise, one thing that really set us apart was our culture. A culture which was driven by our value of putting our people first. And ever since, the happiness, development, and contribution of every Workmate is central to who we are. Our Workmates believe a healthy employee-centric, collaborative culture is the essential mix of ingredients for success in business. That's why we look after our people, communities and the planet while still being profitable. Feel encouraged to shine, however that manifests: you don't need to hide who you are. You can feel the energy and the passion, it's what makes us unique. Inspired to make a brighter work day for all and transform with us to the next stage of our growth journey? Bring your brightest version of you and have a brighter work day here. About the Team Our Enterprise Architect team is a customer facing team within oCIO Solution Consulting (Presales). This team is a strategic asset to Global Revenue (Sales) supporting organizations across North America as they evaluate and select Workday as their technology partner. We engage primarily with the offices of CIO, CTO and Business Stakeholders to understand how Workday can accelerate their digital roadmap and transform how they manage their Financial and HCM processes. Workday Enterprise Architects are experts in our Technology Platform which powers our Core Financial, and HCM applications. We partner with our clients to help them understand how Workday will enable true business value, address key requirements, and articulate why Workday is uniquely differentiated because of our technology design. We work hard, and we're serious about what we do, but we like to have fun too. This is a fast-growing business that makes a difference for our customers and their employees! About the Role We are seeking an Enterprise Architect specialist in AI technologies to meet the growing demands of our customers for Generative AI, LLM, and traditional ML solutions. In this customer facing role you will articulate the vision and value of Workday AI, how our approach is differentiated, the key principles of Responsible AI (RAI), and our future roadmap that builds upon our 50+ models currently in production. You will be seen as a thought leader in this emerging space and help craft compelling pre-sales presentations, points-of-view, demonstrations and help enable other EAs across the team. Ideal candidates will have strong experience in Core Business Applications, such as ERP Financials and/or Human Capital Management. Responsibilities: Develop and deliver impactful presentations, software demonstrations, and webinars that showcase the value proposition of Workday AI Assist in sales opportunities by demonstrating a complete understanding of and resolving questions regarding Workday Technology & AI Lead client discovery sessions in partnership with sales to ask qualifying questions, understand pain-points, current state architecture, and future state vision Develop and maintain strong relationships with key decision-makers at prospective client organizations Stay current on the latest AI trends, technologies, and best practices Work collaboratively with Solution Architects, Product Marketing and Product & Technology leaders to bring new AI capabilities to market Ability to travel 50+% of the time About You Do you have a passion for Artificial Intelligence and a knack for translating complex technical concepts into clear business value? Are you excited about helping organizations leverage AI to achieve their strategic goals? Basic Qualifications: 6+ years of expertise with technical knowledge of Software-as-a-Service (SaaS) and Cloud Architectures; preferably in ERP Financials and/or Human Capital Management domains 4+ years' experience presenting to technical, business, and executive audiences both in-person and virtually Other Qualifications: 2+ years of experience in the latest cloud AI/ML concepts and best practices (Generative AI, LLMs, MLOps, ML Security, RAI) Proven experience in a technical sales or sales engineering role, preferably in Data/AI Existing knowledge of Workday application architecture and platform is highly beneficial Experience presenting to technical, business, and executive audiences both in-person and on-line meetings Experience in value selling, Demo2Win or Solution Consulting Methodologies preferred Bachelor or Master's degree in Computer Science, Statistics, Information Systems, or a related field; or equivalent professional experience. Workday Pay Transparency Statement The annualized base salary ranges for the primary location and any additional locations are listed below. Workday pay ranges vary based on work location. As a part of the total compensation package, this role may be eligible for the Workday Bonus Plan or a role-specific commission/bonus, as well as annual refresh stock grants. Recruiters can share more detail during the hiring process. Each candidate's compensation offer will be based on multiple factors including, but not limited to, geography, experience, skills, job duties, and business need, among other things. For more information regarding Workday's comprehensive benefits, please click here. Primary Location: USA.CA.Home Office Primary Location Base Pay Range: $138,500 USD - $208,000 USD Additional US Location(s) Base Pay Range: $138,500 USD - $208,000 USD Our Approach to Flexible Work With Flex Work, we're combining the best of both worlds: in-person time and remote. Our approach enables our teams to deepen connections, maintain a strong community, and do their best work. We know that flexibility can take shape in many ways, so rather than a number of required days in-office each week, we simply spend at least half (50%) of our time each quarter in the office or in the field with our customers, prospects, and partners (depending on role). This means you'll have the freedom to create a flexible schedule that caters to your business, team, and personal needs, while being intentional to make the most of time spent together. Those in our remote ""home office"" roles also have the opportunity to come together in our offices for important moments that matter. Pursuant to applicable Fair Chance law, Workday will consider for employment qualified applicants with arrest and conviction records. Workday is an Equal Opportunity Employer including individuals with disabilities and protected veterans. Are you being referred to one of our roles? If so, ask your connection at Workday about our Employee Referral process! Join our talent community and receive the latest Workday news, content, and be first in line for new job opportunities. Join our Talent Community! Please visit this benefits site! Please visit the Contractor Positions at Workday page With Flex Work, we're combining the best of both worlds: in-person time and remote. Our approach enables our teams to deepen connections, maintain a strong community, and do their best work. We know that flexibility can take shape in many ways, so rather than a number of required days in-office each week, we simply spend at least half (50%) of our time each quarter in the office or in the field with our customers, prospects, and partners (depending on role). This means you'll have the freedom to create a flexible schedule that caters to your business, team, and personal needs, while being intentional to make the most of time spent together. Those in our remote ""home office"" roles also have the opportunity to come together in our offices for important moments that matter. At Workday, our employees have always been our number one Core Value. We understand that everyone has unique experiences and perspectives which is why our mission is to create a safe space where all people and ideas are welcomed. Our commitment to value inclusion, belonging, and equity (VIBEâ„¢) and creating a brighter workday for all is the cornerstone of all we do. Join us! Workday is a leading provider of enterprise cloud applications for finance and human resources. Founded in 2005, Workday delivers financial management, human capital management, and analytics applications designed for the world's largest companies, educational institutions, and government agencies. Organizations ranging from medium-sized businesses to Fortune 50 enterprises have selected Workday. Workday is proud to be an equal opportunity workplace. Individuals seeking employment at Workday are considered without regards to age, ancestry, color, gender (including pregnancy, childbirth, or related medical conditions), gender identity or expression, genetic information, marital status, medical condition, mental or physical disability, national origin, protected family care or medical leave status, race, religion (including beliefs and practices or the absence thereof), sexual orientation, military or veteran status, or any other characteristic protected by federal, state, or local laws. Further, pursuant to applicable local ordinances, Workday will consider for employment qualified applicants with arrest and conviction records. We do not accept resumes from headhunters, placement agencies, or other suppliers that have not signed a formal agreement with us. You may view the Workday's Pay Transparency Policy, and Know Your Rights Notice, by clicking on their corresponding links. Workday is committed to providing reasonable accommodations for qualified individuals with disabilities, disabled veterans, and others during our application process. If you need assistance or an accommodation due to a disability or for religious reasons, contact us at accommodations@workday.com.",True,1490
+b927c3a77c71177a9459bc0e41c4bd81f80debbc,"Sr. Enterprise Architect, AI",Enterprise Architects,AI Technical Role,Adjacent,Workday,"Sr. Enterprise Architect, AI
+remote type
+Remote
+locations
+USA Remote
+time type
+Full Time
+posted on
+Posted 4 Days Ago
+job requisition id
+JR-0090145
+Your work days are brighter here.
+At Workday, it all began with a conversation over breakfast. When our founders met at a sunny California diner, they came up with an idea to revolutionize the enterprise software market. And when we began to rise, one thing that really set us apart was our culture. A culture which was driven by our value of putting our people first. And ever since, the happiness, development, and contribution of every Workmate is central to who we are. Our Workmates believe a healthy employee-centric, collaborative culture is the essential mix of ingredients for success in business. That's why we look after our people, communities and the planet while still being profitable. Feel encouraged to shine, however that manifests: you don't need to hide who you are. You can feel the energy and the passion, it's what makes us unique. Inspired to make a brighter work day for all and transform with us to the next stage of our growth journey? Bring your brightest version of you and have a brighter work day here.
+About the Team
+Our Enterprise Architect team is a customer facing team within oCIO Solution Consulting (Presales). This team is a strategic asset to Global Revenue (Sales) supporting organizations across North America as they evaluate and select Workday as their technology partner. We engage primarily with the offices of CIO, CTO and Business Stakeholders to understand how Workday can accelerate their digital roadmap and transform how they manage their Financial and HCM processes.
+Workday Enterprise Architects are experts in our Technology Platform which powers our Core Financial, and HCM applications. We partner with our clients to help them understand how Workday will enable true business value, address key requirements, and articulate why Workday is uniquely differentiated because of our technology design.
+We work hard, and we're serious about what we do, but we like to have fun too. This is a fast-growing business that makes a difference for our customers and their employees!
+About the Role
+We are seeking an Enterprise Architect specialist in AI technologies to meet the growing demands of our customers for Generative AI, LLM, and traditional ML solutions. In this customer facing role you will articulate the vision and value of Workday AI, how our approach is differentiated, the key principles of Responsible AI (RAI), and our future roadmap that builds upon our 50+ models currently in production.
+You will be seen as a thought leader in this emerging space and help craft compelling pre-sales presentations, points-of-view, demonstrations and help enable other EAs across the team. Ideal candidates will have strong experience in Core Business Applications, such as ERP Financials and/or Human Capital Management.
+Responsibilities:
+Develop and deliver impactful presentations, software demonstrations, and webinars that showcase the value proposition of Workday AI
+Assist in sales opportunities by demonstrating a complete understanding of and resolving questions regarding Workday Technology & AI
+Lead client discovery sessions in partnership with sales to ask qualifying questions, understand pain-points, current state architecture, and future state vision
+Develop and maintain strong relationships with key decision-makers at prospective client organizations
+Stay current on the latest AI trends, technologies, and best practices
+Work collaboratively with Solution Architects, Product Marketing and Product & Technology leaders to bring new AI capabilities to market
+Ability to travel 50+% of the time
+About You
+Do you have a passion for Artificial Intelligence and a knack for translating complex technical concepts into clear business value? Are you excited about helping organizations leverage AI to achieve their strategic goals?
+Basic Qualifications:
+6+ years of expertise with technical knowledge of Software-as-a-Service (SaaS) and Cloud Architectures; preferably in ERP Financials and/or Human Capital Management domains
+4+ years' experience presenting to technical, business, and executive audiences both in-person and virtually
+Other Qualifications:
+2+ years of experience in the latest cloud AI/ML concepts and best practices (Generative AI, LLMs, MLOps, ML Security, RAI)
+Proven experience in a technical sales or sales engineering role, preferably in Data/AI
+Existing knowledge of Workday application architecture and platform is highly beneficial
+Experience presenting to technical, business, and executive audiences both in-person and on-line meetings
+Experience in value selling, Demo2Win or Solution Consulting Methodologies preferred
+Bachelor or Master's degree in Computer Science, Statistics, Information Systems, or a related field; or equivalent professional experience.
+Workday Pay Transparency Statement
+The annualized base salary ranges for the primary location and any additional locations are listed below. Workday pay ranges vary based on work location. As a part of the total compensation package, this role may be eligible for the Workday Bonus Plan or a role-specific commission/bonus, as well as annual refresh stock grants. Recruiters can share more detail during the hiring process. Each candidate's compensation offer will be based on multiple factors including, but not limited to, geography, experience, skills, job duties, and business need, among other things. For more information regarding Workday's comprehensive benefits, please click here.
+Primary Location: USA.CA.Home Office
+Primary Location Base Pay Range: $138,500 USD - $208,000 USD
+Additional US Location(s) Base Pay Range: $138,500 USD - $208,000 USD
+Our Approach to Flexible Work
+With Flex Work, we're combining the best of both worlds: in-person time and remote. Our approach enables our teams to deepen connections, maintain a strong community, and do their best work. We know that flexibility can take shape in many ways, so rather than a number of required days in-office each week, we simply spend at least half (50%) of our time each quarter in the office or in the field with our customers, prospects, and partners (depending on role). This means you'll have the freedom to create a flexible schedule that caters to your business, team, and personal needs, while being intentional to make the most of time spent together. Those in our remote ""home office"" roles also have the opportunity to come together in our offices for important moments that matter.
+Pursuant to applicable Fair Chance law, Workday will consider for employment qualified applicants with arrest and conviction records.
+Workday is an Employer including individuals with disabilities and protected veterans.
+Are you being referred to one of our roles? If so, ask your connection at Workday about our Employee Referral process!",True,1051
+dba19d3ea206715e5205906acc27489be3788b7c,Data Scientist/Data Analyst,Data Analysts/Data Scientists,Data Scientist,Core,Theoris Group,"Job Title: Data Scientist/Data Analyst
+Job City: Indianapolis
+Job State: Indiana
+Job Type: Contract
+Job Title: Data Scientist
+Location: Indianapolis, IN
+Industry: Pharmaceutical
+Job Description:
+Theoris Services is assisting our client in their search for a Data Scientist to add to their growing team located in Indianapolis. Our client is seeking an individual who will use their analytical, statistical, and programming skills to collect, analyze, and interpret large data sets to develop solutions to business challenges.
+Responsibilities:
+Â· Identifying data sources
+o Determining which data is available and useful for a project, and automating collection processes
+Â· Preparing data
+o Categorizing, preprocessing, and analyzing structured and unstructured data
+Â· Building models
+o Creating, validating, testing, and updating algorithms and models, such as predictive models and machine-learning algorithms
+Â· Presenting findings
+o Using data visualization software to communicate actionable insights to stakeholders, often for a non-technical audience
+Â· Making recommendations
+o Proposing solutions and strategies to business challenges based on data analysis
+Â· Collaborating
+o Working with engineering and product development teams
+Requirements:
+5+ years of experience with Core Data
+Experience with MS Azure/Open AI or QuickSight is preferred
+Strong Cloud experience with either Azure or AWS
+Best-In-Class-Benefits
+We are in the people business; treating people right is our ONLY priority. Theoris Services consultants are full-time employees with full benefits, including:
+Robust Health Insurance
+401(k) plan
+PTO accrual
+Paid holidays
+Excellent cash-based referral program",True,233
+20829c9ed040398015e3a0be96e43ed8185d0b43,AI Solution Architect/Senior AI Solution Architect (Post-Sales),Sales Solution Architects,AI Technical Role,Adjacent,C3 Iot,"AI Solution Architect/Senior AI Solution Architect (Post-Sales)
+New York, NYÂ 
+
+Posted 2 days ago
+
+Â 
+
+
+Job Description
+
+C3.ai, Inc. (NYSE:AI) is a leading Enterprise AI software provider for accelerating digital transformation. The proven C3 AI Platform provides comprehensive services to build enterprise-scale AI applications more efficiently and cost-effectively than alternative approaches. The C3 AI Platform supports the value chain in any industry with prebuilt, configurable, high-value AI applications for reliability, fraud detection, sensor network health, supply network optimization, energy management, anti-money laundering, and customer engagement. Learn more at:C3 AI
+
+C3 AI is seeking an experienced professional to join ourAI Solution Architecture team (post-sales). In this customer-facing role, you willhave the opportunityto design, develop, and deploy custom and pre-built Enterprise AI applicationsusing theC3 AI Platform.TheC3 AI product suite is entirely data-driven, so a great candidate will have a passion for acquiring, analyzing, and transforming data to generate insights with advanced analytics. This role is hands-on and requires a perfect combination of a ""big picture,"" solution-oriented mindset, and solid implementation skills.
+
+Responsibilities:
+
+Engage directly with customersin a post-sales capacityto configure and implement a full-stackAIsolutionaccording to functionaland performancerequirements
+Drive discussions on architecture and engineering to articulate the capabilities of the C3 AI Platform and its interoperability with existing systems
+Design and implement reference architectures to deliver scalable and reusable solutions
+Develop new specs, documentation, and participate in the development of technical procedures and user support guides
+Assess technical risks and come up with mitigation strategies
+Collaborate with internal engineering and product teams to incorporate customer feature and enhancement requests into core product offerings
+Travel to customer sites (up to 30%)
+
+Qualifications:
+
+Bachelor's degree in engineering, computer science, or related fields
+5+ years of experience(8+ years for Senior AI SA)with system/data integration,development,or implementation of enterprise and/or cloud software
+Deep understanding of enterprise architecture and enterprise application integration(File, API, Queues, Streams)
+Extensive hands-on expertiseinBig Data, Distributed Systems, and Cloud Architectures(AWS, Azure, GCP)
+Demonstrated proficiency withPython,JavaScript, and/or Java
+Experience with relationaland NoSQLdatabases (any vendor)
+Solid understanding of data modeling best practices
+Strong organizational and troubleshooting skills with attention to detail
+Strong analytical ability,judgment,andproblem-solvingtechniques
+Excellent verbal and written communication and presentation skills
+
+PreferredQualifications:
+
+Expertise in Postgres, Cassandra
+Experience withstream processing frameworks (Kafka, Kinesis)
+Experience with container-based deployments using Kubernetes or OpenShift
+Experiencedesigning and maintainingDataOpsandMLOpsin Production environments
+Working knowledge of Machine Learning algorithms
+Familiarity with Commercial LLMs, including a comprehensive understanding of their integration, customization, and management
+Familiarity with vector databases (e.g., PGVector, FAISS) for efficient embedding storage and retrieval in RAG applications
+Familiarity with AI/ML-related technologies and tools (MLFlow, KubeFlow, AWS SageMaker, Azure MLStudio)
+Experience with Information, Network, & Infrastructure Security concepts
+
+Candidates must be authorized to work in the United States without the need for current or future company sponsorship.
+
+C3 AI provides excellent benefits, a competitive compensation package and generous equity plan.
+
+New York Pay Range
+$120,000â€”$200,000 USD
+
+C3 AI is proud to be an Equal Opportunity and Affirmative Action Employer. We do not discriminate on the basis of any legally protected characteristics, including disabled and veteran status.
+
+
+C3 IoT is proud to be an Equal Opportunity and Affirmative Action Employer. We do not discriminate on the basis of any legally protected characteristics, including disabled and veteran status.
+
+Â 
+
+
+
+Job Summary
+Company
+C3.ai, Inc.
+Start Date
+As soon as possible
+Employment Term and Type
+Regular, Full Time
+Required Education
+Bachelor's Degree
+Required Experience
+5+ years",True,560
+6d8183a60e5eca6d47ab7816a54dc1e633a5a668,Senior Applied Scientist,Applied Scientists,Applied or Decision Scientist,Adjacent,Microsoft,"Senior Applied Scientit
+New York City, New York, United State
+* No longer accepting application
+Date poted
+Sep 17, 2024
+Job number
+1769379
+Up to 100% work from home
+Travel
+0-25 %
+Individual Contributor
+Reearch, Applied, & Data Science
+Applied Science
+Full-Time
+Overview
+Are you eeking opportunitie at the interection of generative artificial intelligence (AI), uch a large-cale multimodal model like GPT-4o, and reponible AI, trut, and afety? Do you want to be a member of an interdiciplinary team of reearcher, applied cientit, and oftware engineer? Do you embrace complex ociotechnical challenge? Reearch i looking to hire a Senior Applied Scientit to join our team bridging reponible AI reearch and practice. The team focue on ociotechnical alignment of generative AI ytem, with a particular focu on meauring rik, including rik ytematization, rik annotation, dataet creation, and metric deign. A a member of thi team, you'll develop central reource and tooling, you'll partner with product team who wih to be proactive about reponible AI, and you'll contribute to and/or drive reearch project intended to advance the tate-of-the-art. Succeful candidate will have experience working with large-cale language model and/or multimodal model, and will be paionate about prioritizing diverity, incluion, and fairne. 
+Qualification
+Required Qualification: 
+Bachelor' degree in computer cience or a related field (e.g., tatitic, information cience) and 4+ year of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR Mater' degree in computer cience or a related field and 3+ year of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR PhD in computer cience or a related field and 1+ year() of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR equivalent experience. 
+putting reponible AI principle (e.g., fairne, tranparency) into practice. 
+Coding kill in a general-purpoe coding language (e.g., Python, Java, Scala, C#, or C/C++). 
+Preferred Qualification: 
+Mater' degree in computer cience or a related field (e.g., tatitic, information cience) and 6+ year of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR PhD in computer cience or a related field and 3+ year of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR equivalent experience. 
+3+ year of experience contributing to or driving peer-reviewed academic paper. 
+1+ year() of experience preenting at conference in the reearch or indutry communitie. 
+3+ year of experience conducting reearch a part of an academic or indutry reearch program. 
+1+ year() of experience developing and deploying production ytem, a part of a product team. 
+working at the interection of generative AI and reponible AI, trut, and afety. 
+approaching AI rik a ociotechnical challenge rather than purely algorithmic one. 
+working with product and ervice that incorporate generative AI. 
+working productively on an interdiciplinary team panning multiple role. 
+Track record of prioritizing diverity and incluion in the workplace. 
+Applied Science IC4 - The typical bae pay range for thi role acro the U.S. i USD $117,200 - $229,200 per year. There i a different range applicable to pecific work location, within the San Francico Bay area and New York City metropolitan area, and the bae pay range for thi role in thoe location i USD $153,600 - $250,200 per year.
+Certain role may be eligible for benefit and other compenation. Find additional benefit and pay information here: http://career.microoft.com/u/en/u-corporate-pay 
+will accept application for the role until September 22, 2024.
+#Reearch
+Reponibilitie
+You'll be a member of an interdiciplinary team of expert on AI rik. 
+You'll deign and run experiment that ue API call to generative AI ytem. 
+You'll monitor reearch advance and draw on them to hape your applied cience work. 
+You'll contribute to and/or drive reearch project intended to advance the tate-of-the-art. 
+You'll learn new kill and apply them a needed: e.g., you might be aked to learn about meaurement modeling and produce a report on a dataet' content validity. 
+You'll work with takeholder with a variety of background in a variety of role. 
+You'll preent your work to internal and external takeholder, including leaderhip. 
+You'll develop central reource and tooling for identifying, meauring, and mitigating AI rik: 
+You'll work with policy and engineering team to ytematize AI rik. 
+You'll build and validate annotation guideline and dataet for meauring AI rik. 
+You'll work with product team to generalize thee reource and method to be appropriate for a variety of ytem, ue cae, and deployment context. 
+Benefit/perk lited below may vary depending on the nature of your employment with and the country where you work.
+î«”Indutry leading healthcare
+îž¾Educational reource
+î£¬Dicount on product and ervice
+î«½Saving and invetment
+ï¡¢Maternity and paternity leave
+î¨—Generou time away
+î­‘Giving program
+î¿”Opportunitie to network and connect",True,826
+7415af82fe8458b7ce5eaf7413181f8d8d844055,"Senior Analytics Engineer, GTM San Francisco, CA",Analytics Engineers,Analytics Engineer,Adjacent,Sigma Computing,"Job Description: We are building out our Data Platform team at Sigma, with arelentless focus on developing data models that fuel trustedinsights across the company. As a Senior Analytics Engineer, youwill be responsible for building, documenting, and educating ourinternal customers on how to best use our data products in Sigma.You will also be challenged to advocate for the vision anddirection of our product through the lens of how a data team wantsto work with a best-in-class BI tool. If you're passionate aboutanalytics engineering and the future of analytics, let's chat!WhatYou Will Be Doing Architect and manage our production data models in Snowflakeand how they are consumed in Sigma, including writing documentationand generating data tests. (Tech we use: Fivetran, dbt, Snowflake,Sigma, Hightouch, Metaplane) Give power to the people. People are our strongest asset and weneed you to work with team members from across the company to getthem the data they need to support the business. Build and maintain corporate reporting assets across respectiveGTM / Operations domains (e.g., Finance, Customer Success). Work cross-functionally to accomplish all of the above! You'llwork across Product, Engineering, Sales, Marketing, Partnerships,and with users of all skills and levels.Qualifications We Need Strong knowledge of data modeling and warehouse optimizations(bonus points for any public facing repos or bodies of work you canpoint us to). Detail oriented. Our data models are production systems and weneed someone meticulous to maintain them! Strong communication and collaboration skills. You'll beworking with many stakeholders across the company, so we needsomeone who's comfortable communicating with the whole company astheir audience. In addition, you'll be supporting other teammatesby reviewing their work, providing coverage where needed, andsupporting initiatives to grow our team. Must have a builder mindset. Innate desire to document,templatize, automate and define a process around everything you dothat is repeatable and set up for scale. Ability to thrive in ambiguous environments and get stuff done.We move fast and iterate quickly, and we want you to feel empoweredto do exactly that. Experience building reports and managing stakeholderrelationships, particularly in Marketing, Finance or Sales. Visualization experience (Sigma highly preferred)-you will useSigma every day! 4+ years of relevant experience working in a datarole.Qualifications We Want (also, skills you'll learn!) A drive to continuously learn (and share those learnings) aboutthe evolving data ecosystem. Advanced knowledge of dbt, python, and SQL (bonus points forSnowflake specifically). Startup experience. Experience training and enabling internal teams on bestpractices within BI tools.About us:Sigma is the only cloudanalytics and business intelligence tool empowering business teamsto break free from the confines of the dashboard, explore data forthemselves, and make better, faster decisions. The award-winningsoftware was built to capitalize on the performance power of clouddata warehouses to combine data sources and analyze billions ofrows of data instantly via an intuitive, spreadsheet-like interface- no coding required.Since launching with its unique interface,Sigma Computing has added features such as collaboration tools andembedded analytics capabilities. The most recent product launchincluded a set of AI tools such as forecasting capabilities, an AIcopilot and a notebook interface for users who prefer a code-firstenvironment.Sigma announced its $200M in Series D financing in May2024, to continue transforming BI through its innovations in AIinfrastructure, data application development, enterprise-widecollaboration, and business user adoption. Spark Capital and AvenirGrowth Capital co-led the Series D funding round, with additionalparticipation from a group of past investors including SnowflakeVentures and Sutter Hill Ventures. The Series D funding, raised ata valuation 60% higher than the company's Series C round threeyears ago, promises to further accelerate Sigma's growth.BenefitsFor Our Full-Time Employees: Equity. Flexible time off policy. Take the time off you need! Paid bonding time for all new parents. Traditional and Roth 401k. Commuter and FSA benefits. Lunch Program. Dog friendly office.Sigma Computing is an equal opportunityemployer. We are committed to building a smart and strong teamregardless of race, color, ancestry, religion, sex, nationalorigin, sexual orientation, age, citizenship, marital status,disability, gender, gender identity or expression, or veteranstatus. We look forward to learning how your experience can enableall of us to grow.Note: We have an in-office work environment inboth our SF & NYC office. #J-18808-Ljbffr",True,670
