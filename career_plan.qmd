@@ -1,0 +1,185 @@
+---
+title: "Career Strategy"
+subtitle: "Turning Our Market Evidence into an Action Plan"
+---
+
+## Our Career Decision
+
+Our evidence supports a two-stage career strategy. In the near term, we should
+target **Analytics and Data roles** because they align most closely with our
+current strengths in SQL, Data Modeling, and Data Visualization. We should
+treat **AI/ML Architecture roles** as a longer-term pathway that becomes more
+attainable after we strengthen Machine Learning, MLOps, AWS, Generative AI, and
+production-oriented Python.
+
+This recommendation does not mean the AI/ML pathway is unattractive. Six of
+the 10 audited postings belong to the AI/ML Architecture cluster. However,
+these postings are predominantly senior roles and emphasize several skills for
+which our current proficiency is below the market-priority benchmark.
+
+## Evidence Behind the Strategy
+
+Our recommendation combines four parts of the project:
+
+1. The [exploratory analysis](eda.qmd) shows that the audited market is small,
+   senior-oriented, and concentrated in adjacent AI, ML, architecture, and
+   analytics roles.
+2. The [skill-gap analysis](skill_gap_analysis.qmd) identifies our largest gap
+   in MLOps, followed by Machine Learning. Python, AWS, and Generative AI are
+   also high-priority development areas.
+3. The [ML analysis](ml_methods.qmd) separates the postings into a six-posting
+   AI/ML Architecture cluster and a four-posting Analytics and Data cluster.
+4. The [NLP analysis](nlp_methods.qmd) provides a second source of skill
+   evidence by comparing explicit description language with Lightcast's
+   structured skill fields.
+
+| Decision factor | Analytics and Data pathway | AI/ML Architecture pathway |
+|---|---:|---:|
+| Audited postings | 4 | 6 |
+| Core Data Scientist postings | 1 | 0 |
+| Median minimum experience | 5 years | 5 years |
+| Usable salary observations | 1 of 4 | 6 of 6 |
+| Strongest alignment with our profile | SQL, Data Modeling, Data Visualization | Foundation in Python and technical analysis |
+| Largest preparation needs | Python depth and Machine Learning | MLOps, Machine Learning, AWS, Generative AI, production Python |
+| Recommended timing | Near-term target | Longer-term stretch pathway |
+
+The reported cluster salaries are not directly comparable. Every AI/ML
+Architecture posting reports usable salary information, while only one
+Analytics and Data posting does. We therefore do not use the salary difference
+as evidence that one pathway pays more than the other.
+
+## Target Role Tiers
+
+### Primary Targets
+
+Our first search tier should emphasize entry-level or early-career versions of
+the Analytics and Data pathway:
+
+- Data Analyst
+- Business Intelligence Analyst
+- Junior Analytics Engineer
+- Junior Data Scientist
+- Customer or Product Analytics Analyst
+
+The audited postings themselves are mostly senior positions. These primary
+titles are therefore role-family search targets, not a claim that the current
+10-posting panel contains entry-level openings.
+
+### Secondary Targets
+
+After completing stronger portfolio evidence, we can expand the search to:
+
+- Data Scientist
+- Analytics Engineer
+- Machine Learning Analyst
+- Applied Data Scientist
+- Decision Scientist
+
+### Longer-Term Targets
+
+The following roles should remain stretch goals until we can demonstrate
+production and cloud skills:
+
+- Machine Learning Engineer
+- MLOps Engineer
+- Applied Scientist
+- AI Solution Architect
+- AI or ML Enterprise Architect
+
+## Our 90-Day Development Plan
+
+| Period | Skill focus | Planned work | Evidence we will produce |
+|---|---|---|---|
+| Days 1–30 | Python, SQL, Data Modeling, and Data Visualization | Refactor the market-analysis workflow into reusable data preparation and analysis components. | Reproducible scripts, validation checks, a documented data model, and an analytical dashboard |
+| Days 31–60 | Machine Learning and MLOps | Build and evaluate an ML workflow, track experiments, and document model limitations. | Model comparison, validation metrics, MLflow experiment records, and a model card |
+| Days 61–90 | AWS, deployment, and Generative AI | Package one project, deploy a small cloud demonstration, and extend the NLP skill extractor. | Docker configuration, cloud architecture diagram, deployed demonstration, and an evaluated NLP feature |
+
+We will not increase a proficiency rating solely because a course was
+completed. A rating should increase only when we can demonstrate the skill in
+a reproducible artifact and explain the decisions made during development.
+
+## Portfolio Strategy
+
+### Project 1: Job-Market Analytics Product
+
+We will develop the current analysis into a polished portfolio case study. It
+will demonstrate data cleaning, SQL-style transformations, exploratory
+analysis, Plotly visualization, and responsible interpretation of missing
+data. The published Quarto website will serve as the primary communication
+artifact.
+
+### Project 2: Reproducible ML Workflow
+
+We will convert the clustering work into a documented ML workflow containing
+feature construction, model selection, diagnostic measures, and limitations.
+We will then add experiment tracking and packaging so the project demonstrates
+MLOps concepts rather than only notebook-based modeling.
+
+### Project 3: Job-Description Skill Extractor
+
+We will extend the NLP analysis into a small application that accepts job text,
+identifies skills, and compares them with our current profile. The application
+should report the evidence behind each match and avoid presenting its results
+as an automated hiring decision.
+
+## Application Strategy
+
+We will use the following process once the first portfolio project is ready:
+
+1. Search primarily for early-career Analytics and Data titles while tracking
+   AI/ML openings as longer-term market signals.
+2. Tailor each resume version to skills that are supported by our projects; we
+   will not list unverified proficiency claims.
+3. Link applications to the most relevant portfolio artifact rather than using
+   the same project description for every role.
+4. Record the title, employer, required skills, application date, response,
+   and interview stage.
+5. Review results after every 20 targeted applications and revise our title
+   filters, resume language, or portfolio evidence when response rates remain
+   weak.
+
+## Collaboration and Documentation
+
+We will manage the remaining work through GitHub issues, named task owners,
+documented commits, and short weekly status records. Each completed task should
+identify its source data, method, output, and reviewer. This makes the workflow
+reproducible and preserves clear evidence of individual contributions while
+the website presents a unified Group 10 analysis.
+
+## Measures of Progress
+
+We will evaluate the plan using evidence rather than course completion alone:
+
+| Measure | 90-day target |
+|---|---:|
+| Fully documented portfolio case studies | 2 |
+| Cloud-deployed demonstrations | 1 |
+| Projects with automated validation checks | 2 |
+| Projects with reproducible environment instructions | 2 |
+| Targeted applications reviewed as one decision cycle | 20 |
+| Updated skill assessments supported by artifacts | At least 3 skills |
+
+## Risks and Adjustments
+
+Our market evidence is based on only 10 audited postings from one industry and
+time window. It is also heavily weighted toward senior roles. We should retain
+the defined project scope for analytical consistency but avoid treating this
+sample as the complete employment market. Before beginning a broad application
+campaign, we should compare our target titles with a larger and more recent set
+of entry-level postings.
+
+If the larger search confirms that analytics roles remain more attainable, we
+will continue the staged plan. If entry-level ML roles show materially greater
+availability and align with our completed portfolio evidence, we can move the
+AI/ML pathway forward without changing the standards used to assess readiness.
+
+## Final Recommendation
+
+Our recommended immediate pathway is **Analytics and Data**, supported by
+portfolio evidence in SQL, Python, Data Modeling, and Data Visualization. Our
+recommended long-term pathway is **AI/ML Architecture and Engineering**, with
+advancement conditioned on demonstrable improvement in Machine Learning,
+MLOps, cloud deployment, and Generative AI.
+
+This staged strategy preserves an ambitious destination while grounding our
+next decision in the skills we can currently demonstrate.
