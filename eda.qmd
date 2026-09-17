@@ -5,6 +5,22 @@ bibliography: references.bib
 csl: csl/econometrica.csl
 ---
 
+```{python}
+#| label: setup
+#| include: false
+
+from pathlib import Path
+
+import pandas as pd
+import plotly.express as px
+
+from scripts.plot_theme import apply_plotly_theme
+from scripts.plot_theme import PLOTLY_COLORS
+
+FIGURE_DIR = Path("figures/step3")
+FIGURE_DIR.mkdir(parents=True, exist_ok=True)
+```
+
 ## Baseline at a glance
 
 This page describes the **66 distinct postings** remaining after the documented industry, pathway, date, and cleaning rules. The sample is a short observed snapshot—June 3 through July 21, 2026—within the January–July analysis window.
@@ -73,3 +89,97 @@ A market-wide top-skills chart would be misleading here. Only **10 of 66 posting
 
 For this source and time period, the selected market is best characterized as a small, high-paying, senior-skewed AI/ML technical market rather than a broad entry-level Data Scientist market. The strongest actionable finding is the role mix: students targeting Software Publishers should evaluate adjacent AI/ML engineering readiness as well as exact Data Scientist titles. Salary and geography provide useful directional context; remote, experience-year, and skill conclusions remain constrained by source completeness.
 
+## Step 3 Exploratory Data Analysis
+
+The updated Lightcast source contains 72,498 postings. Applying the exact
+Software Publishers industry code (NAICS 513210), the May–September 2024 date
+window, and the documented title-based pathway rules produces **10 distinct
+postings**. One posting is an explicit core Data Scientist role and nine are
+adjacent AI, machine-learning, analytics, or applied-science roles.
+
+::: {.callout-warning}
+This is a narrowly defined pathway sample, not a market-wide estimate. Counts,
+percentages, salaries, and skill frequencies below describe these 10 audited
+postings only. Detailed SOC labels were not used as a standalone inclusion rule
+because they mapped 1,034 of the 1,037 industry postings to Data Scientists even
+when the job titles did not support that interpretation.
+:::
+
+### Posting volume over time
+
+![Monthly number of audited career-pathway postings from May through September 2024.](figures/step3/monthly_posting_volume.png){fig-alt="The audited sample contains one posting in May, one in June, four in July, two in August, and two in September 2024."}
+
+July contains four of the 10 retained postings, the largest monthly count in
+the sample. May and June contain one each, while August and September contain
+two each. With only 10 observations, these values should not be interpreted as
+evidence of a broader seasonal or growth trend.
+
+### Core and adjacent pathway roles
+
+![Role composition of the audited career-pathway sample.](figures/step3/role_segment_distribution.png){fig-alt="The sample contains four AI technical roles, two data-science-adjacent roles, and one each in machine learning, core data science, applied or decision science, and analytics engineering."}
+
+Only one posting has an explicit core Data Scientist title. The largest segment
+is AI Technical Role with four postings. Two postings are Data Science Adjacent
+Roles, and the remaining three adjacent segments contain one posting each. The
+result supports evaluating adjacent AI and analytics pathways, but those roles
+remain labeled separately because their responsibilities and skill profiles are
+not interchangeable with core data science.
+
+### Reported salary midpoints
+
+![Annualized salary midpoint for each posting with usable salary data.](figures/step3/salary_midpoints.png){fig-alt="Seven adjacent-role postings report usable annualized salary midpoints ranging from 120,000 to 195,000 dollars, with a median of 173,200 dollars."}
+
+Seven postings report usable annualized salary ranges. Their midpoints range
+from **$120,000 to $195,000**, with a median of **$173,200**. All seven salary
+observations belong to adjacent roles; the one core Data Scientist posting has
+no usable salary. The salary results therefore describe reported pay among the
+adjacent-role subset and should not be presented as an estimate for core Data
+Scientist positions.
+
+### Geographic distribution
+
+![Audited career-pathway postings by state.](figures/step3/hiring_by_state.png){fig-alt="California contains five postings, New York contains two, and Colorado, Indiana, and Massachusetts contain one each."}
+
+California accounts for five postings and New York for two. Colorado, Indiana,
+and Massachusetts contribute one posting each. This concentration indicates
+where the audited employers advertised these particular roles; it is not a
+national state-level demand ranking.
+
+### Employers in the audited sample
+
+![Employers represented in the audited pathway sample.](figures/step3/top_employers.png){fig-alt="C3 IoT, Klaviyo, and Workday have two postings each; four other employers have one each."}
+
+C3 IoT, Klaviyo, and Workday each contribute two postings. Guidewire Software,
+Microsoft, Sigma Computing, and Theoris Group each contribute one. Because the
+sample is small, employer counts are descriptive and may reflect repeated
+locations or posting dates rather than sustained hiring volume.
+
+### Remote-work reporting
+
+![Reported remote-work status in the audited pathway sample.](figures/step3/remote_status.png){fig-alt="Two postings are explicitly remote and eight have unknown remote status."}
+
+Two postings are explicitly identified as remote. The remaining eight have
+unknown remote status and are not assumed to be onsite. The defensible result
+is that at least 20% of the audited sample is explicitly remote; the data cannot
+support a complete remote-versus-onsite comparison.
+
+### Skill demand
+
+![Most frequently requested skills in the audited pathway sample.](figures/step3/top_skills.png){fig-alt="Artificial Intelligence, Machine Learning, and Sales appear in six postings each. MLOps, Python, Data Science, Computer Science, and Detail Oriented appear in five each."}
+
+Artificial Intelligence, Machine Learning, and Sales each appear in six of the
+10 postings. MLOps, Python, Data Science, Computer Science, and Detail Oriented
+each appear in five. The combination of technical and customer-facing skills
+reflects the sample's strong representation of solution-architecture and
+enterprise-AI roles. Skill percentages do not sum to 100% because a posting can
+request many skills. Equivalent labels such as `Generative AI` and
+`Generative Artificial Intelligence` are consolidated before counting.
+
+### Data completeness
+
+![Coverage of the main analytical fields in the audited sample.](figures/step3/data_completeness.png){fig-alt="Posting date, employer, state, minimum experience, and skills are complete. Salary is usable for seven postings, education for six, and remote status for two."}
+
+Posting date, employer, state, reported minimum experience, and skills are
+available for all 10 postings. Salary is usable for seven, education for six,
+and remote status for two. The analysis retains missing values explicitly and
+does not infer salary, education, or remote status from other fields.

@@ -1,0 +1,9 @@
+field,usable_count,total_jobs,coverage_percent
+At least one skill,10,10,100.0
+Employer,10,10,100.0
+Posting date,10,10,100.0
+Reported minimum experience,10,10,100.0
+State,10,10,100.0
+Usable annualized salary,7,10,70.0
+Known education requirement,6,10,60.0
+Known remote status,2,10,20.0
