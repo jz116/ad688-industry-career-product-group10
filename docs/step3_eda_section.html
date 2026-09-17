@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>final_recommendations – Group 10: Data Science and AI/ML Job Market Analysis</title>
+<title>step3_eda_section – Group 10: Data Science and AI/ML Job Market Analysis</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -138,8 +138,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#step-3-exploratory-data-analysis" id="toc-step-3-exploratory-data-analysis" class="nav-link active" data-scroll-target="#step-3-exploratory-data-analysis">Step 3 Exploratory Data Analysis</a>
+  <ul class="collapse">
+  <li><a href="#posting-volume-over-time" id="toc-posting-volume-over-time" class="nav-link" data-scroll-target="#posting-volume-over-time">Posting volume over time</a></li>
+  <li><a href="#core-and-adjacent-pathway-roles" id="toc-core-and-adjacent-pathway-roles" class="nav-link" data-scroll-target="#core-and-adjacent-pathway-roles">Core and adjacent pathway roles</a></li>
+  <li><a href="#reported-salary-midpoints" id="toc-reported-salary-midpoints" class="nav-link" data-scroll-target="#reported-salary-midpoints">Reported salary midpoints</a></li>
+  <li><a href="#geographic-distribution" id="toc-geographic-distribution" class="nav-link" data-scroll-target="#geographic-distribution">Geographic distribution</a></li>
+  <li><a href="#employers-in-the-audited-sample" id="toc-employers-in-the-audited-sample" class="nav-link" data-scroll-target="#employers-in-the-audited-sample">Employers in the audited sample</a></li>
+  <li><a href="#remote-work-reporting" id="toc-remote-work-reporting" class="nav-link" data-scroll-target="#remote-work-reporting">Remote-work reporting</a></li>
+  <li><a href="#skill-demand" id="toc-skill-demand" class="nav-link" data-scroll-target="#skill-demand">Skill demand</a></li>
+  <li><a href="#data-completeness" id="toc-data-completeness" class="nav-link" data-scroll-target="#data-completeness">Data completeness</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -147,8 +163,105 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="step-3-exploratory-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-exploratory-data-analysis">Step 3 Exploratory Data Analysis</h2>
+<p>The updated Lightcast source contains 72,498 postings. Applying the exact Software Publishers industry code (NAICS 513210), the May–September 2024 date window, and the documented title-based pathway rules produces <strong>10 distinct postings</strong>. One posting is an explicit core Data Scientist role and nine are adjacent AI, machine-learning, analytics, or applied-science roles.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is a narrowly defined pathway sample, not a market-wide estimate. Counts, percentages, salaries, and skill frequencies below describe these 10 audited postings only. Detailed SOC labels were not used as a standalone inclusion rule because they mapped 1,034 of the 1,037 industry postings to Data Scientists even when the job titles did not support that interpretation.</p>
+</div>
+</div>
+<section id="posting-volume-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="posting-volume-over-time">Posting volume over time</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/monthly_posting_volume.png" class="img-fluid figure-img" alt="The audited sample contains one posting in May, one in June, four in July, two in August, and two in September 2024."></p>
+<figcaption>Monthly number of audited career-pathway postings from May through September 2024.</figcaption>
+</figure>
+</div>
+<p>July contains four of the 10 retained postings, the largest monthly count in the sample. May and June contain one each, while August and September contain two each. With only 10 observations, these values should not be interpreted as evidence of a broader seasonal or growth trend.</p>
+</section>
+<section id="core-and-adjacent-pathway-roles" class="level3">
+<h3 class="anchored" data-anchor-id="core-and-adjacent-pathway-roles">Core and adjacent pathway roles</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/role_segment_distribution.png" class="img-fluid figure-img" alt="The sample contains four AI technical roles, two data-science-adjacent roles, and one each in machine learning, core data science, applied or decision science, and analytics engineering."></p>
+<figcaption>Role composition of the audited career-pathway sample.</figcaption>
+</figure>
+</div>
+<p>Only one posting has an explicit core Data Scientist title. The largest segment is AI Technical Role with four postings. Two postings are Data Science Adjacent Roles, and the remaining three adjacent segments contain one posting each. The result supports evaluating adjacent AI and analytics pathways, but those roles remain labeled separately because their responsibilities and skill profiles are not interchangeable with core data science.</p>
+</section>
+<section id="reported-salary-midpoints" class="level3">
+<h3 class="anchored" data-anchor-id="reported-salary-midpoints">Reported salary midpoints</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/salary_midpoints.png" class="img-fluid figure-img" alt="Seven adjacent-role postings report usable annualized salary midpoints ranging from 120,000 to 195,000 dollars, with a median of 173,200 dollars."></p>
+<figcaption>Annualized salary midpoint for each posting with usable salary data.</figcaption>
+</figure>
+</div>
+<p>Seven postings report usable annualized salary ranges. Their midpoints range from <strong>$120,000 to $195,000</strong>, with a median of <strong>$173,200</strong>. All seven salary observations belong to adjacent roles; the one core Data Scientist posting has no usable salary. The salary results therefore describe reported pay among the adjacent-role subset and should not be presented as an estimate for core Data Scientist positions.</p>
+</section>
+<section id="geographic-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="geographic-distribution">Geographic distribution</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/hiring_by_state.png" class="img-fluid figure-img" alt="California contains five postings, New York contains two, and Colorado, Indiana, and Massachusetts contain one each."></p>
+<figcaption>Audited career-pathway postings by state.</figcaption>
+</figure>
+</div>
+<p>California accounts for five postings and New York for two. Colorado, Indiana, and Massachusetts contribute one posting each. This concentration indicates where the audited employers advertised these particular roles; it is not a national state-level demand ranking.</p>
+</section>
+<section id="employers-in-the-audited-sample" class="level3">
+<h3 class="anchored" data-anchor-id="employers-in-the-audited-sample">Employers in the audited sample</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/top_employers.png" class="img-fluid figure-img" alt="C3 IoT, Klaviyo, and Workday have two postings each; four other employers have one each."></p>
+<figcaption>Employers represented in the audited pathway sample.</figcaption>
+</figure>
+</div>
+<p>C3 IoT, Klaviyo, and Workday each contribute two postings. Guidewire Software, Microsoft, Sigma Computing, and Theoris Group each contribute one. Because the sample is small, employer counts are descriptive and may reflect repeated locations or posting dates rather than sustained hiring volume.</p>
+</section>
+<section id="remote-work-reporting" class="level3">
+<h3 class="anchored" data-anchor-id="remote-work-reporting">Remote-work reporting</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/remote_status.png" class="img-fluid figure-img" alt="Two postings are explicitly remote and eight have unknown remote status."></p>
+<figcaption>Reported remote-work status in the audited pathway sample.</figcaption>
+</figure>
+</div>
+<p>Two postings are explicitly identified as remote. The remaining eight have unknown remote status and are not assumed to be onsite. The defensible result is that at least 20% of the audited sample is explicitly remote; the data cannot support a complete remote-versus-onsite comparison.</p>
+</section>
+<section id="skill-demand" class="level3">
+<h3 class="anchored" data-anchor-id="skill-demand">Skill demand</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/top_skills.png" class="img-fluid figure-img" alt="Artificial Intelligence, Machine Learning, and Sales appear in six postings each. MLOps, Python, Data Science, Computer Science, and Detail Oriented appear in five each."></p>
+<figcaption>Most frequently requested skills in the audited pathway sample.</figcaption>
+</figure>
+</div>
+<p>Artificial Intelligence, Machine Learning, and Sales each appear in six of the 10 postings. MLOps, Python, Data Science, Computer Science, and Detail Oriented each appear in five. The combination of technical and customer-facing skills reflects the sample’s strong representation of solution-architecture and enterprise-AI roles. Skill percentages do not sum to 100% because a posting can request many skills. Equivalent labels such as <code>Generative AI</code> and <code>Generative Artificial Intelligence</code> are consolidated before counting.</p>
+</section>
+<section id="data-completeness" class="level3">
+<h3 class="anchored" data-anchor-id="data-completeness">Data completeness</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/data_completeness.png" class="img-fluid figure-img" alt="Posting date, employer, state, minimum experience, and skills are complete. Salary is usable for seven postings, education for six, and remote status for two."></p>
+<figcaption>Coverage of the main analytical fields in the audited sample.</figcaption>
+</figure>
+</div>
+<p>Posting date, employer, state, reported minimum experience, and skills are available for all 10 postings. Salary is usable for seven, education for six, and remote status for two. The analysis retains missing values explicitly and does not infer salary, education, or remote status from other fields.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

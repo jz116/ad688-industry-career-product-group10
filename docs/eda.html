@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Preparation – Career Evaluation Product</title>
+<title>Exploratory Data Analysis – Group 10: Data Science and AI/ML Job Market Analysis</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +26,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -105,7 +86,7 @@ div.csl-indent {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Career Evaluation Product</span>
+    <span class="navbar-title">Group 10: Data Science and AI/ML Job Market Analysis</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -120,27 +101,31 @@ div.csl-indent {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./introduction.html"> 
-<span class="menu-text">Introduction</span></a>
+<span class="menu-text">Project Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./data_preparation.html" aria-current="page"> 
+    <a class="nav-link" href="./data_cleaning.html"> 
 <span class="menu-text">Data Preparation</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./market_baseline.html"> 
-<span class="menu-text">Market Baseline</span></a>
+    <a class="nav-link active" href="./eda.html" aria-current="page"> 
+<span class="menu-text">Exploratory Analysis</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./skill_gap_analysis.html"> 
-<span class="menu-text">Skill Gaps</span></a>
+<span class="menu-text">Skill Gap Analysis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./career_evaluation.html"> 
-<span class="menu-text">Career Evaluation</span></a>
+    <a class="nav-link" href="./ml_methods.html"> 
+<span class="menu-text">Predictive Modeling</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./final_recommendations.html"> 
-<span class="menu-text">Recommendations</span></a>
+    <a class="nav-link" href="./nlp_methods.html"> 
+<span class="menu-text">NLP Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./career_plan.html"> 
+<span class="menu-text">Career Strategy</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -158,15 +143,17 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#analytical-scope" id="toc-analytical-scope" class="nav-link" data-scroll-target="#analytical-scope">Analytical scope</a></li>
-  <li><a href="#source-data-and-relational-restructuring" id="toc-source-data-and-relational-restructuring" class="nav-link" data-scroll-target="#source-data-and-relational-restructuring">Source data and relational restructuring</a></li>
-  <li><a href="#industry-code-normalization" id="toc-industry-code-normalization" class="nav-link" data-scroll-target="#industry-code-normalization">Industry-code normalization</a></li>
-  <li><a href="#career-pathway-filter" id="toc-career-pathway-filter" class="nav-link" data-scroll-target="#career-pathway-filter">Career-pathway filter</a></li>
-  <li><a href="#cleaning-decisions" id="toc-cleaning-decisions" class="nav-link" data-scroll-target="#cleaning-decisions">Cleaning decisions</a></li>
+  <li><a href="#market-snapshot" id="toc-market-snapshot" class="nav-link active" data-scroll-target="#market-snapshot">Market snapshot</a>
+  <ul class="collapse">
+  <li><a href="#posting-volume-over-time" id="toc-posting-volume-over-time" class="nav-link" data-scroll-target="#posting-volume-over-time">Posting volume over time</a></li>
+  <li><a href="#core-and-adjacent-pathway-roles" id="toc-core-and-adjacent-pathway-roles" class="nav-link" data-scroll-target="#core-and-adjacent-pathway-roles">Core and adjacent pathway roles</a></li>
+  <li><a href="#reported-salary-midpoints" id="toc-reported-salary-midpoints" class="nav-link" data-scroll-target="#reported-salary-midpoints">Reported salary midpoints</a></li>
+  <li><a href="#geographic-distribution" id="toc-geographic-distribution" class="nav-link" data-scroll-target="#geographic-distribution">Geographic distribution</a></li>
+  <li><a href="#employers-in-the-audited-sample" id="toc-employers-in-the-audited-sample" class="nav-link" data-scroll-target="#employers-in-the-audited-sample">Employers in the audited sample</a></li>
+  <li><a href="#remote-work-reporting" id="toc-remote-work-reporting" class="nav-link" data-scroll-target="#remote-work-reporting">Remote-work reporting</a></li>
+  <li><a href="#skill-demand" id="toc-skill-demand" class="nav-link" data-scroll-target="#skill-demand">Skill demand</a></li>
   <li><a href="#data-completeness" id="toc-data-completeness" class="nav-link" data-scroll-target="#data-completeness">Data completeness</a></li>
-  <li><a href="#output-files" id="toc-output-files" class="nav-link" data-scroll-target="#output-files">Output files</a></li>
-  <li><a href="#interpretation-limits" id="toc-interpretation-limits" class="nav-link" data-scroll-target="#interpretation-limits">Interpretation limits</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -175,8 +162,8 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Preparation</h1>
-<p class="subtitle lead">Software Publishers AI/ML Career-Market Dataset</p>
+<h1 class="title">Exploratory Data Analysis</h1>
+<p class="subtitle lead">Data Science and Adjacent AI/ML Roles in Software Publishers</p>
 </div>
 
 
@@ -193,246 +180,149 @@ div.csl-indent {
 </header>
 
 
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This page documents how the raw MET Employability Career Match postings were converted into a posting-level analytical dataset for the team’s selected market. The final panel contains <strong>66 unique postings</strong> in the <strong>Software Publishers</strong> industry and the <strong>Data Scientist plus adjacent AI/ML technical</strong> career pathway.</p>
-<p>The design deliberately separates the core occupation from adjacent roles. Only one posting was a core Data Scientist role; the other 65 were explicitly labeled AI or machine-learning technical roles. This preserves a usable market sample without presenting every AI/ML posting as a Data Scientist job.</p>
-</section>
-<section id="analytical-scope" class="level2">
-<h2 class="anchored" data-anchor-id="analytical-scope">Analytical scope</h2>
+<section id="market-snapshot" class="level2">
+<h2 class="anchored" data-anchor-id="market-snapshot">Market snapshot</h2>
+<p>We analyzed 72,498 Lightcast job postings. We applied the exact Software Publishers industry code (NAICS 513210), the May–September 2024 date window, and our documented title-based pathway rules. Our final audited sample contains <strong>10 distinct postings</strong>: one core Data Scientist posting and nine adjacent AI, machine-learning, analytics, or applied-science postings.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Dimension</th>
-<th>Operational definition</th>
+<th>Indicator</th>
+<th style="text-align: right;">Our Step 3 result</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Selected industry</td>
-<td>Software Publishers, standardized to 2022 NAICS <code>513210</code></td>
+<td>Audited pathway postings</td>
+<td style="text-align: right;">10</td>
 </tr>
 <tr class="even">
-<td>Career pathway</td>
-<td>Core Data Scientist roles plus adjacent AI/ML engineers, developers, scientists, architects, and interns</td>
+<td>Core Data Scientist postings</td>
+<td style="text-align: right;">1 (10%)</td>
 </tr>
 <tr class="odd">
-<td>Filter window</td>
-<td>Posting dates from January 1 through July 31, 2026</td>
+<td>Adjacent pathway postings</td>
+<td style="text-align: right;">9 (90%)</td>
 </tr>
 <tr class="even">
-<td>Observed dates in final panel</td>
-<td>June 3 through July 21, 2026</td>
+<td>Postings with usable salary</td>
+<td style="text-align: right;">7 (70%)</td>
 </tr>
 <tr class="odd">
-<td>Unit of analysis</td>
-<td>One unique job posting ID</td>
+<td>Median salary midpoint</td>
+<td style="text-align: right;">$173,200</td>
 </tr>
 <tr class="even">
-<td>Final sample</td>
-<td>66 postings: 1 core and 65 adjacent</td>
+<td>Explicitly remote postings</td>
+<td style="text-align: right;">2 (20%)</td>
+</tr>
+<tr class="odd">
+<td>Remote status unknown</td>
+<td style="text-align: right;">8 (80%)</td>
+</tr>
+<tr class="even">
+<td>Postings with extracted skills</td>
+<td style="text-align: right;">10 (100%)</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="source-data-and-relational-restructuring" class="level2">
-<h2 class="anchored" data-anchor-id="source-data-and-relational-restructuring">Source data and relational restructuring</h2>
-<p>The source consists of 17 Parquet partitions containing <strong>165,386 rows and 115 fields</strong>. The lab restructuring step separated those fields into six relational CSV tables:</p>
-<ol type="1">
-<li><code>job_postings.csv</code></li>
-<li><code>company.csv</code></li>
-<li><code>job_location.csv</code></li>
-<li><code>soc_details.csv</code></li>
-<li><code>lot_details.csv</code></li>
-<li><code>naics_details.csv</code></li>
-</ol>
-<p>Each posting-level child table uses job <code>ID</code> as its key. The company table uses <code>COMPANY_ID</code>; every posting’s company key matched a company record. LOT source fields were not present in this release, so the required LOT table was created with job IDs and documented blank LOT attributes rather than fabricated values.</p>
-</section>
-<section id="industry-code-normalization" class="level2">
-<h2 class="anchored" data-anchor-id="industry-code-normalization">Industry-code normalization</h2>
-<p>The source audit found a systematic coding issue that required explicit treatment:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Audit result</th>
-<th style="text-align: right;">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Final-panel jobs found in <code>naics_details.csv</code></td>
-<td style="text-align: right;">66</td>
-</tr>
-<tr class="even">
-<td>Raw values containing <code>513210</code></td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="odd">
-<td>Raw values containing legacy <code>511210</code></td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="even">
-<td>Raw values named <code>Software Publishers</code></td>
-<td style="text-align: right;">66</td>
-</tr>
-<tr class="odd">
-<td>Raw code/name pair</td>
-<td style="text-align: right;"><code>513200</code> / <code>Software Publishers</code></td>
-</tr>
-</tbody>
-</table>
-<p>The official 2022 NAICS hierarchy places Software Publishers under group <code>5132</code>, industry <code>51321</code>, and six-digit U.S. industry <code>513210</code> <span class="citation" data-cites="census2022">(<a href="#ref-census2022" role="doc-biblioref">U.S. Census Bureau (2022)</a>)</span>. The source value <code>513200</code> therefore behaves as a zero-padded representation of group <code>5132</code>, not as a valid six-digit leaf code. Records were admitted only when the canonical source name was Software Publishers, then the analytical code was standardized to <code>513210</code>. The raw source result remains separately auditable in <code>target_naics_source_audit.csv</code>.</p>
-<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Important
+Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The raw data did <strong>not</strong> contain code <code>513210</code>. The panel’s <code>513210</code> value is a documented taxonomy normalization supported by the canonical industry name and the official NAICS hierarchy; it is not a claim about the unmodified source code.</p>
+<p>This is a narrowly defined pathway sample, not a market-wide estimate. Counts, percentages, salaries, and skill frequencies below describe these 10 audited postings only. Detailed SOC labels were not used as a standalone inclusion rule because they mapped 1,034 of the 1,037 industry postings to Data Scientists even when the job titles did not support that interpretation.</p>
 </div>
 </div>
-</section>
-<section id="career-pathway-filter" class="level2">
-<h2 class="anchored" data-anchor-id="career-pathway-filter">Career-pathway filter</h2>
-<p>Filtering was applied to titles and occupation mappings, not to the full job description. This avoids admitting a posting merely because its description mentions a data-science team or an AI skill.</p>
-<p>The mutually exclusive role rules were applied in this order:</p>
-<ol type="1">
-<li><strong>Core Data Scientist:</strong> an explicit Data Scientist/Data Science role title or a Data Scientists SOC/O*NET mapping.</li>
-<li><strong>Adjacent scientist roles:</strong> applied, decision, or research-scientist titles with an explicit data-science, AI, or ML signal.</li>
-<li><strong>Adjacent technical roles:</strong> an explicit <code>machine learning</code>, <code>ML</code>, <code>artificial intelligence</code>, or standalone <code>AI</code> title signal combined with engineer, developer, scientist, architect, or intern language.</li>
-<li><strong>Analytics Engineer:</strong> an explicit Analytics Engineer title.</li>
-</ol>
-<p>Generic software jobs with AI/ML only in the description were excluded. An <code>.ai</code> company or product-domain suffix alone was also excluded from the AI rule. The resulting cohort contains 54 AI technical roles, 11 machine-learning technical roles, and one Data Scientist role; none of the other allowed segments appeared in the final sample.</p>
-</section>
-<section id="cleaning-decisions" class="level2">
-<h2 class="anchored" data-anchor-id="cleaning-decisions">Cleaning decisions</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Variable group</th>
-<th>Cleaning rule</th>
-<th>Result or audit decision</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Posting IDs and duplicates</td>
-<td>Drop blank IDs; for repeated IDs retain the record with the latest update timestamp. Flag, but do not automatically delete, identical employer-title-date-location fingerprints.</td>
-<td>All 165,386 source IDs were nonmissing and unique; zero exact-ID rows were removed and zero final near-duplicates were flagged.</td>
-</tr>
-<tr class="even">
-<td>Dates</td>
-<td>Safely parse posting and expiration values; malformed or blank values remain missing. Apply the stated posting-date window.</td>
-<td>The final observed range is June 3–July 21, 2026.</td>
-</tr>
-<tr class="odd">
-<td>Salary</td>
-<td>Parse numeric bounds, order reversed bounds, and annualize annual/hourly/weekly/monthly/daily periods. Treat nonpositive values as missing and retain only plausible annual values from $15,000 to $1,000,000.</td>
-<td>39 usable midpoints; 18 zero placeholders set to missing; 9 otherwise missing.</td>
-</tr>
-<tr class="even">
-<td>Salary outliers</td>
-<td>Apply a 1.5-IQR flag after plausibility cleaning. Preserve the observations so legitimate high-paying senior AI roles are not silently discarded.</td>
-<td>Five observations flagged and retained; audit limits were $124,026.25 and $306,384.25.</td>
-</tr>
-<tr class="odd">
-<td>Experience</td>
-<td>Safely convert reported minimum and maximum years. Do not infer numeric years when absent. Create a separate seniority proxy from explicit title language.</td>
-<td>All 66 postings lack reported experience years. The proxy is clearly labeled and is not an imputation.</td>
-</tr>
-<tr class="even">
-<td>Education</td>
-<td>Normalize minimum education into consistent degree categories.</td>
-<td>63 bachelor’s-degree and 3 master’s-degree requirements.</td>
-</tr>
-<tr class="odd">
-<td>Employment type</td>
-<td>Normalize explicit source labels; use title/internship fields to identify internships; preserve unknown values.</td>
-<td>54 full-time, 3 internship, and 9 unknown.</td>
-</tr>
-<tr class="even">
-<td>Remote status</td>
-<td>Map only explicit remote, hybrid, or onsite source labels.</td>
-<td>6 remote and 60 unknown. Unknown is not recoded as onsite.</td>
-</tr>
-<tr class="odd">
-<td>Geography</td>
-<td>Trim city, county, and state; form a city/state label when available; otherwise retain a source-location fallback.</td>
-<td>State is usable for 62 postings; four remain unspecified.</td>
-</tr>
-<tr class="even">
-<td>Employers</td>
-<td>Preserve source company labels in the panel. Standardize obvious domain-style labels only in presentation summaries.</td>
-<td>Raw labels remain available for audit.</td>
-</tr>
-<tr class="odd">
-<td>Skills</td>
-<td>Parse and deduplicate structured skill arrays. If absent, supplement them with a controlled keyword dictionary applied to the title and description. Track the extraction source.</td>
-<td>Only 10 postings have at least one usable skill: 6 from structured fields and 4 from controlled description matches.</td>
-</tr>
-<tr class="even">
-<td>Industry and occupation</td>
-<td>Preserve SOC/O*NET fields and record the inclusion rule. Standardize the documented Software Publishers source group to <code>513210</code>.</td>
-<td>Every final posting has an explicit role-match reason and industry-match method.</td>
-</tr>
-<tr class="odd">
-<td>Missing values</td>
-<td>Keep meaningful missingness as null or <code>Unknown</code>; do not fill absent salary, experience, remote, skill, or location values with invented values.</td>
-<td>Missingness is part of the reported baseline and limits interpretation.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="data-completeness" class="level2">
-<h2 class="anchored" data-anchor-id="data-completeness">Data completeness</h2>
+<section id="posting-volume-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="posting-volume-over-time">Posting volume over time</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/step2/data_completeness.png" class="img-fluid figure-img" alt="Posting date, employer, and education have 100 percent coverage. State has 93.9 percent, employment type 86.4 percent, salary 59.1 percent, skills 15.2 percent, remote status 9.1 percent, and experience years zero percent."></p>
-<figcaption>Bar chart showing coverage of posting date, employer, education, state, employment type, salary, skills, remote status, and reported experience.</figcaption>
+<p><img src="figures/step3/monthly_posting_volume.png" class="img-fluid figure-img" alt="The audited sample contains one posting in May, one in June, four in July, two in August, and two in September 2024."></p>
+<figcaption>Monthly number of audited career-pathway postings from May through September 2024.</figcaption>
 </figure>
 </div>
-<p>The source supports a credible baseline for job volume, broad role mix, education, state, and the subset with published salary. It does not support a reliable years-of-experience distribution, a true remote-versus-onsite split, or a comprehensive skill ranking. Those gaps are displayed rather than hidden.</p>
+<p>July contains four of the 10 retained postings, the largest monthly count in the sample. May and June contain one each, while August and September contain two each. With only 10 observations, these values should not be interpreted as evidence of a broader seasonal or growth trend.</p>
 </section>
-<section id="output-files" class="level2">
-<h2 class="anchored" data-anchor-id="output-files">Output files</h2>
-<p>The preparation workflow creates the following reusable products:</p>
-<ul>
-<li><code>data/processed/career_market_panel.csv</code>: one row per filtered posting.</li>
-<li><code>data/processed/career_market_skills.csv</code>: normalized posting-skill bridge table.</li>
-<li><code>data/processed/career_market_data_dictionary.csv</code>: variable definitions and cleaning notes.</li>
-<li><code>data/processed/career_market_cleaning_audit.csv</code>: row counts, missingness, and salary checks.</li>
-<li><code>data/processed/target_naics_source_audit.csv</code>: raw-versus-standardized NAICS evidence.</li>
-<li><code>outputs/step2/*.csv</code>: website summary tables created from the final panel.</li>
-<li><code>figures/step2/*.png</code>: static figures used on the baseline pages.</li>
-</ul>
-<p>The scripts <code>restructure_data.py</code>, <code>prepare_market_panel.py</code>, <code>audit_naics_scope.py</code>, and <code>build_step2_outputs.py</code> make the workflow reproducible. Large raw Parquet files and lab-scale relational exports should remain excluded from Git.</p>
-</section>
-<section id="interpretation-limits" class="level2">
-<h2 class="anchored" data-anchor-id="interpretation-limits">Interpretation limits</h2>
-<p>This is a narrow, source-defined market snapshot. The 66 records cover only postings observed from June 3 through July 21 despite the broader filter window. Source industry tagging was not independently reclassified employer by employer, so the panel can contain firms whose primary business is not obviously software publishing. Results describe the filtered posting sample, not all U.S. hiring or the probability that a particular applicant will receive an offer.</p>
-
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-census2022" class="csl-entry" role="listitem">
-<span class="smallcaps">U.S. Census Bureau</span>. (2022): <span>“<a href="https://www.census.gov/naics/?details=513210&amp;input=software&amp;year=2022">2022 NAICS Definition: 513210 Software Publishers</a>,”</span>
+<section id="core-and-adjacent-pathway-roles" class="level3">
+<h3 class="anchored" data-anchor-id="core-and-adjacent-pathway-roles">Core and adjacent pathway roles</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/role_segment_distribution.png" class="img-fluid figure-img" alt="The sample contains four AI technical roles, two data-science-adjacent roles, and one each in machine learning, core data science, applied or decision science, and analytics engineering."></p>
+<figcaption>Role composition of the audited career-pathway sample.</figcaption>
+</figure>
 </div>
-</div></section></div></main> <!-- /main -->
+<p>Only one posting has an explicit core Data Scientist title. The largest segment is AI Technical Role with four postings. Two postings are Data Science Adjacent Roles, and the remaining three adjacent segments contain one posting each. The result supports evaluating adjacent AI and analytics pathways, but those roles remain labeled separately because their responsibilities and skill profiles are not interchangeable with core data science.</p>
+</section>
+<section id="reported-salary-midpoints" class="level3">
+<h3 class="anchored" data-anchor-id="reported-salary-midpoints">Reported salary midpoints</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/salary_midpoints.png" class="img-fluid figure-img" alt="Seven adjacent-role postings report usable annualized salary midpoints ranging from 120,000 to 195,000 dollars, with a median of 173,200 dollars."></p>
+<figcaption>Annualized salary midpoint for each posting with usable salary data.</figcaption>
+</figure>
+</div>
+<p>Seven postings report usable annualized salary ranges. Their midpoints range from <strong>$120,000 to $195,000</strong>, with a median of <strong>$173,200</strong>. All seven salary observations belong to adjacent roles; the one core Data Scientist posting has no usable salary. The salary results therefore describe reported pay among the adjacent-role subset and should not be presented as an estimate for core Data Scientist positions.</p>
+</section>
+<section id="geographic-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="geographic-distribution">Geographic distribution</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/hiring_by_state.png" class="img-fluid figure-img" alt="California contains five postings, New York contains two, and Colorado, Indiana, and Massachusetts contain one each."></p>
+<figcaption>Audited career-pathway postings by state.</figcaption>
+</figure>
+</div>
+<p>California accounts for five postings and New York for two. Colorado, Indiana, and Massachusetts contribute one posting each. This concentration indicates where the audited employers advertised these particular roles; it is not a national state-level demand ranking.</p>
+</section>
+<section id="employers-in-the-audited-sample" class="level3">
+<h3 class="anchored" data-anchor-id="employers-in-the-audited-sample">Employers in the audited sample</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/top_employers.png" class="img-fluid figure-img" alt="C3 IoT, Klaviyo, and Workday have two postings each; four other employers have one each."></p>
+<figcaption>Employers represented in the audited pathway sample.</figcaption>
+</figure>
+</div>
+<p>C3 IoT, Klaviyo, and Workday each contribute two postings. Guidewire Software, Microsoft, Sigma Computing, and Theoris Group each contribute one. Because the sample is small, employer counts are descriptive and may reflect repeated locations or posting dates rather than sustained hiring volume.</p>
+</section>
+<section id="remote-work-reporting" class="level3">
+<h3 class="anchored" data-anchor-id="remote-work-reporting">Remote-work reporting</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/remote_status.png" class="img-fluid figure-img" alt="Two postings are explicitly remote and eight have unknown remote status."></p>
+<figcaption>Reported remote-work status in the audited pathway sample.</figcaption>
+</figure>
+</div>
+<p>Two postings are explicitly identified as remote. The remaining eight have unknown remote status and are not assumed to be onsite. The defensible result is that at least 20% of the audited sample is explicitly remote; the data cannot support a complete remote-versus-onsite comparison.</p>
+</section>
+<section id="skill-demand" class="level3">
+<h3 class="anchored" data-anchor-id="skill-demand">Skill demand</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/top_skills.png" class="img-fluid figure-img" alt="Artificial Intelligence, Machine Learning, and Sales appear in six postings each. MLOps, Python, Data Science, Computer Science, and Detail Oriented appear in five each."></p>
+<figcaption>Most frequently requested skills in the audited pathway sample.</figcaption>
+</figure>
+</div>
+<p>Artificial Intelligence, Machine Learning, and Sales each appear in six of the 10 postings. MLOps, Python, Data Science, Computer Science, and Detail Oriented each appear in five. The combination of technical and customer-facing skills reflects the sample’s strong representation of solution-architecture and enterprise-AI roles. Skill percentages do not sum to 100% because a posting can request many skills. Equivalent labels such as <code>Generative AI</code> and <code>Generative Artificial Intelligence</code> are consolidated before counting.</p>
+</section>
+<section id="data-completeness" class="level3">
+<h3 class="anchored" data-anchor-id="data-completeness">Data completeness</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/step3/data_completeness.png" class="img-fluid figure-img" alt="Posting date, employer, state, minimum experience, and skills are complete. Salary is usable for seven postings, education for six, and remote status for two."></p>
+<figcaption>Coverage of the main analytical fields in the audited sample.</figcaption>
+</figure>
+</div>
+<p>Posting date, employer, state, reported minimum experience, and skills are available for all 10 postings. Salary is usable for seven, education for six, and remote status for two. The analysis retains missing values explicitly and does not infer salary, education, or remote status from other fields.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
