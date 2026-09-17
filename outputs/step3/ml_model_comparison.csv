@@ -1,0 +1,4 @@
+Candidate Clusters,Silhouette Score,Smallest Cluster,Singleton Clusters
+2,0.283,4,0
+3,0.319,1,1
+4,0.305,1,2

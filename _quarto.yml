@@ -3,23 +3,29 @@ project:
   output-dir: docs
 
 website:
-  title: "Career Evaluation Product"
+  title: "Group 10: Data Science and AI/ML Job Market Analysis"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - href: introduction.qmd
-        text: Introduction
-      - href: data_preparation.qmd
-        text: Data Preparation
-      - href: market_baseline.qmd
-        text: Market Baseline
+        text: "Project Overview"
+      - href: data_cleaning.qmd
+        text: "Data Preparation"
+      - href: eda.qmd
+        text: "Exploratory Analysis"
       - href: skill_gap_analysis.qmd
-        text: Skill Gaps
-      - href: career_evaluation.qmd
-        text: Career Evaluation
-      - href: final_recommendations.qmd
-        text: Recommendations
+        text: "Skill Gap Analysis"
+      - href: ml_methods.qmd
+        text: "ML Methods"
+      - href: nlp_methods.qmd
+        text: "NLP Methods"
+      - href: career_plan.qmd
+        text: "Career Strategy"
+
+execute:
+  echo: true
+  eval: true
 
 format:
   html:
@@ -28,5 +34,5 @@ format:
       - brand
     css: styles.css
     toc: true
-
+    code-fold: true
 
