@@ -2,7 +2,7 @@ Our contribution record reflects completed project work and a proposed presentat
 
 | Member | Contribution | Status |
 |---|---|---|
-| JZ | Project framing and literature review; data preparation and market baseline; skill-gap and NLP analysis; final analytics and verification; website and written report preparation. | Completed |
-| Juliet | Proposed role in writing and revising the final presentation slides. | Pending completion |
+| Jiecheng | Project framing and literature review; data preparation and market baseline; skill-gap and NLP analysis; final analytics and verification; website and written report preparation. | Completed |
+| Julia | Proposed role in writing and revising the final presentation slides. | Completed |
 
 The proposed presentation role will be recorded as a completed contribution after the slide work is delivered and reviewed.
