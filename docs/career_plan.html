@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Career Strategy – Group 10: Data Science and AI/ML Job Market Analysis</title>
+<title>Career Strategy – Group 10 Career Evaluation</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Group 10: Data Science and AI/ML Job Market Analysis</span>
+    <span class="navbar-title">Group 10 Career Evaluation</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -101,31 +101,53 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./introduction.html"> 
-<span class="menu-text">Project Overview</span></a>
+<span class="menu-text">Scope</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./data_cleaning.html"> 
-<span class="menu-text">Data Preparation</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-evidence" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Evidence</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-evidence">    
+        <li>
+    <a class="dropdown-item" href="./data_cleaning.html">
+ <span class="dropdown-text">Data preparation</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./eda.html"> 
-<span class="menu-text">Exploratory Analysis</span></a>
+        <li>
+    <a class="dropdown-item" href="./eda.html">
+ <span class="dropdown-text">Market baseline</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./skill_gap_analysis.html"> 
-<span class="menu-text">Skill Gap Analysis</span></a>
+        <li>
+    <a class="dropdown-item" href="./skill_gap_analysis.html">
+ <span class="dropdown-text">Skill gaps</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ml_methods.html"> 
-<span class="menu-text">ML Methods</span></a>
+        <li>
+    <a class="dropdown-item" href="./nlp_methods.html">
+ <span class="dropdown-text">NLP evidence</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./nlp_methods.html"> 
-<span class="menu-text">NLP Methods</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-career-decisions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Career decisions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-career-decisions">    
+        <li>
+    <a class="dropdown-item" href="./career_evaluation.html">
+ <span class="dropdown-text">Evaluation logic</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./final_analytics.html">
+ <span class="dropdown-text">Final analytics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./final_recommendations.html">
+ <span class="dropdown-text">Recommendations</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./career_plan.html" aria-current="page"> 
-<span class="menu-text">Career Strategy</span></a>
+    <a class="nav-link" href="./contributions.html"> 
+<span class="menu-text">Contributions</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -143,26 +165,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#our-career-decision" id="toc-our-career-decision" class="nav-link active" data-scroll-target="#our-career-decision">Our Career Decision</a></li>
-  <li><a href="#evidence-behind-the-strategy" id="toc-evidence-behind-the-strategy" class="nav-link" data-scroll-target="#evidence-behind-the-strategy">Evidence Behind the Strategy</a></li>
-  <li><a href="#target-role-tiers" id="toc-target-role-tiers" class="nav-link" data-scroll-target="#target-role-tiers">Target Role Tiers</a>
-  <ul class="collapse">
-  <li><a href="#primary-targets" id="toc-primary-targets" class="nav-link" data-scroll-target="#primary-targets">Primary Targets</a></li>
-  <li><a href="#secondary-targets" id="toc-secondary-targets" class="nav-link" data-scroll-target="#secondary-targets">Secondary Targets</a></li>
-  <li><a href="#longer-term-targets" id="toc-longer-term-targets" class="nav-link" data-scroll-target="#longer-term-targets">Longer-Term Targets</a></li>
-  </ul></li>
-  <li><a href="#our-90-day-development-plan" id="toc-our-90-day-development-plan" class="nav-link" data-scroll-target="#our-90-day-development-plan">Our 90-Day Development Plan</a></li>
-  <li><a href="#portfolio-strategy" id="toc-portfolio-strategy" class="nav-link" data-scroll-target="#portfolio-strategy">Portfolio Strategy</a>
-  <ul class="collapse">
-  <li><a href="#project-1-job-market-analytics-product" id="toc-project-1-job-market-analytics-product" class="nav-link" data-scroll-target="#project-1-job-market-analytics-product">Project 1: Job-Market Analytics Product</a></li>
-  <li><a href="#project-2-reproducible-ml-workflow" id="toc-project-2-reproducible-ml-workflow" class="nav-link" data-scroll-target="#project-2-reproducible-ml-workflow">Project 2: Reproducible ML Workflow</a></li>
-  <li><a href="#project-3-job-description-skill-extractor" id="toc-project-3-job-description-skill-extractor" class="nav-link" data-scroll-target="#project-3-job-description-skill-extractor">Project 3: Job-Description Skill Extractor</a></li>
-  </ul></li>
-  <li><a href="#application-strategy" id="toc-application-strategy" class="nav-link" data-scroll-target="#application-strategy">Application Strategy</a></li>
-  <li><a href="#collaboration-and-documentation" id="toc-collaboration-and-documentation" class="nav-link" data-scroll-target="#collaboration-and-documentation">Collaboration and Documentation</a></li>
-  <li><a href="#measures-of-progress" id="toc-measures-of-progress" class="nav-link" data-scroll-target="#measures-of-progress">Measures of Progress</a></li>
-  <li><a href="#risks-and-adjustments" id="toc-risks-and-adjustments" class="nav-link" data-scroll-target="#risks-and-adjustments">Risks and Adjustments</a></li>
-  <li><a href="#final-recommendation" id="toc-final-recommendation" class="nav-link" data-scroll-target="#final-recommendation">Final Recommendation</a></li>
+  <li><a href="#our-recommended-search-direction" id="toc-our-recommended-search-direction" class="nav-link active" data-scroll-target="#our-recommended-search-direction">Our recommended search direction</a></li>
+  <li><a href="#a-practical-screening-process" id="toc-a-practical-screening-process" class="nav-link" data-scroll-target="#a-practical-screening-process">A practical screening process</a></li>
+  <li><a href="#our-90-day-development-plan" id="toc-our-90-day-development-plan" class="nav-link" data-scroll-target="#our-90-day-development-plan">Our 90 day development plan</a></li>
+  <li><a href="#measures-of-progress" id="toc-measures-of-progress" class="nav-link" data-scroll-target="#measures-of-progress">Measures of progress</a></li>
   </ul>
 </nav>
     </div>
@@ -172,7 +178,6 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Career Strategy</h1>
-<p class="subtitle lead">Turning Our Market Evidence into an Action Plan</p>
 </div>
 
 
@@ -189,227 +194,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="our-career-decision" class="level2">
-<h2 class="anchored" data-anchor-id="our-career-decision">Our Career Decision</h2>
-<p>Our evidence supports a two-stage career strategy. In the near term, we should target <strong>Analytics and Data roles</strong> because they align most closely with our current strengths in SQL, Data Modeling, and Data Visualization. We should treat <strong>AI/ML Architecture roles</strong> as a longer-term pathway that becomes more attainable after we strengthen Machine Learning, MLOps, AWS, Generative AI, and production-oriented Python.</p>
-<p>This recommendation does not mean the AI/ML pathway is unattractive. Six of the 10 audited postings belong to the AI/ML Architecture cluster. However, these postings are predominantly senior roles and emphasize several skills for which our current proficiency is below the market-priority benchmark.</p>
+<section id="our-recommended-search-direction" class="level2">
+<h2 class="anchored" data-anchor-id="our-recommended-search-direction">Our recommended search direction</h2>
+<p>We recommend a staged career plan. First, search for early-career analytics and data roles in software publishers and match each application to demonstrated SQL, Python, modeling, and visualization work. Examples of search titles include Data Analyst, Business Intelligence Analyst, Junior Analytics Engineer, and Junior Data Scientist. These are proposed search terms, not a claim that the ten-posting sample contains those entry-level vacancies.</p>
+<p>Treat ML engineering, MLOps, applied-science, and AI architecture work as longer-term options. The six-posting AI and ML segment signals a different skill combination, while the reported experience requirements limit immediate accessibility. Broader searches can be a next step without changing the historical scope of this project.</p>
 </section>
-<section id="evidence-behind-the-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-behind-the-strategy">Evidence Behind the Strategy</h2>
-<p>Our recommendation combines four parts of the project:</p>
-<ol type="1">
-<li>The <a href="./eda.html">exploratory analysis</a> shows that the audited market is small, senior-oriented, and concentrated in adjacent AI, ML, architecture, and analytics roles.</li>
-<li>The <a href="./skill_gap_analysis.html">skill-gap analysis</a> identifies our largest gap in MLOps, followed by Machine Learning. Python, AWS, and Generative AI are also high-priority development areas.</li>
-<li>The <a href="./ml_methods.html">ML analysis</a> separates the postings into a six-posting AI/ML Architecture cluster and a four-posting Analytics and Data cluster.</li>
-<li>The <a href="./nlp_methods.html">NLP analysis</a> provides a second source of skill evidence by comparing explicit description language with Lightcast’s structured skill fields.</li>
-</ol>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 27%">
-<col style="width: 36%">
-<col style="width: 36%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Decision factor</th>
-<th style="text-align: right;">Analytics and Data pathway</th>
-<th style="text-align: right;">AI/ML Architecture pathway</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Audited postings</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">6</td>
-</tr>
-<tr class="even">
-<td>Core Data Scientist postings</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="odd">
-<td>Median minimum experience</td>
-<td style="text-align: right;">5 years</td>
-<td style="text-align: right;">5 years</td>
-</tr>
-<tr class="even">
-<td>Usable salary observations</td>
-<td style="text-align: right;">1 of 4</td>
-<td style="text-align: right;">6 of 6</td>
-</tr>
-<tr class="odd">
-<td>Strongest alignment with our profile</td>
-<td style="text-align: right;">SQL, Data Modeling, Data Visualization</td>
-<td style="text-align: right;">Foundation in Python and technical analysis</td>
-</tr>
-<tr class="even">
-<td>Largest preparation needs</td>
-<td style="text-align: right;">Python depth and Machine Learning</td>
-<td style="text-align: right;">MLOps, Machine Learning, AWS, Generative AI, production Python</td>
-</tr>
-<tr class="odd">
-<td>Recommended timing</td>
-<td style="text-align: right;">Near-term target</td>
-<td style="text-align: right;">Longer-term stretch pathway</td>
-</tr>
-</tbody>
-</table>
-<p>The reported cluster salaries are not directly comparable. Every AI/ML Architecture posting reports usable salary information, while only one Analytics and Data posting does. We therefore do not use the salary difference as evidence that one pathway pays more than the other.</p>
-</section>
-<section id="target-role-tiers" class="level2">
-<h2 class="anchored" data-anchor-id="target-role-tiers">Target Role Tiers</h2>
-<section id="primary-targets" class="level3">
-<h3 class="anchored" data-anchor-id="primary-targets">Primary Targets</h3>
-<p>Our first search tier should emphasize entry-level or early-career versions of the Analytics and Data pathway:</p>
-<ul>
-<li>Data Analyst</li>
-<li>Business Intelligence Analyst</li>
-<li>Junior Analytics Engineer</li>
-<li>Junior Data Scientist</li>
-<li>Customer or Product Analytics Analyst</li>
-</ul>
-<p>The audited postings themselves are mostly senior positions. These primary titles are therefore role-family search targets, not a claim that the current 10-posting panel contains entry-level openings.</p>
-</section>
-<section id="secondary-targets" class="level3">
-<h3 class="anchored" data-anchor-id="secondary-targets">Secondary Targets</h3>
-<p>After completing stronger portfolio evidence, we can expand the search to:</p>
-<ul>
-<li>Data Scientist</li>
-<li>Analytics Engineer</li>
-<li>Machine Learning Analyst</li>
-<li>Applied Data Scientist</li>
-<li>Decision Scientist</li>
-</ul>
-</section>
-<section id="longer-term-targets" class="level3">
-<h3 class="anchored" data-anchor-id="longer-term-targets">Longer-Term Targets</h3>
-<p>The following roles should remain stretch goals until we can demonstrate production and cloud skills:</p>
-<ul>
-<li>Machine Learning Engineer</li>
-<li>MLOps Engineer</li>
-<li>Applied Scientist</li>
-<li>AI Solution Architect</li>
-<li>AI or ML Enterprise Architect</li>
-</ul>
-</section>
+<section id="a-practical-screening-process" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-screening-process">A practical screening process</h2>
+<p>For each vacancy, check explicit minimum experience, responsibilities, required versus preferred skills, location or remote arrangements, and disclosed compensation. Record missing information as unknown. Evaluate skills through specific artifacts and examples rather than a single readiness percentage. Compare pay only when experience level, location, and disclosure coverage are sufficiently similar.</p>
+<p>California and New York, and the employers represented in the sample, provide starting points for exploration. Counts alone do not justify relocation, rank workplace quality, or establish current hiring activity. Verify fresh postings before investing time in an application.</p>
 </section>
 <section id="our-90-day-development-plan" class="level2">
-<h2 class="anchored" data-anchor-id="our-90-day-development-plan">Our 90-Day Development Plan</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Period</th>
-<th>Skill focus</th>
-<th>Planned work</th>
-<th>Evidence we will produce</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Days 1–30</td>
-<td>Python, SQL, Data Modeling, and Data Visualization</td>
-<td>Refactor the market-analysis workflow into reusable data preparation and analysis components.</td>
-<td>Reproducible scripts, validation checks, a documented data model, and an analytical dashboard</td>
-</tr>
-<tr class="even">
-<td>Days 31–60</td>
-<td>Machine Learning and MLOps</td>
-<td>Build and evaluate an ML workflow, track experiments, and document model limitations.</td>
-<td>Model comparison, validation metrics, MLflow experiment records, and a model card</td>
-</tr>
-<tr class="odd">
-<td>Days 61–90</td>
-<td>AWS, deployment, and Generative AI</td>
-<td>Package one project, deploy a small cloud demonstration, and extend the NLP skill extractor.</td>
-<td>Docker configuration, cloud architecture diagram, deployed demonstration, and an evaluated NLP feature</td>
-</tr>
-</tbody>
-</table>
-<p>We will not increase a proficiency rating solely because a course was completed. A rating should increase only when we can demonstrate the skill in a reproducible artifact and explain the decisions made during development.</p>
-</section>
-<section id="portfolio-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="portfolio-strategy">Portfolio Strategy</h2>
-<section id="project-1-job-market-analytics-product" class="level3">
-<h3 class="anchored" data-anchor-id="project-1-job-market-analytics-product">Project 1: Job-Market Analytics Product</h3>
-<p>We will develop the current analysis into a polished portfolio case study. It will demonstrate data cleaning, SQL-style transformations, exploratory analysis, Plotly visualization, and responsible interpretation of missing data. The published Quarto website will serve as the primary communication artifact.</p>
-</section>
-<section id="project-2-reproducible-ml-workflow" class="level3">
-<h3 class="anchored" data-anchor-id="project-2-reproducible-ml-workflow">Project 2: Reproducible ML Workflow</h3>
-<p>We will convert the clustering work into a documented ML workflow containing feature construction, model selection, diagnostic measures, and limitations. We will then add experiment tracking and packaging so the project demonstrates MLOps concepts rather than only notebook-based modeling.</p>
-</section>
-<section id="project-3-job-description-skill-extractor" class="level3">
-<h3 class="anchored" data-anchor-id="project-3-job-description-skill-extractor">Project 3: Job-Description Skill Extractor</h3>
-<p>We will extend the NLP analysis into a small application that accepts job text, identifies skills, and compares them with our current profile. The application should report the evidence behind each match and avoid presenting its results as an automated hiring decision.</p>
-</section>
-</section>
-<section id="application-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="application-strategy">Application Strategy</h2>
-<p>We will use the following process once the first portfolio project is ready:</p>
-<ol type="1">
-<li>Search primarily for early-career Analytics and Data titles while tracking AI/ML openings as longer-term market signals.</li>
-<li>Tailor each resume version to skills that are supported by our projects; we will not list unverified proficiency claims.</li>
-<li>Link applications to the most relevant portfolio artifact rather than using the same project description for every role.</li>
-<li>Record the title, employer, required skills, application date, response, and interview stage.</li>
-<li>Review results after every 20 targeted applications and revise our title filters, resume language, or portfolio evidence when response rates remain weak.</li>
-</ol>
-</section>
-<section id="collaboration-and-documentation" class="level2">
-<h2 class="anchored" data-anchor-id="collaboration-and-documentation">Collaboration and Documentation</h2>
-<p>We will manage the remaining work through GitHub issues, named task owners, documented commits, and short weekly status records. Each completed task should identify its source data, method, output, and reviewer. This makes the workflow reproducible and preserves clear evidence of individual contributions while the website presents a unified Group 10 analysis.</p>
+<h2 class="anchored" data-anchor-id="our-90-day-development-plan">Our 90 day development plan</h2>
+<p><strong>Days 1–30: demonstrate the foundation.</strong> Refactor the market-analysis workflow into reusable Python components. Document the data model, validate joins and missing values, and present an analysis with SQL and clear visualizations. Produce a reproducible portfolio case study with an environment file and a concise account of decisions.</p>
+<p><strong>Days 31–60: strengthen Machine Learning and MLOps.</strong> Build a second workflow on a dataset large enough for appropriate evaluation. Track experiments, preserve model versions, and explain validation choices and limitations. Produce evaluation results, a model card, and reproducible training or analysis instructions. The current ten-posting corpus remains a descriptive case study.</p>
+<p><strong>Days 61–90: show deployment and applied NLP.</strong> Package one small project, demonstrate cloud storage and deployment, and improve the description skill extractor. Manually review a labeled set of job descriptions and measure extraction errors before adding synonyms. Produce a working demonstration, deployment notes, and an error analysis.</p>
 </section>
 <section id="measures-of-progress" class="level2">
-<h2 class="anchored" data-anchor-id="measures-of-progress">Measures of Progress</h2>
-<p>We will evaluate the plan using evidence rather than course completion alone:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Measure</th>
-<th style="text-align: right;">90-day target</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Fully documented portfolio case studies</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td>Cloud-deployed demonstrations</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr class="odd">
-<td>Projects with automated validation checks</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td>Projects with reproducible environment instructions</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="odd">
-<td>Targeted applications reviewed as one decision cycle</td>
-<td style="text-align: right;">20</td>
-</tr>
-<tr class="even">
-<td>Updated skill assessments supported by artifacts</td>
-<td style="text-align: right;">At least 3 skills</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="risks-and-adjustments" class="level2">
-<h2 class="anchored" data-anchor-id="risks-and-adjustments">Risks and Adjustments</h2>
-<p>Our market evidence is based on only 10 audited postings from one industry and time window. It is also heavily weighted toward senior roles. We should retain the defined project scope for analytical consistency but avoid treating this sample as the complete employment market. Before beginning a broad application campaign, we should compare our target titles with a larger and more recent set of entry-level postings.</p>
-<p>If the larger search confirms that analytics roles remain more attainable, we will continue the staged plan. If entry-level ML roles show materially greater availability and align with our completed portfolio evidence, we can move the AI/ML pathway forward without changing the standards used to assess readiness.</p>
-</section>
-<section id="final-recommendation" class="level2">
-<h2 class="anchored" data-anchor-id="final-recommendation">Final Recommendation</h2>
-<p>Our recommended immediate pathway is <strong>Analytics and Data</strong>, supported by portfolio evidence in SQL, Python, Data Modeling, and Data Visualization. Our recommended long-term pathway is <strong>AI/ML Architecture and Engineering</strong>, with advancement conditioned on demonstrable improvement in Machine Learning, MLOps, cloud deployment, and Generative AI.</p>
-<p>This staged strategy preserves an ambitious destination while grounding our next decision in the skills we can currently demonstrate.</p>
+<h2 class="anchored" data-anchor-id="measures-of-progress">Measures of progress</h2>
+<p>Our proposed targets are two documented portfolio case studies, one cloud demonstration, and at least three revised self-ratings supported by artifacts. Course completion alone will not increase a rating. Once the first portfolio project is ready, review each cycle of 20 targeted applications to assess whether title choices, evidence, and application materials need adjustment. These are planned actions, not completed achievements or predicted outcomes.</p>
 
 
 </section>
@@ -502,6 +305,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -816,6 +624,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Group 10 · Software Publishers · NAICS 513210 · May–September 2024</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

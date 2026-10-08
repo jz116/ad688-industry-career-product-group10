@@ -1,0 +1,29 @@
+variable,type,description
+JOB_ID,string,Unique posting identifier.
+POSTED_DATE,date,Posting date standardized to ISO format.
+TITLE_RAW,string,Original posting title.
+TITLE_CLEAN,string,Cleaned Lightcast title.
+TITLE_STANDARDIZED,string,Standardized Lightcast title label.
+SCOPE_TIER,category,Core Data Scientist or adjacent role.
+ROLE_SEGMENT,category,Mutually exclusive pathway segment.
+ROLE_MATCH_REASON,string,Rule supporting role inclusion.
+SENIORITY_PROXY,category,Title-based seniority signal.
+MIN_YEARS_EXPERIENCE,number,Reported minimum experience.
+MAX_YEARS_EXPERIENCE,number,Reported maximum experience.
+EDUCATION_REQUIRED,category,Normalized minimum education.
+EMPLOYMENT_TYPE,category,Normalized employment type.
+REMOTE_STATUS,category,"Remote, hybrid, onsite, or unknown."
+LOCATION_CLEAN,string,Best available cleaned location.
+COMPANY_NAME,string,Employer name.
+SALARY_FROM_ANNUAL,number,Annualized lower salary bound.
+SALARY_TO_ANNUAL,number,Annualized upper salary bound.
+SALARY_MIDPOINT_ANNUAL,number,Annualized salary midpoint.
+SALARY_STATUS,category,Salary cleaning result.
+SALARY_OUTLIER_FLAG,boolean,1.5-IQR salary flag.
+SKILLS_CLEAN,JSON array,Normalized distinct skill names.
+SKILL_COUNT,integer,Number of normalized skills.
+SKILL_SOURCE,category,Structured or description source.
+ONET_NAME,string,Source O*NET occupation label.
+SOC_2021_5_NAME,string,2021 detailed SOC label; audit-only.
+NAICS_2022_6,string,Exact six-digit 2022 NAICS code.
+NEAR_DUPLICATE_FLAG,boolean,Repeated posting fingerprint flag.

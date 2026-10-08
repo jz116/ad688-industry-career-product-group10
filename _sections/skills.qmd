@@ -1,0 +1,17 @@
+One completed self-assessment was available at the analysis cutoff. We use that documented student profile for our comparison and do not infer another member's ratings. The scale is 1 beginner, 2 basic, 3 intermediate, 4 advanced, and 5 expert. Ratings are self-reported.
+
+For each skill, we count distinct postings in our **combined skill evidence**, which includes source labels and description-keyword matches. A posting share of at least 50% maps to priority 5; 40–49% to 4; 30–39% to 3; 20–29% to 2; and below 20% to 1. The **priority gap equals market priority minus our rating**.
+
+{{< include _generated/skill_gaps_report.qmd >}}
+
+This is a project-defined learning scale. Demand frequency is not an employer's required proficiency level, so the subtraction is an ordinal planning heuristic. A zero gap does not establish qualification, and a four-point gap does not measure four units of missing ability.
+
+![Learning priorities from combined skill evidence and our available self-assessment.](figures/step4/skill_gaps.png){width=5.9in fig-alt="MLOps has a priority gap of four, machine learning three, Python AWS and generative AI two, and SQL data modeling and data visualization zero."}
+
+## Why skill evidence sources differ
+
+MLOps appears in **five postings in the prepared skill bridge**. Three postings carry an explicit source skill label, and three match the narrower NLP dictionary. The broader preparation rules also recognize MLOps within joined wording in two C3 Iot descriptions, explaining the additional combined-evidence matches. Calling all five “structured records” would be inaccurate.
+
+Using only the three narrow text matches would lower the MLOps priority from 5 to 3 and its gap from 4 to 2. Machine Learning would then become the largest gap. Our final scorecard uses combined evidence consistently; the other seven profile skills have the same counts under the combined and narrow-text rules. The R-language correction changes none of these eight profile counts.
+
+Our practical conclusion is to strengthen Machine Learning and MLOps, develop Python and cloud skills, and maintain SQL, Data Modeling, and Data Visualization. Requirements in a target vacancy and evidence from completed projects should guide the ordering of similar learning priorities.

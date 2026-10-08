@@ -1,0 +1,18 @@
+---
+title: "Career Evaluation Logic"
+---
+
+Our evaluation connects four kinds of evidence to one career decision.
+
+| Evidence | Decision it supports | Boundary |
+|---|---|---|
+| Posting scope and baseline | Which role families and locations should we investigate? | Counts describe ten historical postings |
+| Skills and current profile | What should we learn and demonstrate next? | Priority gaps are ordinal planning indicators |
+| Final segmentation | Which skill combinations align more closely with our profile? | Clusters describe ten postings and may change with new data |
+| Experience, pay, and remote coverage | What must we verify before applying? | Missing information stays unknown |
+
+We first check each vacancy's experience and practical constraints. We then compare its responsibilities and requested skills with concrete portfolio evidence. Salary is supporting context, with its reporting coverage shown. We use the segmentation to organize the search, not to assign a hiring probability.
+
+The product does not aggregate pay, accessibility, and fit into one weighted score. Its final analytical track is segmentation. Each retained binary skill contributes equally to Jaccard similarity, and the role-family recommendation is explained through visible skill counts and accessibility limits.
+
+The [final analytics](final_analytics.qmd) documents the variables, selection rule, evaluation results, restoration checks, and career interpretation. The [recommendations](final_recommendations.qmd) turn that evidence into a 90-day development plan.

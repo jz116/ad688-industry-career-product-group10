@@ -1,0 +1,6 @@
+| Measure | Value |
+| --- | --- |
+| Distinct postings | 10 |
+| Unique normalized skills | 174 |
+| Skills retained for modeling | 37 |
+| Minimum posting frequency | 3 postings (30%) |

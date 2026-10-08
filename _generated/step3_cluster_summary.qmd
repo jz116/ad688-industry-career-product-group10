@@ -1,0 +1,4 @@
+| Cluster | Postings | Core Postings | Salary Observations | Median Reported Salary | Median Minimum Experience |
+| --- | --- | --- | --- | --- | --- |
+| AI/ML Architecture | 6 | 0 | 6 | 173,225 | 5 |
+| Analytics and Data | 4 | 1 | 1 | 120,000 | 5 |

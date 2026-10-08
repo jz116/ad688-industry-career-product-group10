@@ -1,0 +1,66 @@
+---
+title: "Career Evaluation in Software Publishing"
+subtitle: "Data science and adjacent AI and ML roles in 2024"
+author: "Group 10"
+date: "October 8, 2026"
+date-format: "MMMM D, YYYY"
+format:
+  docx:
+    reference-doc: assets/report_reference.docx
+    toc: false
+    number-sections: true
+bibliography: references.bib
+csl: csl/apa.csl
+filters:
+  - _filters/report-tables.lua
+execute:
+  eval: false
+  echo: false
+---
+
+Our product connects a narrowly scoped job-market analysis with practical decisions for a student entering data science. Ten audited 2024 software-publishing postings separate into analytics-and-data and AI-and-ML architecture segments. Our current profile aligns more closely with the first segment, while Machine Learning and MLOps remain development priorities. The sample's experience requirements, missing pay, and small size limit any claim about accessibility or market-wide opportunity.
+
+# Product framing
+
+{{< include _sections/framing.qmd >}}
+
+# Scope and data
+
+{{< include _sections/scope.qmd >}}
+
+# Market baseline
+
+{{< include _sections/baseline.qmd >}}
+
+# Skill gap analysis
+
+{{< include _sections/skills.qmd >}}
+
+# Final analytics
+
+{{< include _sections/analytics.qmd >}}
+
+# Recommendations
+
+{{< include _sections/recommendations.qmd >}}
+
+# Limitations
+
+{{< include _sections/limitations.qmd >}}
+
+# Team contributions {.unnumbered}
+
+{{< include _sections/contributions.qmd >}}
+
+# Reproducibility {.unnumbered}
+
+The website and this report share section files. Run `python3 scripts/build_final_analytics.py` to rebuild the final tables, skill-source comparison, figures, and validation summary from the restored panel and skill bridge. It executes the same numeric model code as our restored ML Methods page and checks exact agreement with the 37-feature matrix, posting assignments, and final candidate scores. It also reproduces the saved narrow NLP posting–skill pairs.
+
+Run `quarto render final_report.qmd --to docx` to generate the Word report, then `quarto render` to build the website. The original preparation script, corrected script, approved cohort, and source-restoration verification record provide the upstream audit. The full-source run has already passed; rebuilding the final presentation tables does not repeat that scan or replace its verification record.
+
+{{< pagebreak >}}
+
+# References {.unnumbered}
+
+::: {#refs}
+:::

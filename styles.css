@@ -1,1 +1,9 @@
-/* css styles */
+:root { --bs-primary: #17324d; }
+body { color: #24364a; }
+h1, h2, h3 { color: #17324d; }
+.navbar { background: #17324d; }
+.navbar .navbar-brand, .navbar .nav-link { color: #fff; }
+.quarto-title-block { margin-bottom: 2rem; }
+table { margin-top: 1rem; margin-bottom: 1.5rem; }
+th { background: #eef3f7; }
+.figure-caption { font-size: .9rem; color: #526477; }

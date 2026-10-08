@@ -1,0 +1,4 @@
+Candidate Clusters,Original silhouette,Smallest Cluster,Singleton Clusters,Corrected silhouette
+2,0.283,4,0,0.291
+3,0.319,1,1,0.327
+4,0.305,1,2,0.311

@@ -1,0 +1,14 @@
+Our product helps college students and recent graduates plan a path into data science within U.S. Software Publishers, NAICS 2022 code **513210**. We focus on skill readiness and distinguish explicit Data Scientist roles from adjacent analytics, AI, machine-learning, and architecture roles. Software publishing is the industry boundary; the adjacent titles are part of the same defined career pathway, not an expansion into other industries [@census2022].
+
+**Our decision:** prioritize early-career versions of analytics and data roles while developing the production and cloud skills needed for longer-term AI and ML work. This is a learning and search strategy. The ten historical postings do not establish that entry-level vacancies are plentiful or that our current profile satisfies a specific employer's requirements.
+
+## The question our product answers
+
+Within the audited 2024 software-publishing sample, which role segments best align with our current skills, what barriers affect accessibility, and which learning priorities should guide our next career decision?
+
+The product combines a market baseline, a documented student profile, and an explainable segmentation analysis. A reader can inspect the evidence, identify relevant role families, compare their own demonstrated skills with the reported patterns, and choose a portfolio project. Salary, location, and experience provide context rather than a promise of an offer.
+
+## Why this scope matters
+
+Job titles hide meaningful differences in skill combinations. De Mauro et al. organize big-data work into job families and skill sets, supporting our decision to compare related roles without treating them as interchangeable [@demauro2018].
+

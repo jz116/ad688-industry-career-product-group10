@@ -1,0 +1,175 @@
+skill_display,job_count,share_percent
+Artificial Intelligence,6,60.0
+Machine Learning,6,60.0
+Sales,6,60.0
+Computer Science,5,50.0
+Data Science,5,50.0
+Detail Oriented,5,50.0
+MLOps,5,50.0
+Python,5,50.0
+AWS,4,40.0
+Advanced Analytics,4,40.0
+Analytical Skills,4,40.0
+Cloud Computing Architecture,4,40.0
+Generative AI,4,40.0
+Java,4,40.0
+Large Language Models,4,40.0
+Software As A Service (SaaS),4,40.0
+Solution Architecture,4,40.0
+AWS SageMaker,3,30.0
+Apache Kafka,3,30.0
+Application Programming Interface (API),3,30.0
+Azure,3,30.0
+Communication,3,30.0
+Customer Success Management,3,30.0
+Data Modeling,3,30.0
+Data Visualization,3,30.0
+Decision Making,3,30.0
+Finance,3,30.0
+Kubernetes,3,30.0
+Leadership,3,30.0
+Machine Learning Algorithms,3,30.0
+Operations,3,30.0
+Predictive Modeling,3,30.0
+Presentations,3,30.0
+R,3,30.0
+SQL,3,30.0
+Scalability,3,30.0
+Statistics,3,30.0
+Writing,3,30.0
+AWS Kinesis,2,20.0
+Amazon Redshift,2,20.0
+Anomaly Detection,2,20.0
+Anti Money Laundering,2,20.0
+Apache Cassandra,2,20.0
+Apache Hadoop,2,20.0
+Apache Spark,2,20.0
+Applications Architecture,2,20.0
+Applications Of Artificial Intelligence,2,20.0
+Business Intelligence,2,20.0
+Business Planning,2,20.0
+Business Valuation,2,20.0
+Computer Networks,2,20.0
+Consulting,2,20.0
+Consumer Behaviour,2,20.0
+Core Product,2,20.0
+Customer Engagement,2,20.0
+Customer Service,2,20.0
+Data Analysis,2,20.0
+Data Integration,2,20.0
+Decision Tree Learning,2,20.0
+Demonstration Skills,2,20.0
+Distributed Systems,2,20.0
+Energy Management,2,20.0
+Enterprise Application Integration,2,20.0
+Enterprise Application Software,2,20.0
+Enterprise Architecture,2,20.0
+Exploratory Data Analysis,2,20.0
+Fraud Detection,2,20.0
+Ggplot2,2,20.0
+Git,2,20.0
+GitHub,2,20.0
+Go-to-Market Strategy,2,20.0
+Google Cloud,2,20.0
+Human Capital Management (HCM),2,20.0
+Information Systems,2,20.0
+Infrastructure Security,2,20.0
+Instant Messaging,2,20.0
+Intellectual Curiosity,2,20.0
+Interoperability,2,20.0
+JavaScript,2,20.0
+Key Performance Indicators (KPIs),2,20.0
+Kubeflow,2,20.0
+MLflow,2,20.0
+Marketing Operations,2,20.0
+Matplotlib (Python Package),2,20.0
+Microsoft Excel,2,20.0
+Milestones (Project Management),2,20.0
+NumPy (Python Package),2,20.0
+OpenShift,2,20.0
+Organizational Skills,2,20.0
+Pandas (Python Package),2,20.0
+Plotly,2,20.0
+PostgreSQL,2,20.0
+Principal Component Analysis,2,20.0
+Product Marketing,2,20.0
+Project Management,2,20.0
+Sales Engineering,2,20.0
+Sales Operations,2,20.0
+Sales Presentations,2,20.0
+Sales Prospecting,2,20.0
+Scala,2,20.0
+Seaborn,2,20.0
+Shiny (R Package),2,20.0
+Snowflake,2,20.0
+Statsmodels,2,20.0
+Strategic Decision Making,2,20.0
+Systems Design,2,20.0
+Tableau,2,20.0
+Technical Sales,2,20.0
+Thought Leadership,2,20.0
+Troubleshooting (Problem Solving),2,20.0
+Value Added Selling (Selling Techniques),2,20.0
+Value Propositions,2,20.0
+Workday (Software),2,20.0
+Xgboost,2,20.0
+scikit-learn,2,20.0
+ANSYS Meshing,1,10.0
+Academic Papers,1,10.0
+Advocacy,1,10.0
+Algorithms,1,10.0
+Amazon Elastic Compute Cloud,1,10.0
+Amazon S3,1,10.0
+Apache Airflow,1,10.0
+Apache Parquet,1,10.0
+Applied Science,1,10.0
+Automation,1,10.0
+Azure OpenAI,1,10.0
+Big Data,1,10.0
+BigQuery,1,10.0
+C (Programming Language),1,10.0
+C#,1,10.0
+C++,1,10.0
+CI/CD,1,10.0
+Claims Processing,1,10.0
+Cloud Infrastructure,1,10.0
+Cloud-Native Computing,1,10.0
+Collaboration,1,10.0
+Corporate Reporting,1,10.0
+Cyber Risk,1,10.0
+Cyber Security,1,10.0
+Data Security,1,10.0
+Databricks,1,10.0
+DevOps,1,10.0
+Docker,1,10.0
+Domain Knowledge,1,10.0
+Enterprise Resource Planning,1,10.0
+Experimentation,1,10.0
+Financial Technology (FinTech),1,10.0
+Forecasting,1,10.0
+Language Model,1,10.0
+Management,1,10.0
+Marketing,1,10.0
+Marketing Co-Operations,1,10.0
+Mathematics,1,10.0
+Microservices,1,10.0
+Natural Language Processing,1,10.0
+Network Protocols,1,10.0
+New Product Development,1,10.0
+Nuclear Weapons,1,10.0
+Operating Systems,1,10.0
+Operational Databases,1,10.0
+Operational Efficiency,1,10.0
+Pharmaceuticals,1,10.0
+Presales,1,10.0
+Product Engineering,1,10.0
+Public Cloud,1,10.0
+Quantification,1,10.0
+Software Design,1,10.0
+Software Suite,1,10.0
+Teamwork,1,10.0
+Technical Leadership,1,10.0
+Tooling,1,10.0
+Underwriting,1,10.0
+Unstructured Data,1,10.0
+Warehousing,1,10.0

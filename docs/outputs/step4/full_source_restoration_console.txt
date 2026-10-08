@@ -1,0 +1,9 @@
+Team-supplied console output from the full source CSV run
+
+RESTORATION CHECKS PASSED
+Source rows scanned: 72,498 (provided source CSV)
+Original model reproduced: 0.283 / 0.319 / 0.305
+Corrected model: 0.291 / 0.327 / 0.311
+Six/four membership unchanged; all eight skill-profile counts unchanged.
+Removed one false R-language match. No other posting-skill pair changed.
+Verification: verification/restoration_verification.json

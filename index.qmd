@@ -1,7 +1,19 @@
 ---
-title: "Data Science Career Readiness in Software Publishing"
+title: "Career Evaluation in Software Publishing"
+subtitle: "Data science and adjacent AI and ML roles in 2024"
 ---
 
-This is a Quarto website.
+Our Group 10 product uses ten audited U.S. job postings from May–September 2024 in Software Publishers, NAICS 513210, to connect market evidence with a student's career decisions.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**Our recommendation:** use analytics and data roles as the nearer-term search direction, while building the Machine Learning, MLOps, and cloud evidence needed for longer-term AI and ML roles. The sample is senior-oriented, so this is a skill-development strategy rather than a claim of entry-level availability.
+
+| Evidence | What the product shows |
+|---|---|
+| Market baseline | 10 postings, 7 usable salaries, and 2 explicitly remote roles |
+| Skill gaps | Machine Learning and MLOps remain priorities across skill sources |
+| Final analytics | A six/four segmentation, with a 0.291 silhouette and documented model-selection checks |
+| Career decision | A staged search and portfolio plan with limits stated |
+
+Start with the [project scope](introduction.qmd), review the [market baseline](eda.qmd) and [skill gaps](skill_gap_analysis.qmd), then inspect the [final analytics](final_analytics.qmd) and [recommendations](final_recommendations.qmd).
+
+[Download the complete Word report](final_report.docx).

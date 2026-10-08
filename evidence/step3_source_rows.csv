@@ -1,0 +1,2419 @@
+ID,LAST_UPDATED_DATE,LAST_UPDATED_TIMESTAMP,DUPLICATES,POSTED,EXPIRED,DURATION,SOURCE_TYPES,SOURCES,URL,ACTIVE_URLS,ACTIVE_SOURCES_INFO,TITLE_RAW,BODY,MODELED_EXPIRED,MODELED_DURATION,COMPANY,COMPANY_NAME,COMPANY_RAW,COMPANY_IS_STAFFING,EDUCATION_LEVELS,EDUCATION_LEVELS_NAME,MIN_EDULEVELS,MIN_EDULEVELS_NAME,MAX_EDULEVELS,MAX_EDULEVELS_NAME,EMPLOYMENT_TYPE,EMPLOYMENT_TYPE_NAME,MIN_YEARS_EXPERIENCE,MAX_YEARS_EXPERIENCE,IS_INTERNSHIP,SALARY,REMOTE_TYPE,REMOTE_TYPE_NAME,ORIGINAL_PAY_PERIOD,SALARY_TO,SALARY_FROM,LOCATION,CITY,CITY_NAME,COUNTY,COUNTY_NAME,MSA,MSA_NAME,STATE,STATE_NAME,COUNTY_OUTGOING,COUNTY_NAME_OUTGOING,COUNTY_INCOMING,COUNTY_NAME_INCOMING,MSA_OUTGOING,MSA_NAME_OUTGOING,MSA_INCOMING,MSA_NAME_INCOMING,NAICS2,NAICS2_NAME,NAICS3,NAICS3_NAME,NAICS4,NAICS4_NAME,NAICS5,NAICS5_NAME,NAICS6,NAICS6_NAME,TITLE,TITLE_NAME,TITLE_CLEAN,SKILLS,SKILLS_NAME,SPECIALIZED_SKILLS,SPECIALIZED_SKILLS_NAME,CERTIFICATIONS,CERTIFICATIONS_NAME,COMMON_SKILLS,COMMON_SKILLS_NAME,SOFTWARE_SKILLS,SOFTWARE_SKILLS_NAME,ONET,ONET_NAME,ONET_2019,ONET_2019_NAME,CIP6,CIP6_NAME,CIP4,CIP4_NAME,CIP2,CIP2_NAME,SOC_2021_2,SOC_2021_2_NAME,SOC_2021_3,SOC_2021_3_NAME,SOC_2021_4,SOC_2021_4_NAME,SOC_2021_5,SOC_2021_5_NAME,LOT_CAREER_AREA,LOT_CAREER_AREA_NAME,LOT_OCCUPATION,LOT_OCCUPATION_NAME,LOT_SPECIALIZED_OCCUPATION,LOT_SPECIALIZED_OCCUPATION_NAME,LOT_OCCUPATION_GROUP,LOT_OCCUPATION_GROUP_NAME,LOT_V6_SPECIALIZED_OCCUPATION,LOT_V6_SPECIALIZED_OCCUPATION_NAME,LOT_V6_OCCUPATION,LOT_V6_OCCUPATION_NAME,LOT_V6_OCCUPATION_GROUP,LOT_V6_OCCUPATION_GROUP_NAME,LOT_V6_CAREER_AREA,LOT_V6_CAREER_AREA_NAME,SOC_2,SOC_2_NAME,SOC_3,SOC_3_NAME,SOC_4,SOC_4_NAME,SOC_5,SOC_5_NAME,LIGHTCAST_SECTORS,LIGHTCAST_SECTORS_NAME,NAICS_2022_2,NAICS_2022_2_NAME,NAICS_2022_3,NAICS_2022_3_NAME,NAICS_2022_4,NAICS_2022_4_NAME,NAICS_2022_5,NAICS_2022_5_NAME,NAICS_2022_6,NAICS_2022_6_NAME
+9fcc76415c05500ff5971f8b11594ab65f34533f,9/6/2024,2024-09-06 20:32:57.352 Z,0,5/26/2024,7/25/2024,,"[
+  ""Company""
+]","[
+  ""greenhouse.io""
+]","[
+  ""https://boards.greenhouse.io/embed/job_app/?for=c3iot&token=7450670002""
+]",[],,AI Solution Architect/Senior AI Solution Architect (Post-Sales),"AI Solution Architect/Senior AI Solution Architect (Post-Sales)
+at C3 AI 
+Redwood City, CA
+
+C3.ai, Inc. (NYSE:AI) is a leading Enterprise AI software provider for accelerating digital transformation. The proven C3 AI Platform provides comprehensive services to build enterprise-scale AI applications more efficiently and cost-effectively than alternative approaches. The C3 AI Platform supports the value chain in any industry with prebuilt, configurable, high-value AI applications for reliability, fraud detection, sensor network health, supply network optimization, energy management, anti-money laundering, and customer engagement. Learn more at:C3 AI
+
+C3 AI is seeking an experienced professional to join our AI Solution Architecture team (post-sales). In this customer-facing role, you will have the opportunity to design, develop, and deploy custom and pre-built Enterprise AI applications using the C3 AI Platform. The C3 AI product suite is entirely data-driven, so a great candidate will have a passion for acquiring, analyzing, and transforming data to generate insights with advanced analytics. This role is very hands-on and requires a perfect combination of a big picture, solution-oriented mindset, and solid implementation skills.
+
+Responsibilities:
+
+Engage directly with customersin a post-sales capacityto configure and implement a full-stackAIsolutionaccording to functionaland performancerequirements
+Drive discussions on architecture and engineering to articulate the capabilities of the C3 AI Platform and its interoperability with existing systems
+Design and implement reference architectures to deliver scalable and reusable solutions
+Develop new specs, documentation, and participate in the development of technical procedures and user support guides
+Assess technical risks and come up with mitigation strategies
+Support, monitor, and execute production AI application jobs and processes
+Collaborate with internal engineering and product teams to incorporate customer feature and enhancement requests into core product offerings
+
+Qualifications:
+
+Bachelor's degree in engineering, computer science, or related fields
+Deep understanding of enterprise architecture and enterprise application integration (File, API, Queues, Streams)
+5+ years of experience for a Solution Architect (8+ years for Senior Solution Architect) with system/data integration, development, or implementation of enterprise and/or cloud software
+Extensive hands-on expertiseinBig Data, Distributed Systems, and Cloud Architectures(AWS, Azure, GCP)
+Demonstrated proficiency withPython,JavaScript, and/or Java
+Experience with relationaland NoSQLdatabases (any vendor)
+Solid understanding of data modeling best practices
+Strong organizational and troubleshooting skills with attention to detail
+Strong analytical ability,judgment,andproblem-solvingtechniques
+Interpersonaland communicationskills with the ability to work effectively in across-functionalteam
+Ability to travel up to 30%
+
+PreferredQualifications:
+
+Expertise in Postgres and Cassandra
+Experience with Hadoop, Spark,and Cloud databases (Snowflake,BigQuery, Redshift, Databricks)
+Experience withstream processing frameworks (Kafka, Kinesis)
+Experience with container-based deployments using Kubernetes or OpenShift
+Experiencedesigning and maintainingDataOpsandMLOpsin Production environments
+Working knowledge of Machine Learning algorithms
+Familiarity with AI/ML-related technologies and tools (MLFlow, KubeFlow, AWS SageMaker, Azure MLStudio)
+Experience with Information, Network, & Infrastructure Security concepts
+
+Candidates must be authorized to work in the United States without the need for current or future company sponsorship.
+
+C3 AI provides excellent benefits, a competitive compensation package and generous equity plan.
+
+California Pay Range
+$120,000$200,000 USD
+
+C3 AI is proud to be an Equal Opportunity and Affirmative Action Employer. We do not discriminate on the basis of any legally protected characteristics, including disabled and veteran status.",6/15/2024,20,99460316,C3 Iot,"C3.ai, Inc",FALSE,"[
+  2
+]","[
+  ""Bachelor's degree""
+]",2,Bachelor's degree,,,1,Full-time (> 32 hours),5,,FALSE,120000,0,[None],year,120000,120000,"{
+  ""lat"": 37.4852152,
+  ""lon"": -122.2363548
+}",UmVkd29vZCBDaXR5LCBDQQ==,"Redwood City, CA",6081,"San Mateo, CA",41860,"San Francisco-Oakland-Berkeley, CA",6,California,6081,"San Mateo, CA",6081,"San Mateo, CA",41860,"San Francisco-Oakland-Berkeley, CA",41860,"San Francisco-Oakland-Fremont, CA",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ET9D7413EF263FE179,Sales Solution Architects,ai solution architect senior ai solution architect post sales,"[
+  ""KSOH5A22ONUFT1ISMMC5"",
+  ""ESFD78E44C463297B830"",
+  ""KS121026NSR9PPXHM8S1"",
+  ""KS7G05V6LRKY1PMN9GQG"",
+  ""KS124KS624R3L2W8RKM6"",
+  ""ES2133DA6434CF028833"",
+  ""KS440RW6M035NGGH4ZBC"",
+  ""KS4415B77WWH2WCSVHCV"",
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""KS122B568MKWX1K9STGP"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KSZ61G2PSJVHHYDCWD9V"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""ES4512E57CF178E77F7B"",
+  ""KSAS8LK1JG2Y0OLN4C53"",
+  ""ES7A460DFF81957229AF"",
+  ""ESE0F6CC1AC3C6200715"",
+  ""KS122P76RK0FDFPLR32K"",
+  ""KS120BV70XSJ6K0VQ6S5"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS125S466GJGQXS1W0JM"",
+  ""KS1254R6D2Y03RHKCVHR"",
+  ""KS1259C5ZCWP0W21KJ6Y"",
+  ""KS120L470LCJFX8WYB2G"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""KS127C1660W6F87D6YQF"",
+  ""ESFA9982A2A945E439CB"",
+  ""KS124RX787SQ1WVD8XF6"",
+  ""KS122PM76DCYL9WC89Y7"",
+  ""KS1220H6DMWTTD1XF9DW"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS441K2756CXYXBG990G"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""ESCFBA0F765A85EB01FB"",
+  ""KSKQAOQWXI50O1JWMNF7"",
+  ""KS123X777H5WFNXQ6BPM"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS123ZN79SWZMGRND27K"",
+  ""ESB17C5AF46AFE08157D"",
+  ""BGSF4EBD46A6D8E67885"",
+  ""KS125TB6YR6236RKM563"",
+  ""KS1200771D9CR9LB4MWW"",
+  ""KS1227F76Q36LXJTZTK1"",
+  ""KS1226Y6DNDT05G7FJ4J""
+]","[
+  ""Databricks"",
+  ""Infrastructure Security"",
+  ""BigQuery"",
+  ""Anti Money Laundering"",
+  ""Apache Hadoop"",
+  ""AWS SageMaker"",
+  ""Solution Architecture"",
+  ""Systems Design"",
+  ""Microsoft Azure"",
+  ""Customer Engagement"",
+  ""Apache Kafka"",
+  ""Amazon Redshift"",
+  ""Kubernetes"",
+  ""AWS Kinesis"",
+  ""Apache Spark"",
+  ""MLflow"",
+  ""Fraud Detection"",
+  ""Data Integration"",
+  ""Applications Of Artificial Intelligence"",
+  ""Application Programming Interface (API)"",
+  ""Machine Learning Algorithms"",
+  ""Enterprise Architecture"",
+  ""Interoperability"",
+  ""Enterprise Application Integration"",
+  ""Java (Programming Language)"",
+  ""Detail Oriented"",
+  ""OpenShift"",
+  ""Analytical Skills"",
+  ""Scalability"",
+  ""Data Modeling"",
+  ""Cloud Computing Architecture"",
+  ""Machine Learning"",
+  ""Troubleshooting (Problem Solving)"",
+  ""Amazon Web Services"",
+  ""Kubeflow"",
+  ""Apache Cassandra"",
+  ""Sales"",
+  ""Artificial Intelligence"",
+  ""Core Product"",
+  ""Advanced Analytics"",
+  ""Energy Management"",
+  ""PostgreSQL"",
+  ""JavaScript (Programming Language)"",
+  ""Computer Networks"",
+  ""Computer Science""
+]","[
+  ""KSOH5A22ONUFT1ISMMC5"",
+  ""ESFD78E44C463297B830"",
+  ""KS121026NSR9PPXHM8S1"",
+  ""KS7G05V6LRKY1PMN9GQG"",
+  ""KS124KS624R3L2W8RKM6"",
+  ""ES2133DA6434CF028833"",
+  ""KS440RW6M035NGGH4ZBC"",
+  ""KS4415B77WWH2WCSVHCV"",
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""KS122B568MKWX1K9STGP"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KSZ61G2PSJVHHYDCWD9V"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""ES4512E57CF178E77F7B"",
+  ""KSAS8LK1JG2Y0OLN4C53"",
+  ""ES7A460DFF81957229AF"",
+  ""ESE0F6CC1AC3C6200715"",
+  ""KS122P76RK0FDFPLR32K"",
+  ""KS120BV70XSJ6K0VQ6S5"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS125S466GJGQXS1W0JM"",
+  ""KS1254R6D2Y03RHKCVHR"",
+  ""KS1259C5ZCWP0W21KJ6Y"",
+  ""KS120L470LCJFX8WYB2G"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KS127C1660W6F87D6YQF"",
+  ""KS124RX787SQ1WVD8XF6"",
+  ""KS122PM76DCYL9WC89Y7"",
+  ""KS1220H6DMWTTD1XF9DW"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""ESCFBA0F765A85EB01FB"",
+  ""KSKQAOQWXI50O1JWMNF7"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS123ZN79SWZMGRND27K"",
+  ""ESB17C5AF46AFE08157D"",
+  ""BGSF4EBD46A6D8E67885"",
+  ""KS125TB6YR6236RKM563"",
+  ""KS1200771D9CR9LB4MWW"",
+  ""KS1227F76Q36LXJTZTK1"",
+  ""KS1226Y6DNDT05G7FJ4J""
+]","[
+  ""Databricks"",
+  ""Infrastructure Security"",
+  ""BigQuery"",
+  ""Anti Money Laundering"",
+  ""Apache Hadoop"",
+  ""AWS SageMaker"",
+  ""Solution Architecture"",
+  ""Systems Design"",
+  ""Microsoft Azure"",
+  ""Customer Engagement"",
+  ""Apache Kafka"",
+  ""Amazon Redshift"",
+  ""Kubernetes"",
+  ""AWS Kinesis"",
+  ""Apache Spark"",
+  ""MLflow"",
+  ""Fraud Detection"",
+  ""Data Integration"",
+  ""Applications Of Artificial Intelligence"",
+  ""Application Programming Interface (API)"",
+  ""Machine Learning Algorithms"",
+  ""Enterprise Architecture"",
+  ""Interoperability"",
+  ""Enterprise Application Integration"",
+  ""Java (Programming Language)"",
+  ""OpenShift"",
+  ""Scalability"",
+  ""Data Modeling"",
+  ""Cloud Computing Architecture"",
+  ""Machine Learning"",
+  ""Amazon Web Services"",
+  ""Kubeflow"",
+  ""Apache Cassandra"",
+  ""Artificial Intelligence"",
+  ""Core Product"",
+  ""Advanced Analytics"",
+  ""Energy Management"",
+  ""PostgreSQL"",
+  ""JavaScript (Programming Language)"",
+  ""Computer Networks"",
+  ""Computer Science""
+]",[],[],"[
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""ESFA9982A2A945E439CB"",
+  ""KS441K2756CXYXBG990G"",
+  ""KS123X777H5WFNXQ6BPM""
+]","[
+  ""Detail Oriented"",
+  ""Analytical Skills"",
+  ""Troubleshooting (Problem Solving)"",
+  ""Sales""
+]","[
+  ""KSOH5A22ONUFT1ISMMC5"",
+  ""KS121026NSR9PPXHM8S1"",
+  ""KS124KS624R3L2W8RKM6"",
+  ""ES2133DA6434CF028833"",
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KSZ61G2PSJVHHYDCWD9V"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""ES4512E57CF178E77F7B"",
+  ""KSAS8LK1JG2Y0OLN4C53"",
+  ""ES7A460DFF81957229AF"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KS127C1660W6F87D6YQF"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""ESCFBA0F765A85EB01FB"",
+  ""KSKQAOQWXI50O1JWMNF7"",
+  ""KS125TB6YR6236RKM563"",
+  ""KS1200771D9CR9LB4MWW""
+]","[
+  ""Databricks"",
+  ""BigQuery"",
+  ""Apache Hadoop"",
+  ""AWS SageMaker"",
+  ""Microsoft Azure"",
+  ""Apache Kafka"",
+  ""Amazon Redshift"",
+  ""Kubernetes"",
+  ""AWS Kinesis"",
+  ""Apache Spark"",
+  ""MLflow"",
+  ""Application Programming Interface (API)"",
+  ""Java (Programming Language)"",
+  ""OpenShift"",
+  ""Amazon Web Services"",
+  ""Kubeflow"",
+  ""Apache Cassandra"",
+  ""PostgreSQL"",
+  ""JavaScript (Programming Language)""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,"[
+  ""14.0101"",
+  ""11.0701""
+]","[
+  ""Engineering, General"",
+  ""Computer Science""
+]","[
+  ""14.01"",
+  ""11.07""
+]","[
+  ""Engineering, General"",
+  ""Computer Science""
+]","[
+  ""14"",
+  ""11""
+]","[
+  ""Engineering"",
+  ""Computer and Information Sciences and Support Services""
+]",15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231510,Computer Systems Engineer / Architect,23151012,Enterprise Architect,2315,Network and Systems Engineering,23151012,Enterprise Architect,231510,Computer Systems Engineer / Architect,2315,Network and Systems Engineering,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+0094418d419dc3a48fda36e0f6f5d4f41fd32459,10/29/2024,2024-10-29 13:49:02.217 Z,0,6/19/2024,8/18/2024,,"[
+  ""Company""
+]","[
+  ""lever.co""
+]","[
+  ""https://jobs.lever.co/guidewire/f09a9d3e-fea9-4b68-8400-d34cf344d110""
+]",[],,"Senior Architect, Data Analytics /AI-ML","Senior Architect, Data Analytics /AI-ML
+United States - San Mateo, CAProduct Development And Operations /Hybrid
+	
+Guidewire is searching for an experienced technical architect who is hungry for a rare chance to transform from the inside out. You will work with a diverse group of engineers, data scientists, and risk modelers to evolve a platform and application suite that mesh data and machine learning to tame an expanding array of use cases, including automated underwriting, pricing, directed claims handling, and cyber - the #1 threat to US national security, above nuclear weapons.
+
+
+Who We Are, What We Believe, & What We Build
+Guidewire is the AWS of insurance. As the market leader, 380 insurance companies run on our mission critical platform. Every second, we support underwriters crafting policies and agents settling claims. We believe that making a great decision should not require 100 in-house data scientists. Our products range from cyber risk quantification to potent ML sandboxes. We are a post-IPO company with the vision to revolutionize insurance. There is a lot to be done.
+
+
+Who you are
+You have deep expertise building scalable data analytics and machine learning architectures and deploying them seamlessly in Cloud-native environments. You have a natural curiosity for solving immense technical challenges, among them quantifying the ever-growing threat posed by cyber criminals to the world economy and institutions.
+Responsibilities:
+Design and develop a scalable Cloud-native data analytics platform and solutions
+Own architecture and provide technical leadership to multiple teams and mentor junior engineers on standards and best practices
+Hands-on coding > 30% of the time
+Assess, benchmark and select data analytics technologies
+Own and enforce well-architecture principles such as operational efficiency, scalability, availability, performance, cost and data security
+Identify areas of architectural risk and work with other engineering teams to address them
+Collaborate with stakeholders including product managers, data scientists and insurance domain experts to define requirements and design solutions. To be successful you must drive consensus and balance the needs of many different constituencies
+Represent our technical strategy and architecture with prospective customers during sales visits (typically CIOs and Heads of IT)
+
+
+Qualifications:
+BS or MS degree (Computer Science, Engineering, Mathematics, Statistics or related field)
+5+ years of required work experience with proven track record architecting and delivering scalable data analytics products and solutions
+Extensive experience working on a public cloud-like AWS and its associated tech stack (e.g. EC2, Kubernetes(EKS), ECS, EMR, S3, SageMaker, Redshift, Athena, Airflow, etc.)
+Ability to design large scale distributed Big Data processing systems using technologies such as Hadoop, Spark, Kafka, etc. and open data formats such as Apache Hudi, Iceberg, Parquet, etc..
+Excellent software design and development skills using languages such as Python, Java, Scala, etc.
+Experience with microservices architecture patterns and container technologies such as Docker and Kubernetes
+Hands-on knowledge of cyber-security concepts in operating systems, cross-platform systems, software, network protocols and Cloud infrastructure
+Solid understanding of CI/CD and DevOps and experience with meeting operational SLAs
+Collaborative leadership style and ability to earn the respect of a talented engineering team
+Excellent verbal and written communications skills
+
+
+Preferred:
+Experience in InsurTech, FinTech, and/or P&C domain knowledge
+Experience with data science and machine learning techniques, and operationalizing analytic models (MLOps)
+Experience or sound understanding of GenAI LLM models, frameworks, and tools
+$180,000 - $210,000 a year
+Our salary ranges are determined by role, level, and location. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position across all US locations. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
+
+
+Please note that the compensation details listed in US role postings reflect the base salary only, and do not include bonus, equity, or benefits.
+About Guidewire
+
+
+Guidewire is the platform P&C insurers trust to engage, innovate, and grow efficiently. We combine digital, core, analytics, and AI to deliver our platform as a cloudÂ service. More than 540+ insurers in 40 countries, from new ventures to the largest and most complex in the world,Â run on Guidewire.
+
+
+As a partner to our customers, we continually evolve to enable their success. We are proud of our unparalleled implementation track record with 1600+ successful projects, supported by the largest R D team and partner ecosystem in the industry. Our Marketplace provides hundreds of applications that accelerate integration, localization, and innovation.
+
+
+For more information, please visitÂ www.guidewire.comÂ and follow us on Twitter:Â @Guidewire_PandC.
+
+
+Guidewire Software, Inc. is proud to be an equal opportunity and affirmative action employer. We are committed to an inclusive workplace, and believe that a diversity of perspectives, abilities, and cultures is a key to our success. Qualified applicants will receive consideration without regard to race, color, ancestry, religion, sex, national origin, citizenship, marital status, age, sexual orientation, gender identity, gender expression, veteran status, or disability. All offers are contingent upon passing a criminal history and other background checks where it's applicable to the position.
+
+
+Disability Accommodations and Guidewire's Appeals Process. Guidewire provides accommodations to the hiring process to create a fair opportunity for candidates with disabilities to contend for open positions. Accommodation requests should be directed to (650) 356-4940 orÂ Accommodations@guidewire.com. If things do not go as hoped, we invite you to use our appeals process. Guidewire promises to independently review any denied accommodation and any decision not to offer you the position. The appeals process is the same in either case. Within five business days of receiving a notice of denial of an accommodation, or receiving a notice of your non-selection for a vacancy, call (650) 356-4940 or e-mailÂ Accommodations@guidewire.comÂ to make an appeal. Guidewire will assign a new decision-maker to review the request and/or hiring decision, who will then notify you in writing of a decision within 10 business days.",7/14/2024,25,32533479,Guidewire Software,"Guidewire Software, Inc",FALSE,"[
+  2,
+  3
+]","[
+  ""Bachelor's degree"",
+  ""Master's degree""
+]",2,Bachelor's degree,3,Master's degree,1,Full-time (> 32 hours),5,,FALSE,195000,0,[None],year,210000,180000,"{
+  ""lat"": 37.5629917,
+  ""lon"": -122.3255254
+}",U2FuIE1hdGVvLCBDQQ==,"San Mateo, CA",6081,"San Mateo, CA",41860,"San Francisco-Oakland-Berkeley, CA",6,California,6081,"San Mateo, CA",6081,"San Mateo, CA",41860,"San Francisco-Oakland-Berkeley, CA",41860,"San Francisco-Oakland-Fremont, CA",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ET163D041D412013E4,Data Analytics Architects,senior architect data analytics ai ml,"[
+  ""KS440QQ6NNV7S10DQST6"",
+  ""KS120LB6L380TH8XDXBT"",
+  ""KS120FL70TL0M5THX6GK"",
+  ""KS4425C7820LCHZS7VGX"",
+  ""KS124KS624R3L2W8RKM6"",
+  ""KS1220L60W8P557BJZJS"",
+  ""KS1289H6HWQ73WH5MFRD"",
+  ""KSZX7YZWNR5IDR1I2VMZ"",
+  ""ES3CF32686E20E20F195"",
+  ""ES39E5C01E1593CE9E72"",
+  ""ES3C29978D8548C7127D"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KS122MK65TBR6RDBZL1P"",
+  ""KSZ61G2PSJVHHYDCWD9V"",
+  ""KSY4WFI1S164RQUBSPCC"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""KS1210269P78D7GH8LWY"",
+  ""KS126ZZ7012DHZLZ9GC0"",
+  ""KS121Y26RYW0BS9CNB86"",
+  ""ES5515E43EB7FBC6BB6A"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSAS8LK1JG2Y0OLN4C53"",
+  ""KS120SX6LJL1S06TG6QD"",
+  ""KS124JB619VXG6RQ810C"",
+  ""ESCC8F99B130EAC431A5"",
+  ""KS126706DPFD3354M7YK"",
+  ""KS440Y975RD841M02V3S"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""ES7FC426CC494FB4846B"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""ES5CC048D272E45D3BAE"",
+  ""KS124RX787SQ1WVD8XF6"",
+  ""ES2133DA6434CF028833"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""KS7G1BR6XS3B87GHVMYH"",
+  ""KS123X777H5WFNXQ6BPM"",
+  ""ESA68E69A441441F3A8B"",
+  ""KS122W96T2T9J5PZ0VMP"",
+  ""ES621714B943488C07C8"",
+  ""KS440B06L35CZZ8SMZJN"",
+  ""ESE7D8FAA0A3666ABC22"",
+  ""KS1286T73SZHGSXG52HC"",
+  ""KS1274C6LQKFR9411810"",
+  ""ES6942CD173CAA05BA26"",
+  ""KS120GV6C72JMSZKMTD7"",
+  ""KS122VW78Q67XR4C3ZDW"",
+  ""KS120FQ6DY31LFDWPJR3"",
+  ""KS1226Y6DNDT05G7FJ4J"",
+  ""KS121W46CJXQ5ZQ506MS"",
+  ""KS122PZ6PCZ9JYT0Y5WH""
+]","[
+  ""Software Design"",
+  ""Software Suite"",
+  ""Amazon Elastic Compute Cloud"",
+  ""Writing"",
+  ""Apache Hadoop"",
+  ""Cloud Infrastructure"",
+  ""Quantification"",
+  ""Microservices"",
+  ""Cloud-Native Computing"",
+  ""Operational Efficiency"",
+  ""Domain Knowledge"",
+  ""Data Science"",
+  ""Apache Kafka"",
+  ""Cyber Security"",
+  ""Amazon Redshift"",
+  ""Docker (Software)"",
+  ""Kubernetes"",
+  ""Big Data"",
+  ""Network Protocols"",
+  ""Claims Processing"",
+  ""Financial Technology (FinTech)"",
+  ""Python (Programming Language)"",
+  ""Apache Spark"",
+  ""Underwriting"",
+  ""Leadership"",
+  ""Technical Leadership"",
+  ""Mathematics"",
+  ""Statistics"",
+  ""Machine Learning"",
+  ""Apache Parquet"",
+  ""Java (Programming Language)"",
+  ""MLOps (Machine Learning Operations)"",
+  ""Scalability"",
+  ""AWS SageMaker"",
+  ""Amazon Web Services"",
+  ""ANSYS Meshing"",
+  ""Sales"",
+  ""Apache Airflow"",
+  ""DevOps"",
+  ""Generative Artificial Intelligence"",
+  ""Scala (Programming Language)"",
+  ""Cyber Risk"",
+  ""Public Cloud"",
+  ""Nuclear Weapons"",
+  ""CI/CD"",
+  ""Data Analysis"",
+  ""Operating Systems"",
+  ""Amazon S3"",
+  ""Computer Science"",
+  ""Decision Making"",
+  ""Data Security""
+]","[
+  ""KS440QQ6NNV7S10DQST6"",
+  ""KS120LB6L380TH8XDXBT"",
+  ""KS120FL70TL0M5THX6GK"",
+  ""KS124KS624R3L2W8RKM6"",
+  ""KS1220L60W8P557BJZJS"",
+  ""KS1289H6HWQ73WH5MFRD"",
+  ""KSZX7YZWNR5IDR1I2VMZ"",
+  ""ES3CF32686E20E20F195"",
+  ""ES39E5C01E1593CE9E72"",
+  ""ES3C29978D8548C7127D"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KS122MK65TBR6RDBZL1P"",
+  ""KSZ61G2PSJVHHYDCWD9V"",
+  ""KSY4WFI1S164RQUBSPCC"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""KS1210269P78D7GH8LWY"",
+  ""KS126ZZ7012DHZLZ9GC0"",
+  ""KS121Y26RYW0BS9CNB86"",
+  ""ES5515E43EB7FBC6BB6A"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSAS8LK1JG2Y0OLN4C53"",
+  ""KS120SX6LJL1S06TG6QD"",
+  ""ESCC8F99B130EAC431A5"",
+  ""KS440Y975RD841M02V3S"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""ES7FC426CC494FB4846B"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""ES5CC048D272E45D3BAE"",
+  ""KS124RX787SQ1WVD8XF6"",
+  ""ES2133DA6434CF028833"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""KS7G1BR6XS3B87GHVMYH"",
+  ""ESA68E69A441441F3A8B"",
+  ""KS122W96T2T9J5PZ0VMP"",
+  ""ES621714B943488C07C8"",
+  ""KS440B06L35CZZ8SMZJN"",
+  ""ESE7D8FAA0A3666ABC22"",
+  ""KS1286T73SZHGSXG52HC"",
+  ""KS1274C6LQKFR9411810"",
+  ""ES6942CD173CAA05BA26"",
+  ""KS120GV6C72JMSZKMTD7"",
+  ""KS122VW78Q67XR4C3ZDW"",
+  ""KS120FQ6DY31LFDWPJR3"",
+  ""KS1226Y6DNDT05G7FJ4J"",
+  ""KS122PZ6PCZ9JYT0Y5WH""
+]","[
+  ""Software Design"",
+  ""Software Suite"",
+  ""Amazon Elastic Compute Cloud"",
+  ""Apache Hadoop"",
+  ""Cloud Infrastructure"",
+  ""Quantification"",
+  ""Microservices"",
+  ""Cloud-Native Computing"",
+  ""Operational Efficiency"",
+  ""Domain Knowledge"",
+  ""Data Science"",
+  ""Apache Kafka"",
+  ""Cyber Security"",
+  ""Amazon Redshift"",
+  ""Docker (Software)"",
+  ""Kubernetes"",
+  ""Big Data"",
+  ""Network Protocols"",
+  ""Claims Processing"",
+  ""Financial Technology (FinTech)"",
+  ""Python (Programming Language)"",
+  ""Apache Spark"",
+  ""Underwriting"",
+  ""Technical Leadership"",
+  ""Statistics"",
+  ""Machine Learning"",
+  ""Apache Parquet"",
+  ""Java (Programming Language)"",
+  ""MLOps (Machine Learning Operations)"",
+  ""Scalability"",
+  ""AWS SageMaker"",
+  ""Amazon Web Services"",
+  ""ANSYS Meshing"",
+  ""Apache Airflow"",
+  ""DevOps"",
+  ""Generative Artificial Intelligence"",
+  ""Scala (Programming Language)"",
+  ""Cyber Risk"",
+  ""Public Cloud"",
+  ""Nuclear Weapons"",
+  ""CI/CD"",
+  ""Data Analysis"",
+  ""Operating Systems"",
+  ""Amazon S3"",
+  ""Computer Science"",
+  ""Data Security""
+]",[],[],"[
+  ""KS4425C7820LCHZS7VGX"",
+  ""KS124JB619VXG6RQ810C"",
+  ""KS126706DPFD3354M7YK"",
+  ""KS123X777H5WFNXQ6BPM"",
+  ""KS121W46CJXQ5ZQ506MS""
+]","[
+  ""Writing"",
+  ""Leadership"",
+  ""Mathematics"",
+  ""Sales"",
+  ""Decision Making""
+]","[
+  ""KS120LB6L380TH8XDXBT"",
+  ""KS120FL70TL0M5THX6GK"",
+  ""KS124KS624R3L2W8RKM6"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KSZ61G2PSJVHHYDCWD9V"",
+  ""KSY4WFI1S164RQUBSPCC"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSAS8LK1JG2Y0OLN4C53"",
+  ""ES7FC426CC494FB4846B"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""ES2133DA6434CF028833"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""ESA68E69A441441F3A8B"",
+  ""ES621714B943488C07C8"",
+  ""KS440B06L35CZZ8SMZJN"",
+  ""KS122VW78Q67XR4C3ZDW"",
+  ""KS120FQ6DY31LFDWPJR3""
+]","[
+  ""Software Suite"",
+  ""Amazon Elastic Compute Cloud"",
+  ""Apache Hadoop"",
+  ""Apache Kafka"",
+  ""Amazon Redshift"",
+  ""Docker (Software)"",
+  ""Kubernetes"",
+  ""Python (Programming Language)"",
+  ""Apache Spark"",
+  ""Apache Parquet"",
+  ""Java (Programming Language)"",
+  ""AWS SageMaker"",
+  ""Amazon Web Services"",
+  ""Apache Airflow"",
+  ""Generative Artificial Intelligence"",
+  ""Scala (Programming Language)"",
+  ""Operating Systems"",
+  ""Amazon S3""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,"[
+  ""11.0701"",
+  ""14.0101"",
+  ""27.0101"",
+  ""27.0501"",
+  ""22.0101"",
+  ""22.0210""
+]","[
+  ""Computer Science"",
+  ""Engineering, General"",
+  ""Mathematics, General"",
+  ""Statistics, General"",
+  ""Law"",
+  ""International Business, Trade, and Tax Law""
+]","[
+  ""11.07"",
+  ""14.01"",
+  ""27.01"",
+  ""27.05"",
+  ""22.01"",
+  ""22.02""
+]","[
+  ""Computer Science"",
+  ""Engineering, General"",
+  ""Mathematics"",
+  ""Statistics"",
+  ""Law"",
+  ""Legal Research and Advanced Professional Studies""
+]","[
+  ""11"",
+  ""14"",
+  ""27"",
+  ""27"",
+  ""22"",
+  ""22""
+]","[
+  ""Computer and Information Sciences and Support Services"",
+  ""Engineering"",
+  ""Mathematics and Statistics"",
+  ""Mathematics and Statistics"",
+  ""Legal Professions and Studies"",
+  ""Legal Professions and Studies""
+]",15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231113,Data / Data Mining Analyst,23111310,Data Analyst,2311,Data Analysis and Mathematics,23111310,Data Analyst,231113,Data / Data Mining Analyst,2311,Data Analysis and Mathematics,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  5,
+  7
+]","[
+  ""Cybersecurity"",
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+869ab0ddb1fee45911ef8df7221ebeaf39487feb,9/6/2024,2024-09-06 20:32:57.352 Z,1,7/4/2024,7/21/2024,17,"[
+  ""Job Board"",
+  ""Company""
+]","[
+  ""builtinboston.com"",
+  ""klaviyo.com""
+]","[
+  ""https://www.klaviyo.com/careers/jobs/5967149003/?gh_jid=5967149003"",
+  ""https://www.builtinboston.com/job/senior-advanced-analytics-specialist-customer-success-analytics-operations/138587""
+]",[],,"Senior Data Science Analyst, Customer Success Analytics & Operations","Senior Data Science Analyst, Customer Success Analytics & Operations
+KLAVIYO | BOSTON, MA, USA | HYBRID
+EMPLOYER PROVIDED SALARY: 96,000-144,000 ANNUALLY
+
+At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the traditional job requirements. If you're a close but not exact match with the description, we hope you'll still consider applying. Want to learn more about life at Klaviyo? Visit careers.klaviyo.com to see how we empower creators to own their own destiny.
+Summary:
+Klaviyo is looking for a Senior Advanced Analyst / Data Scientist to join our growing Customer Success Analytics & Operations team. In this role, you will report to the Senior Manager, OPS & Analytics. The successful candidate will leverage their quantitative and technical skillset, analyze data and build customer journey, archetype, and maturity models, and partner closely with Customer Success and Go-to-Market leadership. This role will have a meaningful impact via developing and maintaining models and delivering data-driven insights, analyzing customer behavior & business drivers, and developing strategies and solutions to drive results for Klaviyo's customers.
+The successful candidate will be instrumental in driving greater insight and measurement of the customer experience and identifying benchmarks for success, leading to improved customer strategies and greater retention and expansion outcomes for Klaviyo.
+The ideal candidate is intellectually curious, strategically and analytically minded, proactive in seeking solutions to challenging problems, and highly focused on solving problems for our customers by leveraging data science methodologies. This role requires a blend of analytical skills with a strategic mindset and a proven ability to communicate effectively with senior leadership.
+How you will make a difference:
+
+
+Collaborate with senior leaders across Go-To-Market operations and the Customer Success team, to drive strategic analytics and support initiatives that shape the growth trajectory of Klaviyo
+Determine appropriate modeling methodology, and subsequently build, train, deploy, and maintain predictive models (e.g., build model drift monitoring) that can proactively identify Customer opportunities and drive customer success.
+Own and develop reporting and analytics resources, identify and create new benchmarks and metrics that drive customer success, and tell data driven stories about the health of Klaviyo's customers
+Scope and plan end-to-end advanced analytics projects by identifying the business problem, leading exploratory data analysis, determining critical key performance indicators (KPIs) and implementing data-based solutions for appropriate business stakeholders.
+Dissect trends, quantify opportunities, and undertake customer and driver based journey analytics to support business planning & strategic decision making within Customer Success
+Convey findings in a cohesive story, including summarizing insights from analyses, identifying next steps and providing recommendations
+Collaborate with cross-functional teams across disciplines such as CS Systems & Engineering, Sales Operations, Marketing Operations, Product, Business Intelligence, Data Science and Finance
+
+
+Who you are:
+
+
+You have 5+ years of professional experience in an advanced analytics or data science role; prior experience with SaaS an advantage
+You have experience working with various supervised (e.g., regression, classification, decision trees) and unsupervised (clustering, principal component analysis, anomaly detection) data science modeling techniques to drive business decision making and outcomes
+You possess advanced experience working with Python, SQL R, DBT, Github, and Excel to support operating efficiently and developing solutions at scale
+You have experience modeling within Python packages (e.g., pandas, numpy, scikit-learn, xgboost, statsmodels) and building data visualization across various platforms (e.g., Tableau, Thoughtspot, matplotlib, seaborn, ggplot2, plotly, shiny).
+You have well developed communication and organizational skills, a demonstrated ability working cross functionally to partner with Senior Business leaders, experience operating to a roadmap, managing projects and setting clear milestones and deliverables, and experience preparing materials for an executive audience
+You balance attention to detail with swift execution, taking ownership and delivering work product in a timely manner to drive outcomes
+You are comfortable operating autonomously with a bias towards action, learning and constant iteration
+
+
+Get to know Klaviyo:
+Klaviyo is a world-leading marketing automation platform dedicated to accelerating revenue and customer connection for online businesses. Klaviyo makes it easy to store, access, analyze and use transactional and behavioral data to power highly-targeted customer and prospect communications. The company's hybrid customer-data and marketing-platform model allows companies to grow by fostering direct relationships with customers, without giving up their valuable data to popular big-tech ad platforms. Over 265,000 innovative companies like Unilever, Custom Ink, Living Proof and Huckberry sell more with Klaviyo. Learn more at www.klaviyo.com .
+#LI-Hybrid #LI-Dee
+The pay range for this role is listed below. Sales roles are also eligible for variable compensation and hourly non-exempt roles are eligible for overtime in accordance with applicable law. This role is eligible for benefits, including: medical, dental and vision coverage, health savings accounts, flexible spending accounts, 401(k), flexible paid time off and company-paid holidays and a culture of learning that includes a learning allowance and access to a professional coaching service for all employees.
+Base Pay Range For US Locations:
+$96,000 - $144,000 USD
+Get to Know Klaviyo
+We're Klaviyo (pronounced clay-vee-oh). We empower creators to own their destiny by making first-party data accessible and actionable like never before. We see limitless potential for the technology we're developing to nurture personalized experiences in ecommerce and beyond. To reach our goals, we need our own crew of remarkable creators-ambitious and collaborative teammates who stay focused on our north star: delighting our customers. If you're ready to do the best work of your career, where you'll be welcomed as your whole self from day one and supported with generous benefits, we hope you'll join us.
+Klaviyo is committed to a policy of equal opportunity and non-discrimination. We do not discriminate on the basis of race, ethnicity, citizenship, national origin, color, religion or religious creed, age, sex (including pregnancy), gender identity, sexual orientation, physical or mental disability, veteran or active military status, marital status, criminal record, genetics, retaliation, sexual harassment or any other characteristic protected by applicable law.
+IMPORTANT NOTICE: Our company takes the security and privacy of job applicants very seriously. We will never ask for payment, bank details, or personal financial information as part of the application process. All our legitimate job postings can be found on our official career site. Please be cautious of job offers that come from non-company email addresses (@klaviyo.com), instant messaging platforms, or unsolicited calls.",7/21/2024,17,33524207,Klaviyo,Klaviyo,FALSE,"[
+  99
+]","[
+  ""No Education Listed""
+]",99,No Education Listed,,,1,Full-time (> 32 hours),5,,FALSE,120000,0,[None],year,144000,96000,"{
+  ""lat"": 42.3600825,
+  ""lon"": -71.0588801
+}",Qm9zdG9uLCBNQQ==,"Boston, MA",25025,"Suffolk, MA",14460,"Boston-Cambridge-Newton, MA-NH",25,Massachusetts,25025,"Suffolk, MA",25025,"Suffolk, MA",14460,"Boston-Cambridge-Newton, MA-NH",14460,"Boston-Cambridge-Newton, MA-NH",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ETF71F082D7C98CD42,Customer Success Analysts,senior data science analyst customer success analytics operations,"[
+  ""KS121YL65WGC33FY3HZQ"",
+  ""KS1265N6Q8R9WTY8PB27"",
+  ""KS126L563YF9YNQQQ832"",
+  ""KS120HN74DS7P7PZF5YG"",
+  ""KS122556LMQ829GZCCRV"",
+  ""KS1274P66LZKSR1F2YCT"",
+  ""ES1F14881F9BAB441220"",
+  ""KSGWPO6DSN70GRY20JFT"",
+  ""KSJ2QBJ158RE1QN9D3AZ"",
+  ""KS123RH5XSDNMXJPM4KR"",
+  ""KS124CH623PFBJS8T5KM"",
+  ""ESFA9982A2A945E439CB"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""KS1267F6MSPN366LX7ST"",
+  ""KS123MC78KV644P5DDZ0"",
+  ""KSQBZOLDF5TG9ONHRLZG"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSXGXI686SOYIFSM2YFY"",
+  ""KS124BW79LS2QVPP3R67"",
+  ""KS1219K6K2NY0V711DDD"",
+  ""KS125MK6L8XN70ZS40ZY"",
+  ""KS1258Z5Y0RFS07P4JJM"",
+  ""KS124JB619VXG6RQ810C"",
+  ""KS121W46CJXQ5ZQ506MS"",
+  ""ES8F73CC75C618D72F72"",
+  ""KSMUBZFCHO7RG88TFU2G"",
+  ""ES4E81D4E042F468C897"",
+  ""KS128006L3V0HM2B26N5"",
+  ""KS120ZX7019J4V8DHBTM"",
+  ""KS127D361PF0FTXDZ7C4"",
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""KS1280Y78Z7S6RND0SL6"",
+  ""ES3CDF4F5564949F81DB"",
+  ""ES8B03DAD3B526316ED9"",
+  ""KS1200H6XYN1CR0G5NZ0"",
+  ""ES51980193663083AED5"",
+  ""KS1220G68PD5STH2DL2W"",
+  ""KS4407J6G3HPTRRSNZR6"",
+  ""ES36BB7D95D0BF489852"",
+  ""KS121Z26S4VJLQ1WXN21"",
+  ""KSCPTRNORT3A13KPLNQS"",
+  ""KS1219570C4LCP9ND4FH"",
+  ""ESB17C5AF46AFE08157D"",
+  ""KS122Q960QYMW3YH0YWF"",
+  ""KS126796RG0M9JRLKDQY"",
+  ""KS441626TDSV2J6GBB86"",
+  ""KS124DQ6JX0NX9DBFDM8"",
+  ""KS440W865GC4VRBW6LJP""
+]","[
+  ""Decision Tree Learning"",
+  ""Marketing Operations"",
+  ""Milestones (Project Management)"",
+  ""Anomaly Detection"",
+  ""Communication"",
+  ""NumPy (Python Package)"",
+  ""Shiny (R Package)"",
+  ""Pandas (Python Package)"",
+  ""Scikit-Learn (Python Package)"",
+  ""Exploratory Data Analysis"",
+  ""Github"",
+  ""Analytical Skills"",
+  ""Data Science"",
+  ""Project Management"",
+  ""Finance"",
+  ""Statsmodels"",
+  ""Python (Programming Language)"",
+  ""Seaborn"",
+  ""Ggplot2"",
+  ""Consumer Behaviour"",
+  ""Key Performance Indicators (KPIs)"",
+  ""Instant Messaging"",
+  ""Leadership"",
+  ""Decision Making"",
+  ""Sales Prospecting"",
+  ""Xgboost"",
+  ""Strategic Decision Making"",
+  ""Predictive Modeling"",
+  ""Business Intelligence"",
+  ""Operations"",
+  ""Detail Oriented"",
+  ""Principal Component Analysis"",
+  ""Go-to-Market Strategy"",
+  ""Organizational Skills"",
+  ""Microsoft Excel"",
+  ""Customer Success Management"",
+  ""Software As A Service (SaaS)"",
+  ""Sales Operations"",
+  ""Intellectual Curiosity"",
+  ""Customer Service"",
+  ""Plotly"",
+  ""Business Planning"",
+  ""Advanced Analytics"",
+  ""Data Visualization"",
+  ""Matplotlib (Python Package)"",
+  ""Tableau (Business Intelligence Software)"",
+  ""R (Programming Language)"",
+  ""SQL (Programming Language)""
+]","[
+  ""KS121YL65WGC33FY3HZQ"",
+  ""KS1265N6Q8R9WTY8PB27"",
+  ""KS126L563YF9YNQQQ832"",
+  ""KS120HN74DS7P7PZF5YG"",
+  ""KS1274P66LZKSR1F2YCT"",
+  ""ES1F14881F9BAB441220"",
+  ""KSGWPO6DSN70GRY20JFT"",
+  ""KSJ2QBJ158RE1QN9D3AZ"",
+  ""KS123RH5XSDNMXJPM4KR"",
+  ""KS124CH623PFBJS8T5KM"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""KS1267F6MSPN366LX7ST"",
+  ""KS123MC78KV644P5DDZ0"",
+  ""KSQBZOLDF5TG9ONHRLZG"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSXGXI686SOYIFSM2YFY"",
+  ""KS124BW79LS2QVPP3R67"",
+  ""KS1219K6K2NY0V711DDD"",
+  ""KS125MK6L8XN70ZS40ZY"",
+  ""KS1258Z5Y0RFS07P4JJM"",
+  ""ES8F73CC75C618D72F72"",
+  ""KSMUBZFCHO7RG88TFU2G"",
+  ""ES4E81D4E042F468C897"",
+  ""KS128006L3V0HM2B26N5"",
+  ""KS120ZX7019J4V8DHBTM"",
+  ""KS1280Y78Z7S6RND0SL6"",
+  ""ES3CDF4F5564949F81DB"",
+  ""ES51980193663083AED5"",
+  ""KS1220G68PD5STH2DL2W"",
+  ""KS4407J6G3HPTRRSNZR6"",
+  ""KSCPTRNORT3A13KPLNQS"",
+  ""KS1219570C4LCP9ND4FH"",
+  ""ESB17C5AF46AFE08157D"",
+  ""KS122Q960QYMW3YH0YWF"",
+  ""KS126796RG0M9JRLKDQY"",
+  ""KS441626TDSV2J6GBB86"",
+  ""KS124DQ6JX0NX9DBFDM8"",
+  ""KS440W865GC4VRBW6LJP""
+]","[
+  ""Decision Tree Learning"",
+  ""Marketing Operations"",
+  ""Milestones (Project Management)"",
+  ""Anomaly Detection"",
+  ""NumPy (Python Package)"",
+  ""Shiny (R Package)"",
+  ""Pandas (Python Package)"",
+  ""Scikit-Learn (Python Package)"",
+  ""Exploratory Data Analysis"",
+  ""Github"",
+  ""Data Science"",
+  ""Project Management"",
+  ""Finance"",
+  ""Statsmodels"",
+  ""Python (Programming Language)"",
+  ""Seaborn"",
+  ""Ggplot2"",
+  ""Consumer Behaviour"",
+  ""Key Performance Indicators (KPIs)"",
+  ""Instant Messaging"",
+  ""Sales Prospecting"",
+  ""Xgboost"",
+  ""Strategic Decision Making"",
+  ""Predictive Modeling"",
+  ""Business Intelligence"",
+  ""Principal Component Analysis"",
+  ""Go-to-Market Strategy"",
+  ""Customer Success Management"",
+  ""Software As A Service (SaaS)"",
+  ""Sales Operations"",
+  ""Plotly"",
+  ""Business Planning"",
+  ""Advanced Analytics"",
+  ""Data Visualization"",
+  ""Matplotlib (Python Package)"",
+  ""Tableau (Business Intelligence Software)"",
+  ""R (Programming Language)"",
+  ""SQL (Programming Language)""
+]",[],[],"[
+  ""KS122556LMQ829GZCCRV"",
+  ""ESFA9982A2A945E439CB"",
+  ""KS124JB619VXG6RQ810C"",
+  ""KS121W46CJXQ5ZQ506MS"",
+  ""KS127D361PF0FTXDZ7C4"",
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""ES8B03DAD3B526316ED9"",
+  ""KS1200H6XYN1CR0G5NZ0"",
+  ""ES36BB7D95D0BF489852"",
+  ""KS121Z26S4VJLQ1WXN21""
+]","[
+  ""Communication"",
+  ""Analytical Skills"",
+  ""Leadership"",
+  ""Decision Making"",
+  ""Operations"",
+  ""Detail Oriented"",
+  ""Organizational Skills"",
+  ""Microsoft Excel"",
+  ""Intellectual Curiosity"",
+  ""Customer Service""
+]","[
+  ""KS1274P66LZKSR1F2YCT"",
+  ""ES1F14881F9BAB441220"",
+  ""KSGWPO6DSN70GRY20JFT"",
+  ""KSJ2QBJ158RE1QN9D3AZ"",
+  ""KS124CH623PFBJS8T5KM"",
+  ""KSQBZOLDF5TG9ONHRLZG"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSXGXI686SOYIFSM2YFY"",
+  ""KS124BW79LS2QVPP3R67"",
+  ""KSMUBZFCHO7RG88TFU2G"",
+  ""KS1200H6XYN1CR0G5NZ0"",
+  ""KSCPTRNORT3A13KPLNQS"",
+  ""KS126796RG0M9JRLKDQY"",
+  ""KS441626TDSV2J6GBB86"",
+  ""KS124DQ6JX0NX9DBFDM8"",
+  ""KS440W865GC4VRBW6LJP""
+]","[
+  ""NumPy (Python Package)"",
+  ""Shiny (R Package)"",
+  ""Pandas (Python Package)"",
+  ""Scikit-Learn (Python Package)"",
+  ""Github"",
+  ""Statsmodels"",
+  ""Python (Programming Language)"",
+  ""Seaborn"",
+  ""Ggplot2"",
+  ""Xgboost"",
+  ""Microsoft Excel"",
+  ""Plotly"",
+  ""Matplotlib (Python Package)"",
+  ""Tableau (Business Intelligence Software)"",
+  ""R (Programming Language)"",
+  ""SQL (Programming Language)""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,[],[],[],[],[],[],15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231113,Data / Data Mining Analyst,23111310,Data Analyst,2311,Data Analysis and Mathematics,23111310,Data Analyst,231113,Data / Data Mining Analyst,2311,Data Analysis and Mathematics,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+75a899f60472fef24729a24c1c418f77ceba9985,9/6/2024,2024-09-06 20:32:57.352 Z,0,7/12/2024,7/20/2024,8,"[
+  ""Company""
+]","[
+  ""klaviyo.com""
+]","[
+  ""https://www.klaviyo.com/careers/jobs/5971097003/?gh_jid=5971097003""
+]",[],,"Senior Data Science Analyst, Customer Success Analytics & Operations","Senior Data Science Analyst, Customer Success Analytics & Operations
+Go-to-market Operations
+Denver, CO
+Senior Data Science Analyst, Customer Success Analytics & Operations
+
+At Klaviyo, we value the unique backgrounds, experiences and perspectives each Klaviyo (we call ourselves Klaviyos) brings to our workplace each and every day. We believe everyone deserves a fair shot at success and appreciate the experiences each person brings beyond the traditional job requirements. If you're a close but not exact match with the description, we hope you'll still consider applying. Want to learn more about life at Klaviyo? Visit careers.klaviyo.com to see how we empower creators to own their own destiny.
+
+Summary:
+
+Klaviyo is looking for a Senior Advanced Analyst / Data Scientist to join our growing Customer Success Analytics & Operations team. In this role, you will report to the Senior Manager, OPS & Analytics. The successful candidate will leverage their quantitative and technical skillset, analyze data and build customer journey, archetype, and maturity models, and partner closely with Customer Success and Go-to-Market leadership. This role will have a meaningful impact via developing and maintaining models and delivering data-driven insights, analyzing customer behavior & business drivers, and developing strategies and solutions to drive results for Klaviyo's customers.Â 
+
+The successful candidate will be instrumental in driving greater insight and measurement of the customer experience and identifying benchmarks for success, leading to improved customer strategies and greater retention and expansion outcomes for Klaviyo.Â 
+
+The ideal candidate is intellectually curious, strategically and analytically minded, proactive in seeking solutions to challenging problems, and highly focused on solving problems for our customers by leveraging data science methodologies. This role requires a blend of analytical skills with a strategic mindset and a proven ability to communicate effectively with senior leadership.
+
+How you will make a difference:
+
+Collaborate with senior leaders across Go-To-Market operations and the Customer Success team, to drive strategic analytics and support initiatives that shape the growth trajectory of Klaviyo
+Determine appropriate modeling methodology, and subsequently build, train, deploy, and maintain predictive models (e.g., build model drift monitoring) that can proactively identify Customer opportunities and drive customer success.
+Own and develop reporting and analytics resources, identify and create new benchmarks and metrics that drive customer success, and tell data driven stories about the health of Klaviyo's customers
+Scope and plan end-to-end advanced analytics projects by identifying the business problem, leading exploratory data analysis, determining critical key performance indicators (KPIs) and implementing data-based solutions for appropriate business stakeholders.
+Dissect trends, quantify opportunities, and undertake customer and driver based journey analytics to support business planning & strategic decision making within Customer Success
+Convey findings in a cohesive story, including summarizing insights from analyses, identifying next steps and providing recommendations
+Collaborate with cross-functional teams across disciplines such as CS Systems & Engineering, Sales Operations, Marketing Operations, Product, Business Intelligence, Data Science and Finance
+
+Who you are:
+
+You have 5+ years of professional experience in an advanced analytics or data science role; prior experience with SaaS an advantage
+You have experience working with various supervised (e.g., regression, classification, decision trees) and unsupervised (clustering, principal component analysis, anomaly detection) data science modeling techniques to drive business decision making and outcomes
+You possess advanced experience working with Python, SQL R, DBT, Github, and Excel to support operating efficiently and developing solutions at scale
+You have experience modeling within Python packages (e.g., pandas, numpy, scikit-learn, xgboost, statsmodels) and building data visualization across various platforms (e.g., Tableau, Thoughtspot, matplotlib, seaborn, ggplot2, plotly, shiny).
+You have well developed communication and organizational skills, a demonstrated ability working cross functionally to partner with Senior Business leaders, experience operating to a roadmap, managing projects and setting clear milestones and deliverables, and experience preparing materials for an executive audience
+You balance attention to detail with swift execution, taking ownership and delivering work product in a timely manner to drive outcomesÂ 
+You are comfortable operating autonomously with a bias towards action, learning and constant iteration
+
+Get to know Klaviyo:
+
+Klaviyo is a world-leading marketing automation platform dedicated to accelerating revenue and customer connection for online businesses. Klaviyo makes it easy to store, access, analyze and use transactional and behavioral data to power highly-targeted customer and prospect communications. The company's hybrid customer-data and marketing-platform model allows companies to grow by fostering direct relationships with customers, without giving up their valuable data to popular big-tech ad platforms. Over 265,000 innovative companies like Unilever, Custom Ink, Living Proof and Huckberry sell more with Klaviyo. Learn more at www.klaviyo.com.
+
+#LI-Hybrid #LI-Dee
+
+The pay range for this role is listed below. Sales roles are also eligible for variable compensation and hourly non-exempt roles are eligible for overtime in accordance with applicable law. This role is eligible for benefits, including: medical, dental and vision coverage, health savings accounts, flexible spending accounts, 401(k), flexible paid time off and company-paid holidays and a culture of learning that includes a learning allowance and access to a professional coaching service for all employees.
+
+Base Pay Range For US Locations:
+$96,000â€”$144,000 USD
+
+Get to Know Klaviyo
+
+We're Klaviyo (pronounced clay-vee-oh). We empower creators to own their destiny by making first-party data accessible and actionable like never before. We see limitless potential for the technology we're developing to nurture personalized experiences in ecommerce and beyond. To reach our goals, we need our own crew of remarkable creatorsâ€”ambitious and collaborative teammates who stay focused on our north star: delighting our customers. If you're ready to do the best work of your career, where you'll be welcomed as your whole self from day one and supported with generous benefits, we hope you'll join us.
+
+Klaviyo is committed to a policy of equal opportunity and non-discrimination. We do not discriminate on the basis of race, ethnicity, citizenship, national origin, color, religion or religious creed, age, sex (including pregnancy), gender identity, sexual orientation, physical or mental disability, veteran or active military status, marital status, criminal record, genetics, retaliation, sexual harassment or any other characteristic protected by applicable law.
+
+IMPORTANT NOTICE: Our company takes the security and privacy of job applicants very seriously. We will never ask for payment, bank details, or personal financial information as part of the application process. All our legitimate job postings can be found on our official career site. Please be cautious of job offers that come from non-company email addresses (@klaviyo.com), instant messaging platforms, or unsolicited calls.",7/20/2024,8,33524207,Klaviyo,Klaviyo,FALSE,"[
+  99
+]","[
+  ""No Education Listed""
+]",99,No Education Listed,,,1,Full-time (> 32 hours),5,,FALSE,,0,[None],,,,"{
+  ""lat"": 39.7392358,
+  ""lon"": -104.990251
+}",RGVudmVyLCBDTw==,"Denver, CO",8031,"Denver, CO",19740,"Denver-Aurora-Lakewood, CO",8,Colorado,8031,"Denver, CO",8031,"Denver, CO",19740,"Denver-Aurora-Lakewood, CO",19740,"Denver-Aurora-Centennial, CO",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ETF71F082D7C98CD42,Customer Success Analysts,senior data science analyst customer success analytics operations,"[
+  ""KS121YL65WGC33FY3HZQ"",
+  ""KS1265N6Q8R9WTY8PB27"",
+  ""KS126L563YF9YNQQQ832"",
+  ""KS120HN74DS7P7PZF5YG"",
+  ""KS122556LMQ829GZCCRV"",
+  ""KS1274P66LZKSR1F2YCT"",
+  ""ES1F14881F9BAB441220"",
+  ""KSGWPO6DSN70GRY20JFT"",
+  ""KSJ2QBJ158RE1QN9D3AZ"",
+  ""KS123RH5XSDNMXJPM4KR"",
+  ""KS124CH623PFBJS8T5KM"",
+  ""ESFA9982A2A945E439CB"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""KS1267F6MSPN366LX7ST"",
+  ""KS123MC78KV644P5DDZ0"",
+  ""KSQBZOLDF5TG9ONHRLZG"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSXGXI686SOYIFSM2YFY"",
+  ""KS124BW79LS2QVPP3R67"",
+  ""KS1219K6K2NY0V711DDD"",
+  ""KS125MK6L8XN70ZS40ZY"",
+  ""KS1258Z5Y0RFS07P4JJM"",
+  ""KS124JB619VXG6RQ810C"",
+  ""KS121W46CJXQ5ZQ506MS"",
+  ""ES8F73CC75C618D72F72"",
+  ""KSMUBZFCHO7RG88TFU2G"",
+  ""ES4E81D4E042F468C897"",
+  ""KS128006L3V0HM2B26N5"",
+  ""KS120ZX7019J4V8DHBTM"",
+  ""KS127D361PF0FTXDZ7C4"",
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""KS1280Y78Z7S6RND0SL6"",
+  ""ES3CDF4F5564949F81DB"",
+  ""ES8B03DAD3B526316ED9"",
+  ""KS1200H6XYN1CR0G5NZ0"",
+  ""ES51980193663083AED5"",
+  ""KS1220G68PD5STH2DL2W"",
+  ""KS4407J6G3HPTRRSNZR6"",
+  ""ES36BB7D95D0BF489852"",
+  ""KS121Z26S4VJLQ1WXN21"",
+  ""KSCPTRNORT3A13KPLNQS"",
+  ""KS1219570C4LCP9ND4FH"",
+  ""ESB17C5AF46AFE08157D"",
+  ""KS122Q960QYMW3YH0YWF"",
+  ""KS126796RG0M9JRLKDQY"",
+  ""KS441626TDSV2J6GBB86"",
+  ""KS124DQ6JX0NX9DBFDM8"",
+  ""KS440W865GC4VRBW6LJP""
+]","[
+  ""Decision Tree Learning"",
+  ""Marketing Operations"",
+  ""Milestones (Project Management)"",
+  ""Anomaly Detection"",
+  ""Communication"",
+  ""NumPy (Python Package)"",
+  ""Shiny (R Package)"",
+  ""Pandas (Python Package)"",
+  ""Scikit-Learn (Python Package)"",
+  ""Exploratory Data Analysis"",
+  ""Github"",
+  ""Analytical Skills"",
+  ""Data Science"",
+  ""Project Management"",
+  ""Finance"",
+  ""Statsmodels"",
+  ""Python (Programming Language)"",
+  ""Seaborn"",
+  ""Ggplot2"",
+  ""Consumer Behaviour"",
+  ""Key Performance Indicators (KPIs)"",
+  ""Instant Messaging"",
+  ""Leadership"",
+  ""Decision Making"",
+  ""Sales Prospecting"",
+  ""Xgboost"",
+  ""Strategic Decision Making"",
+  ""Predictive Modeling"",
+  ""Business Intelligence"",
+  ""Operations"",
+  ""Detail Oriented"",
+  ""Principal Component Analysis"",
+  ""Go-to-Market Strategy"",
+  ""Organizational Skills"",
+  ""Microsoft Excel"",
+  ""Customer Success Management"",
+  ""Software As A Service (SaaS)"",
+  ""Sales Operations"",
+  ""Intellectual Curiosity"",
+  ""Customer Service"",
+  ""Plotly"",
+  ""Business Planning"",
+  ""Advanced Analytics"",
+  ""Data Visualization"",
+  ""Matplotlib (Python Package)"",
+  ""Tableau (Business Intelligence Software)"",
+  ""R (Programming Language)"",
+  ""SQL (Programming Language)""
+]","[
+  ""KS121YL65WGC33FY3HZQ"",
+  ""KS1265N6Q8R9WTY8PB27"",
+  ""KS126L563YF9YNQQQ832"",
+  ""KS120HN74DS7P7PZF5YG"",
+  ""KS1274P66LZKSR1F2YCT"",
+  ""ES1F14881F9BAB441220"",
+  ""KSGWPO6DSN70GRY20JFT"",
+  ""KSJ2QBJ158RE1QN9D3AZ"",
+  ""KS123RH5XSDNMXJPM4KR"",
+  ""KS124CH623PFBJS8T5KM"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""KS1267F6MSPN366LX7ST"",
+  ""KS123MC78KV644P5DDZ0"",
+  ""KSQBZOLDF5TG9ONHRLZG"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSXGXI686SOYIFSM2YFY"",
+  ""KS124BW79LS2QVPP3R67"",
+  ""KS1219K6K2NY0V711DDD"",
+  ""KS125MK6L8XN70ZS40ZY"",
+  ""KS1258Z5Y0RFS07P4JJM"",
+  ""ES8F73CC75C618D72F72"",
+  ""KSMUBZFCHO7RG88TFU2G"",
+  ""ES4E81D4E042F468C897"",
+  ""KS128006L3V0HM2B26N5"",
+  ""KS120ZX7019J4V8DHBTM"",
+  ""KS1280Y78Z7S6RND0SL6"",
+  ""ES3CDF4F5564949F81DB"",
+  ""ES51980193663083AED5"",
+  ""KS1220G68PD5STH2DL2W"",
+  ""KS4407J6G3HPTRRSNZR6"",
+  ""KSCPTRNORT3A13KPLNQS"",
+  ""KS1219570C4LCP9ND4FH"",
+  ""ESB17C5AF46AFE08157D"",
+  ""KS122Q960QYMW3YH0YWF"",
+  ""KS126796RG0M9JRLKDQY"",
+  ""KS441626TDSV2J6GBB86"",
+  ""KS124DQ6JX0NX9DBFDM8"",
+  ""KS440W865GC4VRBW6LJP""
+]","[
+  ""Decision Tree Learning"",
+  ""Marketing Operations"",
+  ""Milestones (Project Management)"",
+  ""Anomaly Detection"",
+  ""NumPy (Python Package)"",
+  ""Shiny (R Package)"",
+  ""Pandas (Python Package)"",
+  ""Scikit-Learn (Python Package)"",
+  ""Exploratory Data Analysis"",
+  ""Github"",
+  ""Data Science"",
+  ""Project Management"",
+  ""Finance"",
+  ""Statsmodels"",
+  ""Python (Programming Language)"",
+  ""Seaborn"",
+  ""Ggplot2"",
+  ""Consumer Behaviour"",
+  ""Key Performance Indicators (KPIs)"",
+  ""Instant Messaging"",
+  ""Sales Prospecting"",
+  ""Xgboost"",
+  ""Strategic Decision Making"",
+  ""Predictive Modeling"",
+  ""Business Intelligence"",
+  ""Principal Component Analysis"",
+  ""Go-to-Market Strategy"",
+  ""Customer Success Management"",
+  ""Software As A Service (SaaS)"",
+  ""Sales Operations"",
+  ""Plotly"",
+  ""Business Planning"",
+  ""Advanced Analytics"",
+  ""Data Visualization"",
+  ""Matplotlib (Python Package)"",
+  ""Tableau (Business Intelligence Software)"",
+  ""R (Programming Language)"",
+  ""SQL (Programming Language)""
+]",[],[],"[
+  ""KS122556LMQ829GZCCRV"",
+  ""ESFA9982A2A945E439CB"",
+  ""KS124JB619VXG6RQ810C"",
+  ""KS121W46CJXQ5ZQ506MS"",
+  ""KS127D361PF0FTXDZ7C4"",
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""ES8B03DAD3B526316ED9"",
+  ""KS1200H6XYN1CR0G5NZ0"",
+  ""ES36BB7D95D0BF489852"",
+  ""KS121Z26S4VJLQ1WXN21""
+]","[
+  ""Communication"",
+  ""Analytical Skills"",
+  ""Leadership"",
+  ""Decision Making"",
+  ""Operations"",
+  ""Detail Oriented"",
+  ""Organizational Skills"",
+  ""Microsoft Excel"",
+  ""Intellectual Curiosity"",
+  ""Customer Service""
+]","[
+  ""KS1274P66LZKSR1F2YCT"",
+  ""ES1F14881F9BAB441220"",
+  ""KSGWPO6DSN70GRY20JFT"",
+  ""KSJ2QBJ158RE1QN9D3AZ"",
+  ""KS124CH623PFBJS8T5KM"",
+  ""KSQBZOLDF5TG9ONHRLZG"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSXGXI686SOYIFSM2YFY"",
+  ""KS124BW79LS2QVPP3R67"",
+  ""KSMUBZFCHO7RG88TFU2G"",
+  ""KS1200H6XYN1CR0G5NZ0"",
+  ""KSCPTRNORT3A13KPLNQS"",
+  ""KS126796RG0M9JRLKDQY"",
+  ""KS441626TDSV2J6GBB86"",
+  ""KS124DQ6JX0NX9DBFDM8"",
+  ""KS440W865GC4VRBW6LJP""
+]","[
+  ""NumPy (Python Package)"",
+  ""Shiny (R Package)"",
+  ""Pandas (Python Package)"",
+  ""Scikit-Learn (Python Package)"",
+  ""Github"",
+  ""Statsmodels"",
+  ""Python (Programming Language)"",
+  ""Seaborn"",
+  ""Ggplot2"",
+  ""Xgboost"",
+  ""Microsoft Excel"",
+  ""Plotly"",
+  ""Matplotlib (Python Package)"",
+  ""Tableau (Business Intelligence Software)"",
+  ""R (Programming Language)"",
+  ""SQL (Programming Language)""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,[],[],[],[],[],[],15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231113,Data / Data Mining Analyst,23111310,Data Analyst,2311,Data Analysis and Mathematics,23111310,Data Analyst,231113,Data / Data Mining Analyst,2311,Data Analysis and Mathematics,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+af86e8ce518e4926a5dee8b3a90a38d0c0d923ec,10/9/2024,2024-10-09 18:07:44.758 Z,0,7/31/2024,9/29/2024,,"[
+  ""Company""
+]","[
+  ""myworkdayjobs.com""
+]","[
+  ""https://workday.wd5.myworkdayjobs.com/en-us/workday/job/sr-enterprise-architect--ai_jr-0090145""
+]",[],,"Sr. Enterprise Architect, AI","Your work days are brighter here. At Workday, it all began with a conversation over breakfast. When our founders met at a sunny California diner, they came up with an idea to revolutionize the enterprise software market. And when we began to rise, one thing that really set us apart was our culture. A culture which was driven by our value of putting our people first. And ever since, the happiness, development, and contribution of every Workmate is central to who we are. Our Workmates believe a healthy employee-centric, collaborative culture is the essential mix of ingredients for success in business. That's why we look after our people, communities and the planet while still being profitable. Feel encouraged to shine, however that manifests: you don't need to hide who you are. You can feel the energy and the passion, it's what makes us unique. Inspired to make a brighter work day for all and transform with us to the next stage of our growth journey? Bring your brightest version of you and have a brighter work day here. About the Team Our Enterprise Architect team is a customer facing team within oCIO Solution Consulting (Presales). This team is a strategic asset to Global Revenue (Sales) supporting organizations across North America as they evaluate and select Workday as their technology partner. We engage primarily with the offices of CIO, CTO and Business Stakeholders to understand how Workday can accelerate their digital roadmap and transform how they manage their Financial and HCM processes. Workday Enterprise Architects are experts in our Technology Platform which powers our Core Financial, and HCM applications. We partner with our clients to help them understand how Workday will enable true business value, address key requirements, and articulate why Workday is uniquely differentiated because of our technology design. We work hard, and we're serious about what we do, but we like to have fun too. This is a fast-growing business that makes a difference for our customers and their employees! About the Role We are seeking an Enterprise Architect specialist in AI technologies to meet the growing demands of our customers for Generative AI, LLM, and traditional ML solutions. In this customer facing role you will articulate the vision and value of Workday AI, how our approach is differentiated, the key principles of Responsible AI (RAI), and our future roadmap that builds upon our 50+ models currently in production. You will be seen as a thought leader in this emerging space and help craft compelling pre-sales presentations, points-of-view, demonstrations and help enable other EAs across the team. Ideal candidates will have strong experience in Core Business Applications, such as ERP Financials and/or Human Capital Management. Responsibilities: Develop and deliver impactful presentations, software demonstrations, and webinars that showcase the value proposition of Workday AI Assist in sales opportunities by demonstrating a complete understanding of and resolving questions regarding Workday Technology & AI Lead client discovery sessions in partnership with sales to ask qualifying questions, understand pain-points, current state architecture, and future state vision Develop and maintain strong relationships with key decision-makers at prospective client organizations Stay current on the latest AI trends, technologies, and best practices Work collaboratively with Solution Architects, Product Marketing and Product & Technology leaders to bring new AI capabilities to market Ability to travel 50+% of the time About You Do you have a passion for Artificial Intelligence and a knack for translating complex technical concepts into clear business value? Are you excited about helping organizations leverage AI to achieve their strategic goals? Basic Qualifications: 6+ years of expertise with technical knowledge of Software-as-a-Service (SaaS) and Cloud Architectures; preferably in ERP Financials and/or Human Capital Management domains 4+ years' experience presenting to technical, business, and executive audiences both in-person and virtually Other Qualifications: 2+ years of experience in the latest cloud AI/ML concepts and best practices (Generative AI, LLMs, MLOps, ML Security, RAI) Proven experience in a technical sales or sales engineering role, preferably in Data/AI Existing knowledge of Workday application architecture and platform is highly beneficial Experience presenting to technical, business, and executive audiences both in-person and on-line meetings Experience in value selling, Demo2Win or Solution Consulting Methodologies preferred Bachelor or Master's degree in Computer Science, Statistics, Information Systems, or a related field; or equivalent professional experience. Workday Pay Transparency Statement The annualized base salary ranges for the primary location and any additional locations are listed below. Workday pay ranges vary based on work location. As a part of the total compensation package, this role may be eligible for the Workday Bonus Plan or a role-specific commission/bonus, as well as annual refresh stock grants. Recruiters can share more detail during the hiring process. Each candidate's compensation offer will be based on multiple factors including, but not limited to, geography, experience, skills, job duties, and business need, among other things. For more information regarding Workday's comprehensive benefits, please click here. Primary Location: USA.CA.Home Office Primary Location Base Pay Range: $138,500 USD - $208,000 USD Additional US Location(s) Base Pay Range: $138,500 USD - $208,000 USD Our Approach to Flexible Work With Flex Work, we're combining the best of both worlds: in-person time and remote. Our approach enables our teams to deepen connections, maintain a strong community, and do their best work. We know that flexibility can take shape in many ways, so rather than a number of required days in-office each week, we simply spend at least half (50%) of our time each quarter in the office or in the field with our customers, prospects, and partners (depending on role). This means you'll have the freedom to create a flexible schedule that caters to your business, team, and personal needs, while being intentional to make the most of time spent together. Those in our remote ""home office"" roles also have the opportunity to come together in our offices for important moments that matter. Pursuant to applicable Fair Chance law, Workday will consider for employment qualified applicants with arrest and conviction records. Workday is an Equal Opportunity Employer including individuals with disabilities and protected veterans. Are you being referred to one of our roles? If so, ask your connection at Workday about our Employee Referral process! Join our talent community and receive the latest Workday news, content, and be first in line for new job opportunities. Join our Talent Community! Please visit this benefits site! Please visit the Contractor Positions at Workday page With Flex Work, we're combining the best of both worlds: in-person time and remote. Our approach enables our teams to deepen connections, maintain a strong community, and do their best work. We know that flexibility can take shape in many ways, so rather than a number of required days in-office each week, we simply spend at least half (50%) of our time each quarter in the office or in the field with our customers, prospects, and partners (depending on role). This means you'll have the freedom to create a flexible schedule that caters to your business, team, and personal needs, while being intentional to make the most of time spent together. Those in our remote ""home office"" roles also have the opportunity to come together in our offices for important moments that matter. At Workday, our employees have always been our number one Core Value. We understand that everyone has unique experiences and perspectives which is why our mission is to create a safe space where all people and ideas are welcomed. Our commitment to value inclusion, belonging, and equity (VIBEâ„¢) and creating a brighter workday for all is the cornerstone of all we do. Join us! Workday is a leading provider of enterprise cloud applications for finance and human resources. Founded in 2005, Workday delivers financial management, human capital management, and analytics applications designed for the world's largest companies, educational institutions, and government agencies. Organizations ranging from medium-sized businesses to Fortune 50 enterprises have selected Workday. Workday is proud to be an equal opportunity workplace. Individuals seeking employment at Workday are considered without regards to age, ancestry, color, gender (including pregnancy, childbirth, or related medical conditions), gender identity or expression, genetic information, marital status, medical condition, mental or physical disability, national origin, protected family care or medical leave status, race, religion (including beliefs and practices or the absence thereof), sexual orientation, military or veteran status, or any other characteristic protected by federal, state, or local laws. Further, pursuant to applicable local ordinances, Workday will consider for employment qualified applicants with arrest and conviction records. We do not accept resumes from headhunters, placement agencies, or other suppliers that have not signed a formal agreement with us. You may view the Workday's Pay Transparency Policy, and Know Your Rights Notice, by clicking on their corresponding links. Workday is committed to providing reasonable accommodations for qualified individuals with disabilities, disabled veterans, and others during our application process. If you need assistance or an accommodation due to a disability or for religious reasons, contact us at accommodations@workday.com.",,,89628115,Workday,"Workday, Inc.",FALSE,"[
+  2,
+  3
+]","[
+  ""Bachelor's degree"",
+  ""Master's degree""
+]",2,Bachelor's degree,3,Master's degree,1,Full-time (> 32 hours),4,,FALSE,173250,0,[None],year,208000,138500,"{
+  ""lat"": 37.3365203,
+  ""lon"": -121.8904774
+}",U2FuIEpvc2UsIENB,"San Jose, CA",6085,"Santa Clara, CA",41940,"San Jose-Sunnyvale-Santa Clara, CA",6,California,6085,"Santa Clara, CA",6085,"Santa Clara, CA",41940,"San Jose-Sunnyvale-Santa Clara, CA",41940,"San Jose-Sunnyvale-Santa Clara, CA",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ET5AA72D0E18D0EFE5,Enterprise Architects,sr enterprise architect ai,"[
+  ""KS1280B68GD79P4WMVYW"",
+  ""KS4418M6DLSHH5DV8CXM"",
+  ""ES74217E49F5A6B5E14C"",
+  ""KS441QM6LTNMGDSQKHLC"",
+  ""ES621714B943488C07C8"",
+  ""KS1219D70RKFPH4CC8KN"",
+  ""KS441QN6Q6TZD7YJHPFB"",
+  ""KS7G4956GFZ2FR5Y8YBC"",
+  ""KS7G2ZB6N9RBHQZXD86Q"",
+  ""KS1282M76ZSYM2QR0MNS"",
+  ""ESE3DCB914A93A90AA1D"",
+  ""KS1227D60Q7225FTK55V"",
+  ""KS120KY6S8N6WRLSSZL2"",
+  ""ES5C2E9C33E39FD3E7C4"",
+  ""KS440Y975RD841M02V3S"",
+  ""ES5CC048D272E45D3BAE"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS1220H6DMWTTD1XF9DW"",
+  ""KS122B071LMGXVTT3Z91"",
+  ""KS1220G68PD5STH2DL2W"",
+  ""KS123X777H5WFNXQ6BPM"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS440RW6M035NGGH4ZBC"",
+  ""KS4407J75X4WDBY7RGLC"",
+  ""KS1226Y6DNDT05G7FJ4J"",
+  ""KS4407F6RWJNG6069MBN""
+]","[
+  ""Presentations"",
+  ""Technical Sales"",
+  ""Workday (Software)"",
+  ""Value Propositions"",
+  ""Generative Artificial Intelligence"",
+  ""Business Valuation"",
+  ""Value Added Selling (Selling Techniques)"",
+  ""Demonstration Skills"",
+  ""Enterprise Application Software"",
+  ""Product Marketing"",
+  ""Thought Leadership"",
+  ""Information Systems"",
+  ""Applications Architecture"",
+  ""Human Capital Management (HCM)"",
+  ""Statistics"",
+  ""MLOps (Machine Learning Operations)"",
+  ""Machine Learning"",
+  ""Cloud Computing Architecture"",
+  ""Consulting"",
+  ""Software As A Service (SaaS)"",
+  ""Sales"",
+  ""Artificial Intelligence"",
+  ""Solution Architecture"",
+  ""Sales Presentations"",
+  ""Computer Science"",
+  ""Sales Engineering""
+]","[
+  ""KS4418M6DLSHH5DV8CXM"",
+  ""ES74217E49F5A6B5E14C"",
+  ""KS441QM6LTNMGDSQKHLC"",
+  ""ES621714B943488C07C8"",
+  ""KS1219D70RKFPH4CC8KN"",
+  ""KS441QN6Q6TZD7YJHPFB"",
+  ""KS7G4956GFZ2FR5Y8YBC"",
+  ""KS7G2ZB6N9RBHQZXD86Q"",
+  ""KS1282M76ZSYM2QR0MNS"",
+  ""ESE3DCB914A93A90AA1D"",
+  ""KS1227D60Q7225FTK55V"",
+  ""KS120KY6S8N6WRLSSZL2"",
+  ""ES5C2E9C33E39FD3E7C4"",
+  ""KS440Y975RD841M02V3S"",
+  ""ES5CC048D272E45D3BAE"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS1220H6DMWTTD1XF9DW"",
+  ""KS1220G68PD5STH2DL2W"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS440RW6M035NGGH4ZBC"",
+  ""KS4407J75X4WDBY7RGLC"",
+  ""KS1226Y6DNDT05G7FJ4J"",
+  ""KS4407F6RWJNG6069MBN""
+]","[
+  ""Technical Sales"",
+  ""Workday (Software)"",
+  ""Value Propositions"",
+  ""Generative Artificial Intelligence"",
+  ""Business Valuation"",
+  ""Value Added Selling (Selling Techniques)"",
+  ""Demonstration Skills"",
+  ""Enterprise Application Software"",
+  ""Product Marketing"",
+  ""Thought Leadership"",
+  ""Information Systems"",
+  ""Applications Architecture"",
+  ""Human Capital Management (HCM)"",
+  ""Statistics"",
+  ""MLOps (Machine Learning Operations)"",
+  ""Machine Learning"",
+  ""Cloud Computing Architecture"",
+  ""Software As A Service (SaaS)"",
+  ""Artificial Intelligence"",
+  ""Solution Architecture"",
+  ""Sales Presentations"",
+  ""Computer Science"",
+  ""Sales Engineering""
+]",[],[],"[
+  ""KS1280B68GD79P4WMVYW"",
+  ""KS122B071LMGXVTT3Z91"",
+  ""KS123X777H5WFNXQ6BPM""
+]","[
+  ""Presentations"",
+  ""Consulting"",
+  ""Sales""
+]","[
+  ""ES74217E49F5A6B5E14C"",
+  ""ES621714B943488C07C8"",
+  ""KS7G2ZB6N9RBHQZXD86Q""
+]","[
+  ""Workday (Software)"",
+  ""Generative Artificial Intelligence"",
+  ""Enterprise Application Software""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,"[
+  ""11.0701"",
+  ""27.0501"",
+  ""52.1201""
+]","[
+  ""Computer Science"",
+  ""Statistics, General"",
+  ""Management Information Systems, General""
+]","[
+  ""11.07"",
+  ""27.05"",
+  ""52.12""
+]","[
+  ""Computer Science"",
+  ""Statistics"",
+  ""Management Information Systems and Services""
+]","[
+  ""11"",
+  ""27"",
+  ""52""
+]","[
+  ""Computer and Information Sciences and Support Services"",
+  ""Mathematics and Statistics"",
+  ""Business, Management, Marketing, and Related Support Services""
+]",15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231510,Computer Systems Engineer / Architect,23151012,Enterprise Architect,2315,Network and Systems Engineering,23151012,Enterprise Architect,231510,Computer Systems Engineer / Architect,2315,Network and Systems Engineering,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+b927c3a77c71177a9459bc0e41c4bd81f80debbc,10/9/2024,2024-10-09 18:07:44.758 Z,0,7/31/2024,9/29/2024,,"[
+  ""Company""
+]","[
+  ""myworkdayjobs.com""
+]","[
+  ""https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-Remote/Sr-Enterprise-Architect--AI_JR-0090145""
+]",[],,"Sr. Enterprise Architect, AI","Sr. Enterprise Architect, AI
+remote type
+Remote
+locations
+USA Remote
+time type
+Full Time
+posted on
+Posted 4 Days Ago
+job requisition id
+JR-0090145
+Your work days are brighter here.
+At Workday, it all began with a conversation over breakfast. When our founders met at a sunny California diner, they came up with an idea to revolutionize the enterprise software market. And when we began to rise, one thing that really set us apart was our culture. A culture which was driven by our value of putting our people first. And ever since, the happiness, development, and contribution of every Workmate is central to who we are. Our Workmates believe a healthy employee-centric, collaborative culture is the essential mix of ingredients for success in business. That's why we look after our people, communities and the planet while still being profitable. Feel encouraged to shine, however that manifests: you don't need to hide who you are. You can feel the energy and the passion, it's what makes us unique. Inspired to make a brighter work day for all and transform with us to the next stage of our growth journey? Bring your brightest version of you and have a brighter work day here.
+About the Team
+Our Enterprise Architect team is a customer facing team within oCIO Solution Consulting (Presales). This team is a strategic asset to Global Revenue (Sales) supporting organizations across North America as they evaluate and select Workday as their technology partner. We engage primarily with the offices of CIO, CTO and Business Stakeholders to understand how Workday can accelerate their digital roadmap and transform how they manage their Financial and HCM processes.
+Workday Enterprise Architects are experts in our Technology Platform which powers our Core Financial, and HCM applications. We partner with our clients to help them understand how Workday will enable true business value, address key requirements, and articulate why Workday is uniquely differentiated because of our technology design.
+We work hard, and we're serious about what we do, but we like to have fun too. This is a fast-growing business that makes a difference for our customers and their employees!
+About the Role
+We are seeking an Enterprise Architect specialist in AI technologies to meet the growing demands of our customers for Generative AI, LLM, and traditional ML solutions. In this customer facing role you will articulate the vision and value of Workday AI, how our approach is differentiated, the key principles of Responsible AI (RAI), and our future roadmap that builds upon our 50+ models currently in production.
+You will be seen as a thought leader in this emerging space and help craft compelling pre-sales presentations, points-of-view, demonstrations and help enable other EAs across the team. Ideal candidates will have strong experience in Core Business Applications, such as ERP Financials and/or Human Capital Management.
+Responsibilities:
+Develop and deliver impactful presentations, software demonstrations, and webinars that showcase the value proposition of Workday AI
+Assist in sales opportunities by demonstrating a complete understanding of and resolving questions regarding Workday Technology & AI
+Lead client discovery sessions in partnership with sales to ask qualifying questions, understand pain-points, current state architecture, and future state vision
+Develop and maintain strong relationships with key decision-makers at prospective client organizations
+Stay current on the latest AI trends, technologies, and best practices
+Work collaboratively with Solution Architects, Product Marketing and Product & Technology leaders to bring new AI capabilities to market
+Ability to travel 50+% of the time
+About You
+Do you have a passion for Artificial Intelligence and a knack for translating complex technical concepts into clear business value? Are you excited about helping organizations leverage AI to achieve their strategic goals?
+Basic Qualifications:
+6+ years of expertise with technical knowledge of Software-as-a-Service (SaaS) and Cloud Architectures; preferably in ERP Financials and/or Human Capital Management domains
+4+ years' experience presenting to technical, business, and executive audiences both in-person and virtually
+Other Qualifications:
+2+ years of experience in the latest cloud AI/ML concepts and best practices (Generative AI, LLMs, MLOps, ML Security, RAI)
+Proven experience in a technical sales or sales engineering role, preferably in Data/AI
+Existing knowledge of Workday application architecture and platform is highly beneficial
+Experience presenting to technical, business, and executive audiences both in-person and on-line meetings
+Experience in value selling, Demo2Win or Solution Consulting Methodologies preferred
+Bachelor or Master's degree in Computer Science, Statistics, Information Systems, or a related field; or equivalent professional experience.
+Workday Pay Transparency Statement
+The annualized base salary ranges for the primary location and any additional locations are listed below. Workday pay ranges vary based on work location. As a part of the total compensation package, this role may be eligible for the Workday Bonus Plan or a role-specific commission/bonus, as well as annual refresh stock grants. Recruiters can share more detail during the hiring process. Each candidate's compensation offer will be based on multiple factors including, but not limited to, geography, experience, skills, job duties, and business need, among other things. For more information regarding Workday's comprehensive benefits, please click here.
+Primary Location: USA.CA.Home Office
+Primary Location Base Pay Range: $138,500 USD - $208,000 USD
+Additional US Location(s) Base Pay Range: $138,500 USD - $208,000 USD
+Our Approach to Flexible Work
+With Flex Work, we're combining the best of both worlds: in-person time and remote. Our approach enables our teams to deepen connections, maintain a strong community, and do their best work. We know that flexibility can take shape in many ways, so rather than a number of required days in-office each week, we simply spend at least half (50%) of our time each quarter in the office or in the field with our customers, prospects, and partners (depending on role). This means you'll have the freedom to create a flexible schedule that caters to your business, team, and personal needs, while being intentional to make the most of time spent together. Those in our remote ""home office"" roles also have the opportunity to come together in our offices for important moments that matter.
+Pursuant to applicable Fair Chance law, Workday will consider for employment qualified applicants with arrest and conviction records.
+Workday is an Employer including individuals with disabilities and protected veterans.
+Are you being referred to one of our roles? If so, ask your connection at Workday about our Employee Referral process!",9/29/2024,,89628115,Workday,Adaptive Insights,FALSE,"[
+  2,
+  3
+]","[
+  ""Bachelor's degree"",
+  ""Master's degree""
+]",2,Bachelor's degree,3,Master's degree,1,Full-time (> 32 hours),4,,FALSE,173250,1,Remote,year,208000,138500,"{
+  ""lat"": 36.778261,
+  ""lon"": -119.4179324
+}",W1Vua25vd24gQ2l0eV0sIENB,"[Unknown City], CA",6999,"[Unknown county], CA",,,6,California,6999,"[Unknown county], CA",6999,"[Unknown county], CA",,,,,51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ET5AA72D0E18D0EFE5,Enterprise Architects,sr enterprise architect ai,"[
+  ""KS1280B68GD79P4WMVYW"",
+  ""KS4418M6DLSHH5DV8CXM"",
+  ""ES74217E49F5A6B5E14C"",
+  ""KS441QM6LTNMGDSQKHLC"",
+  ""ES621714B943488C07C8"",
+  ""KS1219D70RKFPH4CC8KN"",
+  ""KS441QN6Q6TZD7YJHPFB"",
+  ""KS7G4956GFZ2FR5Y8YBC"",
+  ""KS7G2ZB6N9RBHQZXD86Q"",
+  ""KS1282M76ZSYM2QR0MNS"",
+  ""ESE3DCB914A93A90AA1D"",
+  ""KS1227D60Q7225FTK55V"",
+  ""KS120KY6S8N6WRLSSZL2"",
+  ""ES5C2E9C33E39FD3E7C4"",
+  ""KS440Y975RD841M02V3S"",
+  ""ES5CC048D272E45D3BAE"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS1220H6DMWTTD1XF9DW"",
+  ""KS123KH77136Y0FWRNJY"",
+  ""KS122B071LMGXVTT3Z91"",
+  ""KS1220G68PD5STH2DL2W"",
+  ""KS123X777H5WFNXQ6BPM"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS440RW6M035NGGH4ZBC"",
+  ""KS128096DK61XN3BWBPT"",
+  ""KS4407J75X4WDBY7RGLC"",
+  ""KS1226Y6DNDT05G7FJ4J"",
+  ""KS4407F6RWJNG6069MBN""
+]","[
+  ""Presentations"",
+  ""Technical Sales"",
+  ""Workday (Software)"",
+  ""Value Propositions"",
+  ""Generative Artificial Intelligence"",
+  ""Business Valuation"",
+  ""Value Added Selling (Selling Techniques)"",
+  ""Demonstration Skills"",
+  ""Enterprise Application Software"",
+  ""Product Marketing"",
+  ""Thought Leadership"",
+  ""Information Systems"",
+  ""Applications Architecture"",
+  ""Human Capital Management (HCM)"",
+  ""Statistics"",
+  ""MLOps (Machine Learning Operations)"",
+  ""Machine Learning"",
+  ""Cloud Computing Architecture"",
+  ""Enterprise Resource Planning"",
+  ""Consulting"",
+  ""Software As A Service (SaaS)"",
+  ""Sales"",
+  ""Artificial Intelligence"",
+  ""Solution Architecture"",
+  ""Presales"",
+  ""Sales Presentations"",
+  ""Computer Science"",
+  ""Sales Engineering""
+]","[
+  ""KS4418M6DLSHH5DV8CXM"",
+  ""ES74217E49F5A6B5E14C"",
+  ""KS441QM6LTNMGDSQKHLC"",
+  ""ES621714B943488C07C8"",
+  ""KS1219D70RKFPH4CC8KN"",
+  ""KS441QN6Q6TZD7YJHPFB"",
+  ""KS7G4956GFZ2FR5Y8YBC"",
+  ""KS7G2ZB6N9RBHQZXD86Q"",
+  ""KS1282M76ZSYM2QR0MNS"",
+  ""ESE3DCB914A93A90AA1D"",
+  ""KS1227D60Q7225FTK55V"",
+  ""KS120KY6S8N6WRLSSZL2"",
+  ""ES5C2E9C33E39FD3E7C4"",
+  ""KS440Y975RD841M02V3S"",
+  ""ES5CC048D272E45D3BAE"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS1220H6DMWTTD1XF9DW"",
+  ""KS123KH77136Y0FWRNJY"",
+  ""KS1220G68PD5STH2DL2W"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS440RW6M035NGGH4ZBC"",
+  ""KS128096DK61XN3BWBPT"",
+  ""KS4407J75X4WDBY7RGLC"",
+  ""KS1226Y6DNDT05G7FJ4J"",
+  ""KS4407F6RWJNG6069MBN""
+]","[
+  ""Technical Sales"",
+  ""Workday (Software)"",
+  ""Value Propositions"",
+  ""Generative Artificial Intelligence"",
+  ""Business Valuation"",
+  ""Value Added Selling (Selling Techniques)"",
+  ""Demonstration Skills"",
+  ""Enterprise Application Software"",
+  ""Product Marketing"",
+  ""Thought Leadership"",
+  ""Information Systems"",
+  ""Applications Architecture"",
+  ""Human Capital Management (HCM)"",
+  ""Statistics"",
+  ""MLOps (Machine Learning Operations)"",
+  ""Machine Learning"",
+  ""Cloud Computing Architecture"",
+  ""Enterprise Resource Planning"",
+  ""Software As A Service (SaaS)"",
+  ""Artificial Intelligence"",
+  ""Solution Architecture"",
+  ""Presales"",
+  ""Sales Presentations"",
+  ""Computer Science"",
+  ""Sales Engineering""
+]",[],[],"[
+  ""KS1280B68GD79P4WMVYW"",
+  ""KS122B071LMGXVTT3Z91"",
+  ""KS123X777H5WFNXQ6BPM""
+]","[
+  ""Presentations"",
+  ""Consulting"",
+  ""Sales""
+]","[
+  ""ES74217E49F5A6B5E14C"",
+  ""ES621714B943488C07C8"",
+  ""KS7G2ZB6N9RBHQZXD86Q""
+]","[
+  ""Workday (Software)"",
+  ""Generative Artificial Intelligence"",
+  ""Enterprise Application Software""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,"[
+  ""11.0701"",
+  ""27.0501"",
+  ""52.1201""
+]","[
+  ""Computer Science"",
+  ""Statistics, General"",
+  ""Management Information Systems, General""
+]","[
+  ""11.07"",
+  ""27.05"",
+  ""52.12""
+]","[
+  ""Computer Science"",
+  ""Statistics"",
+  ""Management Information Systems and Services""
+]","[
+  ""11"",
+  ""27"",
+  ""52""
+]","[
+  ""Computer and Information Sciences and Support Services"",
+  ""Mathematics and Statistics"",
+  ""Business, Management, Marketing, and Related Support Services""
+]",15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231510,Computer Systems Engineer / Architect,23151012,Enterprise Architect,2315,Network and Systems Engineering,23151012,Enterprise Architect,231510,Computer Systems Engineer / Architect,2315,Network and Systems Engineering,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+dba19d3ea206715e5205906acc27489be3788b7c,10/17/2024,2024-10-17 13:25:50.456 Z,0,8/17/2024,10/16/2024,,"[
+  ""Company""
+]","[
+  ""salesforce-sites.com""
+]","[
+  ""https://theoris.my.salesforce-sites.com/careers/ts2__JobDetails?jobId=a0KUn00000AdGK6MAN""
+]",[],,Data Scientist/Data Analyst,"Job Title: Data Scientist/Data Analyst
+Job City: Indianapolis
+Job State: Indiana
+Job Type: Contract
+Job Title: Data Scientist
+Location: Indianapolis, IN
+Industry: Pharmaceutical
+Job Description:
+Theoris Services is assisting our client in their search for a Data Scientist to add to their growing team located in Indianapolis. Our client is seeking an individual who will use their analytical, statistical, and programming skills to collect, analyze, and interpret large data sets to develop solutions to business challenges.
+Responsibilities:
+Â· Identifying data sources
+o Determining which data is available and useful for a project, and automating collection processes
+Â· Preparing data
+o Categorizing, preprocessing, and analyzing structured and unstructured data
+Â· Building models
+o Creating, validating, testing, and updating algorithms and models, such as predictive models and machine-learning algorithms
+Â· Presenting findings
+o Using data visualization software to communicate actionable insights to stakeholders, often for a non-technical audience
+Â· Making recommendations
+o Proposing solutions and strategies to business challenges based on data analysis
+Â· Collaborating
+o Working with engineering and product development teams
+Requirements:
+5+ years of experience with Core Data
+Experience with MS Azure/Open AI or QuickSight is preferred
+Strong Cloud experience with either Azure or AWS
+Best-In-Class-Benefits
+We are in the people business; treating people right is our ONLY priority. Theoris Services consultants are full-time employees with full benefits, including:
+Robust Health Insurance
+401(k) plan
+PTO accrual
+Paid holidays
+Excellent cash-based referral program",,,36723165,Theoris Group,Theoris,FALSE,"[
+  99
+]","[
+  ""No Education Listed""
+]",99,No Education Listed,,,1,Full-time (> 32 hours),5,,FALSE,,0,[None],,,,"{
+  ""lat"": 39.768403,
+  ""lon"": -86.158068
+}",SW5kaWFuYXBvbGlzLCBJTg==,"Indianapolis, IN",18097,"Marion, IN",26900,"Indianapolis-Carmel-Anderson, IN",18,Indiana,18097,"Marion, IN",18097,"Marion, IN",26900,"Indianapolis-Carmel-Anderson, IN",26900,"Indianapolis-Carmel-Greenwood, IN",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ET9B37BAEB716CCCDA,Data Analysts/Data Scientists,data scientist data analyst,"[
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""KS441NV70T1YBCZ3ZY0G"",
+  ""KS120D96FHL88PZDKZKH"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""ESCC48709CD373BC3D70"",
+  ""KS125S466GJGQXS1W0JM"",
+  ""KS120GV6C72JMSZKMTD7"",
+  ""KS127R26PVSGVL35D7L1"",
+  ""KS128006L3V0HM2B26N5"",
+  ""KS120SQ5W4Q57JMD2Y81"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""KS122Q960QYMW3YH0YWF"",
+  ""KS1270P6SLFCFT476Y3R""
+]","[
+  ""Microsoft Azure"",
+  ""Unstructured Data"",
+  ""Algorithms"",
+  ""Data Science"",
+  ""Azure OpenAI"",
+  ""Machine Learning Algorithms"",
+  ""Data Analysis"",
+  ""Pharmaceuticals"",
+  ""Predictive Modeling"",
+  ""Automation"",
+  ""Amazon Web Services"",
+  ""Data Visualization"",
+  ""New Product Development""
+]","[
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""KS441NV70T1YBCZ3ZY0G"",
+  ""KS120D96FHL88PZDKZKH"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""ESCC48709CD373BC3D70"",
+  ""KS125S466GJGQXS1W0JM"",
+  ""KS120GV6C72JMSZKMTD7"",
+  ""KS127R26PVSGVL35D7L1"",
+  ""KS128006L3V0HM2B26N5"",
+  ""KS120SQ5W4Q57JMD2Y81"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""KS122Q960QYMW3YH0YWF"",
+  ""KS1270P6SLFCFT476Y3R""
+]","[
+  ""Microsoft Azure"",
+  ""Unstructured Data"",
+  ""Algorithms"",
+  ""Data Science"",
+  ""Azure OpenAI"",
+  ""Machine Learning Algorithms"",
+  ""Data Analysis"",
+  ""Pharmaceuticals"",
+  ""Predictive Modeling"",
+  ""Automation"",
+  ""Amazon Web Services"",
+  ""Data Visualization"",
+  ""New Product Development""
+]",[],[],[],[],"[
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""ESCC48709CD373BC3D70"",
+  ""KS120FG6YP8PQYYNQY9B""
+]","[
+  ""Microsoft Azure"",
+  ""Azure OpenAI"",
+  ""Amazon Web Services""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,[],[],[],[],[],[],15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231113,Data / Data Mining Analyst,23111310,Data Analyst,2311,Data Analysis and Mathematics,23111310,Data Analyst,231113,Data / Data Mining Analyst,2311,Data Analysis and Mathematics,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+20829c9ed040398015e3a0be96e43ed8185d0b43,10/26/2024,2024-10-26 13:32:31.427 Z,4,8/26/2024,,,"[
+  ""Job Board"",
+  ""Company""
+]","[
+  ""dejobs.org"",
+  ""jobsinpaterson.com"",
+  ""c3.ai""
+]","[
+  ""https://c3.ai/job-description/?gh_jid=7612207002"",
+  ""https://enableamerica.dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704cea912c440d294d8362b5fdf2aaa/job"",
+  ""https://dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704CEA912C440D294D8362B5FDF2AAA/job/"",
+  ""https://disabilities.dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704cea912c440d294d8362b5fdf2aaa/job"",
+  ""http://www.jobsinpaterson.com/job/detail/80744286/AI-Solution-Architect-Senior-AI-Solution-Architect-Post-Sales""
+]","[
+  ""http://www.jobsinpaterson.com/job/detail/80744286/AI-Solution-Architect-Senior-AI-Solution-Architect-Post-Sales"",
+  ""https://disabilities.dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704cea912c440d294d8362b5fdf2aaa/job"",
+  ""https://enableamerica.dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704cea912c440d294d8362b5fdf2aaa/job"",
+  ""https://dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704CEA912C440D294D8362B5FDF2AAA/job/""
+]","[
+  {
+    ""source"": ""dejobs.org"",
+    ""type"": ""Company"",
+    ""url"": ""https://enableamerica.dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704cea912c440d294d8362b5fdf2aaa/job""
+  },
+  {
+    ""source"": ""dejobs.org"",
+    ""type"": ""Job Board"",
+    ""url"": ""https://dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704CEA912C440D294D8362B5FDF2AAA/job/""
+  },
+  {
+    ""source"": ""dejobs.org"",
+    ""type"": ""Company"",
+    ""url"": ""https://disabilities.dejobs.org/new-york-ny/ai-solution-architectsenior-ai-solution-architect-post-sales/6704cea912c440d294d8362b5fdf2aaa/job""
+  },
+  {
+    ""source"": ""jobsinpaterson.com"",
+    ""type"": ""Job Board"",
+    ""url"": ""http://www.jobsinpaterson.com/job/detail/80744286/AI-Solution-Architect-Senior-AI-Solution-Architect-Post-Sales""
+  }
+]",AI Solution Architect/Senior AI Solution Architect (Post-Sales),"AI Solution Architect/Senior AI Solution Architect (Post-Sales)
+New York, NYÂ 
+
+Posted 2 days ago
+
+Â 
+
+
+Job Description
+
+C3.ai, Inc. (NYSE:AI) is a leading Enterprise AI software provider for accelerating digital transformation. The proven C3 AI Platform provides comprehensive services to build enterprise-scale AI applications more efficiently and cost-effectively than alternative approaches. The C3 AI Platform supports the value chain in any industry with prebuilt, configurable, high-value AI applications for reliability, fraud detection, sensor network health, supply network optimization, energy management, anti-money laundering, and customer engagement. Learn more at:C3 AI
+
+C3 AI is seeking an experienced professional to join ourAI Solution Architecture team (post-sales). In this customer-facing role, you willhave the opportunityto design, develop, and deploy custom and pre-built Enterprise AI applicationsusing theC3 AI Platform.TheC3 AI product suite is entirely data-driven, so a great candidate will have a passion for acquiring, analyzing, and transforming data to generate insights with advanced analytics. This role is hands-on and requires a perfect combination of a ""big picture,"" solution-oriented mindset, and solid implementation skills.
+
+Responsibilities:
+
+Engage directly with customersin a post-sales capacityto configure and implement a full-stackAIsolutionaccording to functionaland performancerequirements
+Drive discussions on architecture and engineering to articulate the capabilities of the C3 AI Platform and its interoperability with existing systems
+Design and implement reference architectures to deliver scalable and reusable solutions
+Develop new specs, documentation, and participate in the development of technical procedures and user support guides
+Assess technical risks and come up with mitigation strategies
+Collaborate with internal engineering and product teams to incorporate customer feature and enhancement requests into core product offerings
+Travel to customer sites (up to 30%)
+
+Qualifications:
+
+Bachelor's degree in engineering, computer science, or related fields
+5+ years of experience(8+ years for Senior AI SA)with system/data integration,development,or implementation of enterprise and/or cloud software
+Deep understanding of enterprise architecture and enterprise application integration(File, API, Queues, Streams)
+Extensive hands-on expertiseinBig Data, Distributed Systems, and Cloud Architectures(AWS, Azure, GCP)
+Demonstrated proficiency withPython,JavaScript, and/or Java
+Experience with relationaland NoSQLdatabases (any vendor)
+Solid understanding of data modeling best practices
+Strong organizational and troubleshooting skills with attention to detail
+Strong analytical ability,judgment,andproblem-solvingtechniques
+Excellent verbal and written communication and presentation skills
+
+PreferredQualifications:
+
+Expertise in Postgres, Cassandra
+Experience withstream processing frameworks (Kafka, Kinesis)
+Experience with container-based deployments using Kubernetes or OpenShift
+Experiencedesigning and maintainingDataOpsandMLOpsin Production environments
+Working knowledge of Machine Learning algorithms
+Familiarity with Commercial LLMs, including a comprehensive understanding of their integration, customization, and management
+Familiarity with vector databases (e.g., PGVector, FAISS) for efficient embedding storage and retrieval in RAG applications
+Familiarity with AI/ML-related technologies and tools (MLFlow, KubeFlow, AWS SageMaker, Azure MLStudio)
+Experience with Information, Network, & Infrastructure Security concepts
+
+Candidates must be authorized to work in the United States without the need for current or future company sponsorship.
+
+C3 AI provides excellent benefits, a competitive compensation package and generous equity plan.
+
+New York Pay Range
+$120,000â€”$200,000 USD
+
+C3 AI is proud to be an Equal Opportunity and Affirmative Action Employer. We do not discriminate on the basis of any legally protected characteristics, including disabled and veteran status.
+
+
+C3 IoT is proud to be an Equal Opportunity and Affirmative Action Employer. We do not discriminate on the basis of any legally protected characteristics, including disabled and veteran status.
+
+Â 
+
+
+
+Job Summary
+Company
+C3.ai, Inc.
+Start Date
+As soon as possible
+Employment Term and Type
+Regular, Full Time
+Required Education
+Bachelor's Degree
+Required Experience
+5+ years",9/29/2024,34,99460316,C3 Iot,"C3.ai, Inc.",FALSE,"[
+  2
+]","[
+  ""Bachelor's degree""
+]",2,Bachelor's degree,,,1,Full-time (> 32 hours),5,,FALSE,120000,0,[None],year,120000,120000,"{
+  ""lat"": 40.7127753,
+  ""lon"": -74.0059728
+}",TmV3IFlvcmssIE5Z,"New York, NY",36061,"New York, NY",35620,"New York-Newark-Jersey City, NY-NJ-PA",36,New York,36061,"New York, NY",36061,"New York, NY",35620,"New York-Newark-Jersey City, NY-NJ-PA",35620,"New York-Newark-Jersey City, NY-NJ",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ET9D7413EF263FE179,Sales Solution Architects,ai solution architect senior ai solution architect post sales,"[
+  ""ESFD78E44C463297B830"",
+  ""KS7G05V6LRKY1PMN9GQG"",
+  ""KS1218W78FGVPVP2KXPX"",
+  ""ES2133DA6434CF028833"",
+  ""KS440RW6M035NGGH4ZBC"",
+  ""KS4415B77WWH2WCSVHCV"",
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""KS122B568MKWX1K9STGP"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""ES4512E57CF178E77F7B"",
+  ""ES7A460DFF81957229AF"",
+  ""KS1280B68GD79P4WMVYW"",
+  ""ESE0F6CC1AC3C6200715"",
+  ""KS122P76RK0FDFPLR32K"",
+  ""KS120BV70XSJ6K0VQ6S5"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS125S466GJGQXS1W0JM"",
+  ""KS1254R6D2Y03RHKCVHR"",
+  ""KS1259C5ZCWP0W21KJ6Y"",
+  ""KS120L470LCJFX8WYB2G"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KS4425C7820LCHZS7VGX"",
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""KS127C1660W6F87D6YQF"",
+  ""ESFA9982A2A945E439CB"",
+  ""KS124RX787SQ1WVD8XF6"",
+  ""KS122PM76DCYL9WC89Y7"",
+  ""KS1220H6DMWTTD1XF9DW"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS441K2756CXYXBG990G"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""ESCFBA0F765A85EB01FB"",
+  ""KSKQAOQWXI50O1JWMNF7"",
+  ""KS123X777H5WFNXQ6BPM"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS123ZN79SWZMGRND27K"",
+  ""ESB17C5AF46AFE08157D"",
+  ""BGSF4EBD46A6D8E67885"",
+  ""KS125TB6YR6236RKM563"",
+  ""KS1200771D9CR9LB4MWW"",
+  ""KS1227F76Q36LXJTZTK1"",
+  ""KS1226Y6DNDT05G7FJ4J""
+]","[
+  ""Infrastructure Security"",
+  ""Anti Money Laundering"",
+  ""Management"",
+  ""AWS SageMaker"",
+  ""Solution Architecture"",
+  ""Systems Design"",
+  ""Microsoft Azure"",
+  ""Customer Engagement"",
+  ""Apache Kafka"",
+  ""Kubernetes"",
+  ""AWS Kinesis"",
+  ""MLflow"",
+  ""Presentations"",
+  ""Fraud Detection"",
+  ""Data Integration"",
+  ""Applications Of Artificial Intelligence"",
+  ""Application Programming Interface (API)"",
+  ""Machine Learning Algorithms"",
+  ""Enterprise Architecture"",
+  ""Interoperability"",
+  ""Enterprise Application Integration"",
+  ""Java (Programming Language)"",
+  ""Writing"",
+  ""Detail Oriented"",
+  ""OpenShift"",
+  ""Analytical Skills"",
+  ""Scalability"",
+  ""Data Modeling"",
+  ""Cloud Computing Architecture"",
+  ""Machine Learning"",
+  ""Troubleshooting (Problem Solving)"",
+  ""Amazon Web Services"",
+  ""Kubeflow"",
+  ""Apache Cassandra"",
+  ""Sales"",
+  ""Artificial Intelligence"",
+  ""Core Product"",
+  ""Advanced Analytics"",
+  ""Energy Management"",
+  ""PostgreSQL"",
+  ""JavaScript (Programming Language)"",
+  ""Computer Networks"",
+  ""Computer Science""
+]","[
+  ""ESFD78E44C463297B830"",
+  ""KS7G05V6LRKY1PMN9GQG"",
+  ""ES2133DA6434CF028833"",
+  ""KS440RW6M035NGGH4ZBC"",
+  ""KS4415B77WWH2WCSVHCV"",
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""KS122B568MKWX1K9STGP"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""ES4512E57CF178E77F7B"",
+  ""ES7A460DFF81957229AF"",
+  ""ESE0F6CC1AC3C6200715"",
+  ""KS122P76RK0FDFPLR32K"",
+  ""KS120BV70XSJ6K0VQ6S5"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS125S466GJGQXS1W0JM"",
+  ""KS1254R6D2Y03RHKCVHR"",
+  ""KS1259C5ZCWP0W21KJ6Y"",
+  ""KS120L470LCJFX8WYB2G"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KS127C1660W6F87D6YQF"",
+  ""KS124RX787SQ1WVD8XF6"",
+  ""KS122PM76DCYL9WC89Y7"",
+  ""KS1220H6DMWTTD1XF9DW"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""ESCFBA0F765A85EB01FB"",
+  ""KSKQAOQWXI50O1JWMNF7"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS123ZN79SWZMGRND27K"",
+  ""ESB17C5AF46AFE08157D"",
+  ""BGSF4EBD46A6D8E67885"",
+  ""KS125TB6YR6236RKM563"",
+  ""KS1200771D9CR9LB4MWW"",
+  ""KS1227F76Q36LXJTZTK1"",
+  ""KS1226Y6DNDT05G7FJ4J""
+]","[
+  ""Infrastructure Security"",
+  ""Anti Money Laundering"",
+  ""AWS SageMaker"",
+  ""Solution Architecture"",
+  ""Systems Design"",
+  ""Microsoft Azure"",
+  ""Customer Engagement"",
+  ""Apache Kafka"",
+  ""Kubernetes"",
+  ""AWS Kinesis"",
+  ""MLflow"",
+  ""Fraud Detection"",
+  ""Data Integration"",
+  ""Applications Of Artificial Intelligence"",
+  ""Application Programming Interface (API)"",
+  ""Machine Learning Algorithms"",
+  ""Enterprise Architecture"",
+  ""Interoperability"",
+  ""Enterprise Application Integration"",
+  ""Java (Programming Language)"",
+  ""OpenShift"",
+  ""Scalability"",
+  ""Data Modeling"",
+  ""Cloud Computing Architecture"",
+  ""Machine Learning"",
+  ""Amazon Web Services"",
+  ""Kubeflow"",
+  ""Apache Cassandra"",
+  ""Artificial Intelligence"",
+  ""Core Product"",
+  ""Advanced Analytics"",
+  ""Energy Management"",
+  ""PostgreSQL"",
+  ""JavaScript (Programming Language)"",
+  ""Computer Networks"",
+  ""Computer Science""
+]",[],[],"[
+  ""KS1218W78FGVPVP2KXPX"",
+  ""KS1280B68GD79P4WMVYW"",
+  ""KS4425C7820LCHZS7VGX"",
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""ESFA9982A2A945E439CB"",
+  ""KS441K2756CXYXBG990G"",
+  ""KS123X777H5WFNXQ6BPM""
+]","[
+  ""Management"",
+  ""Presentations"",
+  ""Writing"",
+  ""Detail Oriented"",
+  ""Analytical Skills"",
+  ""Troubleshooting (Problem Solving)"",
+  ""Sales""
+]","[
+  ""ES2133DA6434CF028833"",
+  ""KS120V86MZWV9Z9LKQY3"",
+  ""KSN97GEUHPNGNAQFDCGY"",
+  ""KSJF3PBD3995K6E0OF1Z"",
+  ""ES4512E57CF178E77F7B"",
+  ""ES7A460DFF81957229AF"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KS127C1660W6F87D6YQF"",
+  ""KS120FG6YP8PQYYNQY9B"",
+  ""ESCFBA0F765A85EB01FB"",
+  ""KSKQAOQWXI50O1JWMNF7"",
+  ""KS125TB6YR6236RKM563"",
+  ""KS1200771D9CR9LB4MWW""
+]","[
+  ""AWS SageMaker"",
+  ""Microsoft Azure"",
+  ""Apache Kafka"",
+  ""Kubernetes"",
+  ""AWS Kinesis"",
+  ""MLflow"",
+  ""Application Programming Interface (API)"",
+  ""Java (Programming Language)"",
+  ""OpenShift"",
+  ""Amazon Web Services"",
+  ""Kubeflow"",
+  ""Apache Cassandra"",
+  ""PostgreSQL"",
+  ""JavaScript (Programming Language)""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,"[
+  ""14.0101"",
+  ""11.0701""
+]","[
+  ""Engineering, General"",
+  ""Computer Science""
+]","[
+  ""14.01"",
+  ""11.07""
+]","[
+  ""Engineering, General"",
+  ""Computer Science""
+]","[
+  ""14"",
+  ""11""
+]","[
+  ""Engineering"",
+  ""Computer and Information Sciences and Support Services""
+]",15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231510,Computer Systems Engineer / Architect,23151012,Enterprise Architect,2315,Network and Systems Engineering,23151012,Enterprise Architect,231510,Computer Systems Engineer / Architect,2315,Network and Systems Engineering,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+6d8183a60e5eca6d47ab7816a54dc1e633a5a668,9/29/2024,2024-09-29 14:02:32.756 Z,2,9/17/2024,9/28/2024,11,"[
+  ""Job Board"",
+  ""Company""
+]","[
+  ""diversityjobs.com"",
+  ""dice.com"",
+  ""microsoft.com""
+]","[
+  ""https://www.dice.com/job-detail/99a7a439-8aa3-45a7-8e57-d5e6da8ae250"",
+  ""https://diversityjobs.com/career/9411614/Senior-Applied-Scientist-New-York-New-York"",
+  ""https://jobs.careers.microsoft.com/global/en/job/1769379""
+]",[],,Senior Applied Scientist,"Senior Applied Scientit
+New York City, New York, United State
+* No longer accepting application
+Date poted
+Sep 17, 2024
+Job number
+1769379
+Up to 100% work from home
+Travel
+0-25 %
+Individual Contributor
+Reearch, Applied, & Data Science
+Applied Science
+Full-Time
+Overview
+Are you eeking opportunitie at the interection of generative artificial intelligence (AI), uch a large-cale multimodal model like GPT-4o, and reponible AI, trut, and afety? Do you want to be a member of an interdiciplinary team of reearcher, applied cientit, and oftware engineer? Do you embrace complex ociotechnical challenge? Reearch i looking to hire a Senior Applied Scientit to join our team bridging reponible AI reearch and practice. The team focue on ociotechnical alignment of generative AI ytem, with a particular focu on meauring rik, including rik ytematization, rik annotation, dataet creation, and metric deign. A a member of thi team, you'll develop central reource and tooling, you'll partner with product team who wih to be proactive about reponible AI, and you'll contribute to and/or drive reearch project intended to advance the tate-of-the-art. Succeful candidate will have experience working with large-cale language model and/or multimodal model, and will be paionate about prioritizing diverity, incluion, and fairne. 
+Qualification
+Required Qualification: 
+Bachelor' degree in computer cience or a related field (e.g., tatitic, information cience) and 4+ year of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR Mater' degree in computer cience or a related field and 3+ year of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR PhD in computer cience or a related field and 1+ year() of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR equivalent experience. 
+putting reponible AI principle (e.g., fairne, tranparency) into practice. 
+Coding kill in a general-purpoe coding language (e.g., Python, Java, Scala, C#, or C/C++). 
+Preferred Qualification: 
+Mater' degree in computer cience or a related field (e.g., tatitic, information cience) and 6+ year of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR PhD in computer cience or a related field and 3+ year of experience working with AI, ML, and/or NLP. Thi can include product experience, indutry reearch, open-ource contribution, or academic reearch (but not courework). 
+OR equivalent experience. 
+3+ year of experience contributing to or driving peer-reviewed academic paper. 
+1+ year() of experience preenting at conference in the reearch or indutry communitie. 
+3+ year of experience conducting reearch a part of an academic or indutry reearch program. 
+1+ year() of experience developing and deploying production ytem, a part of a product team. 
+working at the interection of generative AI and reponible AI, trut, and afety. 
+approaching AI rik a ociotechnical challenge rather than purely algorithmic one. 
+working with product and ervice that incorporate generative AI. 
+working productively on an interdiciplinary team panning multiple role. 
+Track record of prioritizing diverity and incluion in the workplace. 
+Applied Science IC4 - The typical bae pay range for thi role acro the U.S. i USD $117,200 - $229,200 per year. There i a different range applicable to pecific work location, within the San Francico Bay area and New York City metropolitan area, and the bae pay range for thi role in thoe location i USD $153,600 - $250,200 per year.
+Certain role may be eligible for benefit and other compenation. Find additional benefit and pay information here: http://career.microoft.com/u/en/u-corporate-pay 
+will accept application for the role until September 22, 2024.
+#Reearch
+Reponibilitie
+You'll be a member of an interdiciplinary team of expert on AI rik. 
+You'll deign and run experiment that ue API call to generative AI ytem. 
+You'll monitor reearch advance and draw on them to hape your applied cience work. 
+You'll contribute to and/or drive reearch project intended to advance the tate-of-the-art. 
+You'll learn new kill and apply them a needed: e.g., you might be aked to learn about meaurement modeling and produce a report on a dataet' content validity. 
+You'll work with takeholder with a variety of background in a variety of role. 
+You'll preent your work to internal and external takeholder, including leaderhip. 
+You'll develop central reource and tooling for identifying, meauring, and mitigating AI rik: 
+You'll work with policy and engineering team to ytematize AI rik. 
+You'll build and validate annotation guideline and dataet for meauring AI rik. 
+You'll work with product team to generalize thee reource and method to be appropriate for a variety of ytem, ue cae, and deployment context. 
+Benefit/perk lited below may vary depending on the nature of your employment with and the country where you work.
+î«”Indutry leading healthcare
+îž¾Educational reource
+î£¬Dicount on product and ervice
+î«½Saving and invetment
+ï¡¢Maternity and paternity leave
+î¨—Generou time away
+î­‘Giving program
+î¿”Opportunitie to network and connect",9/26/2024,9,8046280,Microsoft,Microsoft,FALSE,"[
+  2,
+  4
+]","[
+  ""Bachelor's degree"",
+  ""Ph.D. or professional degree""
+]",2,Bachelor's degree,4,Ph.D. or professional degree,1,Full-time (> 32 hours),6,,FALSE,173200,1,Remote,year,229200,117200,"{
+  ""lat"": 40.7127753,
+  ""lon"": -74.0059728
+}",TmV3IFlvcmssIE5Z,"New York, NY",36061,"New York, NY",35620,"New York-Newark-Jersey City, NY-NJ-PA",36,New York,36061,"New York, NY",36061,"New York, NY",35620,"New York-Newark-Jersey City, NY-NJ-PA",35620,"New York-Newark-Jersey City, NY-NJ",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ET790D9E802C8B54C0,Applied Scientists,senior applied scientist,"[
+  ""KS1200364C9C1LK3V5Q1"",
+  ""KS1219W70LY1GXZDSKW5"",
+  ""ES9320CF9A1D6E98E7DA"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""KS441FR6L2YYQLPZBQRC"",
+  ""KS125QC6C8B0KV5XXJQ5"",
+  ""ES621714B943488C07C8"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KSKJX44T33B6D4UCC8CB"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KS120LK6NV7DJ4TYY3DV"",
+  ""KS1219N6Z3XQ19V0HSKR"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS440B06L35CZZ8SMZJN"",
+  ""KS123RB65VYS69WB3D65""
+]","[
+  ""C (Programming Language)"",
+  ""C++ (Programming Language)"",
+  ""Academic Papers"",
+  ""Data Science"",
+  ""Tooling"",
+  ""Language Model"",
+  ""Generative Artificial Intelligence"",
+  ""Python (Programming Language)"",
+  ""Teamwork"",
+  ""Application Programming Interface (API)"",
+  ""Java (Programming Language)"",
+  ""Applied Science"",
+  ""C# (Programming Language)"",
+  ""Machine Learning"",
+  ""Artificial Intelligence"",
+  ""Scala (Programming Language)"",
+  ""Experimentation""
+]","[
+  ""KS1200364C9C1LK3V5Q1"",
+  ""KS1219W70LY1GXZDSKW5"",
+  ""ES9320CF9A1D6E98E7DA"",
+  ""KS7LO8P3MXB93R3C9RWL"",
+  ""KS441FR6L2YYQLPZBQRC"",
+  ""KS125QC6C8B0KV5XXJQ5"",
+  ""ES621714B943488C07C8"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KS120LK6NV7DJ4TYY3DV"",
+  ""KS1219N6Z3XQ19V0HSKR"",
+  ""KS1261Z68KSKR1X31KS3"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS440B06L35CZZ8SMZJN"",
+  ""KS123RB65VYS69WB3D65""
+]","[
+  ""C (Programming Language)"",
+  ""C++ (Programming Language)"",
+  ""Academic Papers"",
+  ""Data Science"",
+  ""Tooling"",
+  ""Language Model"",
+  ""Generative Artificial Intelligence"",
+  ""Python (Programming Language)"",
+  ""Application Programming Interface (API)"",
+  ""Java (Programming Language)"",
+  ""Applied Science"",
+  ""C# (Programming Language)"",
+  ""Machine Learning"",
+  ""Artificial Intelligence"",
+  ""Scala (Programming Language)"",
+  ""Experimentation""
+]",[],[],"[
+  ""KSKJX44T33B6D4UCC8CB""
+]","[
+  ""Teamwork""
+]","[
+  ""KS1200364C9C1LK3V5Q1"",
+  ""KS1219W70LY1GXZDSKW5"",
+  ""ES621714B943488C07C8"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KS1208P6ZMZ4N872Y7X5"",
+  ""KS120076FGP5WGWYMP0F"",
+  ""KS1219N6Z3XQ19V0HSKR"",
+  ""KS440B06L35CZZ8SMZJN""
+]","[
+  ""C (Programming Language)"",
+  ""C++ (Programming Language)"",
+  ""Generative Artificial Intelligence"",
+  ""Python (Programming Language)"",
+  ""Application Programming Interface (API)"",
+  ""Java (Programming Language)"",
+  ""C# (Programming Language)"",
+  ""Scala (Programming Language)""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,[],[],[],[],[],[],15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231113,Data / Data Mining Analyst,23111310,Data Analyst,2311,Data Analysis and Mathematics,23111310,Data Analyst,231113,Data / Data Mining Analyst,2311,Data Analysis and Mathematics,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers
+7415af82fe8458b7ce5eaf7413181f8d8d844055,10/9/2024,2024-10-09 18:07:44.758 Z,0,9/19/2024,10/8/2024,19,"[
+  ""Job Board""
+]","[
+  ""santarosarecruiter.com""
+]","[
+  ""https://www.santarosarecruiter.com/engineering-jobs/3704838387/senior-analytics-engineer-gtm-san-francisco-ca""
+]",[],,"Senior Analytics Engineer, GTM San Francisco, CA","Job Description: We are building out our Data Platform team at Sigma, with arelentless focus on developing data models that fuel trustedinsights across the company. As a Senior Analytics Engineer, youwill be responsible for building, documenting, and educating ourinternal customers on how to best use our data products in Sigma.You will also be challenged to advocate for the vision anddirection of our product through the lens of how a data team wantsto work with a best-in-class BI tool. If you're passionate aboutanalytics engineering and the future of analytics, let's chat!WhatYou Will Be Doing Architect and manage our production data models in Snowflakeand how they are consumed in Sigma, including writing documentationand generating data tests. (Tech we use: Fivetran, dbt, Snowflake,Sigma, Hightouch, Metaplane) Give power to the people. People are our strongest asset and weneed you to work with team members from across the company to getthem the data they need to support the business. Build and maintain corporate reporting assets across respectiveGTM / Operations domains (e.g., Finance, Customer Success). Work cross-functionally to accomplish all of the above! You'llwork across Product, Engineering, Sales, Marketing, Partnerships,and with users of all skills and levels.Qualifications We Need Strong knowledge of data modeling and warehouse optimizations(bonus points for any public facing repos or bodies of work you canpoint us to). Detail oriented. Our data models are production systems and weneed someone meticulous to maintain them! Strong communication and collaboration skills. You'll beworking with many stakeholders across the company, so we needsomeone who's comfortable communicating with the whole company astheir audience. In addition, you'll be supporting other teammatesby reviewing their work, providing coverage where needed, andsupporting initiatives to grow our team. Must have a builder mindset. Innate desire to document,templatize, automate and define a process around everything you dothat is repeatable and set up for scale. Ability to thrive in ambiguous environments and get stuff done.We move fast and iterate quickly, and we want you to feel empoweredto do exactly that. Experience building reports and managing stakeholderrelationships, particularly in Marketing, Finance or Sales. Visualization experience (Sigma highly preferred)-you will useSigma every day! 4+ years of relevant experience working in a datarole.Qualifications We Want (also, skills you'll learn!) A drive to continuously learn (and share those learnings) aboutthe evolving data ecosystem. Advanced knowledge of dbt, python, and SQL (bonus points forSnowflake specifically). Startup experience. Experience training and enabling internal teams on bestpractices within BI tools.About us:Sigma is the only cloudanalytics and business intelligence tool empowering business teamsto break free from the confines of the dashboard, explore data forthemselves, and make better, faster decisions. The award-winningsoftware was built to capitalize on the performance power of clouddata warehouses to combine data sources and analyze billions ofrows of data instantly via an intuitive, spreadsheet-like interface- no coding required.Since launching with its unique interface,Sigma Computing has added features such as collaboration tools andembedded analytics capabilities. The most recent product launchincluded a set of AI tools such as forecasting capabilities, an AIcopilot and a notebook interface for users who prefer a code-firstenvironment.Sigma announced its $200M in Series D financing in May2024, to continue transforming BI through its innovations in AIinfrastructure, data application development, enterprise-widecollaboration, and business user adoption. Spark Capital and AvenirGrowth Capital co-led the Series D funding round, with additionalparticipation from a group of past investors including SnowflakeVentures and Sutter Hill Ventures. The Series D funding, raised ata valuation 60% higher than the company's Series C round threeyears ago, promises to further accelerate Sigma's growth.BenefitsFor Our Full-Time Employees: Equity. Flexible time off policy. Take the time off you need! Paid bonding time for all new parents. Traditional and Roth 401k. Commuter and FSA benefits. Lunch Program. Dog friendly office.Sigma Computing is an equal opportunityemployer. We are committed to building a smart and strong teamregardless of race, color, ancestry, religion, sex, nationalorigin, sexual orientation, age, citizenship, marital status,disability, gender, gender identity or expression, or veteranstatus. We look forward to learning how your experience can enableall of us to grow.Note: We have an in-office work environment inboth our SF & NYC office. #J-18808-Ljbffr",,,45068151,Sigma Computing,Sigma Computing Inc,FALSE,"[
+  99
+]","[
+  ""No Education Listed""
+]",99,No Education Listed,,,1,Full-time (> 32 hours),4,,FALSE,,0,[None],,,,"{
+  ""lat"": 37.7749295,
+  ""lon"": -122.4194155
+}",U2FuIEZyYW5jaXNjbywgQ0E=,"San Francisco, CA",6075,"San Francisco, CA",41860,"San Francisco-Oakland-Berkeley, CA",6,California,6075,"San Francisco, CA",6075,"San Francisco, CA",41860,"San Francisco-Oakland-Berkeley, CA",41860,"San Francisco-Oakland-Fremont, CA",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers,ET5564ACBE0D186A2A,Analytics Engineers,senior analytics engineer gtm,"[
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""KS1241P6PXRCKTDSWHTV"",
+  ""KS122PM76DCYL9WC89Y7"",
+  ""BGS3BC92F70EAC093EF9"",
+  ""KS124DX6G31F5M9ZHNGC"",
+  ""KS7AASDV6UOE7VFBGF4D"",
+  ""KS123MC78KV644P5DDZ0"",
+  ""KS122556LMQ829GZCCRV"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""ESD2EDF2E51D7C90FD5F"",
+  ""KS124QR6F19BX4WPMW1H"",
+  ""KS127D361PF0FTXDZ7C4"",
+  ""KS127CR6B7KHCLWC4L20"",
+  ""KS1282K6XPGKSGR1826F"",
+  ""KS440W865GC4VRBW6LJP"",
+  ""ES51980193663083AED5"",
+  ""KS123X777H5WFNXQ6BPM"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS1265P5XXHZFXGVTZTN"",
+  ""KS4425C7820LCHZS7VGX""
+]","[
+  ""Detail Oriented"",
+  ""Forecasting"",
+  ""Data Modeling"",
+  ""Corporate Reporting"",
+  ""Warehousing"",
+  ""Collaboration"",
+  ""Finance"",
+  ""Communication"",
+  ""Python (Programming Language)"",
+  ""Advocacy"",
+  ""Marketing"",
+  ""Operations"",
+  ""Operational Databases"",
+  ""Product Engineering"",
+  ""SQL (Programming Language)"",
+  ""Customer Success Management"",
+  ""Sales"",
+  ""Artificial Intelligence"",
+  ""Marketing Co-Operations"",
+  ""Writing""
+]","[
+  ""KS122PM76DCYL9WC89Y7"",
+  ""BGS3BC92F70EAC093EF9"",
+  ""KS124DX6G31F5M9ZHNGC"",
+  ""KS123MC78KV644P5DDZ0"",
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KS124QR6F19BX4WPMW1H"",
+  ""KS127CR6B7KHCLWC4L20"",
+  ""KS1282K6XPGKSGR1826F"",
+  ""KS440W865GC4VRBW6LJP"",
+  ""ES51980193663083AED5"",
+  ""KS120BV6SR75RBKQH0G3"",
+  ""KS1265P5XXHZFXGVTZTN""
+]","[
+  ""Data Modeling"",
+  ""Corporate Reporting"",
+  ""Warehousing"",
+  ""Finance"",
+  ""Python (Programming Language)"",
+  ""Marketing"",
+  ""Operational Databases"",
+  ""Product Engineering"",
+  ""SQL (Programming Language)"",
+  ""Customer Success Management"",
+  ""Artificial Intelligence"",
+  ""Marketing Co-Operations""
+]",[],[],"[
+  ""KSQPGV2XZO8UMNCC49LK"",
+  ""KS1241P6PXRCKTDSWHTV"",
+  ""KS7AASDV6UOE7VFBGF4D"",
+  ""KS122556LMQ829GZCCRV"",
+  ""ESD2EDF2E51D7C90FD5F"",
+  ""KS127D361PF0FTXDZ7C4"",
+  ""KS123X777H5WFNXQ6BPM"",
+  ""KS4425C7820LCHZS7VGX""
+]","[
+  ""Detail Oriented"",
+  ""Forecasting"",
+  ""Collaboration"",
+  ""Communication"",
+  ""Advocacy"",
+  ""Operations"",
+  ""Sales"",
+  ""Writing""
+]","[
+  ""KS125LS6N7WP4S6SFTCK"",
+  ""KS127CR6B7KHCLWC4L20"",
+  ""KS440W865GC4VRBW6LJP""
+]","[
+  ""Python (Programming Language)"",
+  ""Operational Databases"",
+  ""SQL (Programming Language)""
+]",15-2051.01,Business Intelligence Analysts,15-2051.01,Business Intelligence Analysts,[],[],[],[],[],[],15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,23,Information Technology and Computer Science,231113,Data / Data Mining Analyst,23111310,Data Analyst,2311,Data Analysis and Mathematics,23111310,Data Analyst,231113,Data / Data Mining Analyst,2311,Data Analysis and Mathematics,23,Information Technology and Computer Science,15-0000,Computer and Mathematical Occupations,15-2000,Mathematical Science Occupations,15-2050,Data Scientists,15-2051,Data Scientists,"[
+  7
+]","[
+  ""Artificial Intelligence""
+]",51,Information,513,Publishing Industries,5132,Software Publishers,51321,Software Publishers,513210,Software Publishers

@@ -1,6 +1,7 @@
 ---
 title: "ML Methods"
 subtitle: "Exploratory Skill-Based Clustering of Software Publisher Roles"
+code-fold: true
 ---
 
 ## Objective
@@ -10,13 +11,22 @@ meaningful groups based on their required skills. Our goal is descriptive: we
 want to identify different career pathways within the selected software
 publisher market, not predict outcomes for the broader labor market.
 
+Our final analytical track is **Option C: segmentation**. The model uses our
+prepared skill bridge, which combines normalized source skill labels with
+controlled description-keyword matches. It does not use source labels alone.
+After correcting a false R-language match in the phrase "R D team", the
+model retains 37 skills that occur in at least three postings. Salary,
+experience, location, and our self-ratings are used for interpretation, not
+as clustering features. Every retained binary skill has equal weight in the
+Jaccard comparison.
+
 Because our final panel contains only 10 postings, a supervised salary or
 hiring model would not support a credible train-test evaluation. We therefore
 use hierarchical clustering and treat the results as exploratory evidence.
 
 ## Model Data
 
-```{python}
+```python
 #| label: ml-model-data
 #| echo: true
 
@@ -28,13 +38,6 @@ from sklearn.cluster import AgglomerativeClustering
 from sklearn.manifold import MDS
 from sklearn.metrics import pairwise_distances
 from sklearn.metrics import silhouette_score
-
-import plotly.graph_objects as go
-
-from plotly_theme import BLUE
-from plotly_theme import NAVY
-from plotly_theme import TEAL
-from plotly_theme import apply_job_market_theme
 
 panel_path = Path("data/processed/step3/career_market_panel.csv")
 skills_path = Path("data/processed/step3/career_market_skills.csv")
@@ -115,6 +118,8 @@ model_input_summary = pd.DataFrame({
 model_input_summary
 ```
 
+{{< include _generated/step3_model_input_summary.qmd >}}
+
 Each row of the modeling matrix represents one job posting. Each retained
 skill is a binary feature: `1` means the posting lists the skill and `0` means
 it does not. We use Jaccard distance because it compares shared presences in
@@ -123,7 +128,7 @@ similar.
 
 ## Selecting the Number of Clusters
 
-```{python}
+```python
 #| label: ml-cluster-selection
 #| echo: true
 
@@ -183,16 +188,25 @@ model_comparison.to_csv(
 model_comparison
 ```
 
-The three-cluster solution has the highest silhouette score, but it creates a
-cluster containing only one posting. The four-cluster solution creates two
-single-posting clusters. We select two clusters because both resulting groups
-contain multiple observations and provide a more stable, interpretable career
-comparison. This choice balances quantitative separation with the limitations
-of our small sample.
+{{< include _generated/step3_model_comparison.qmd >}}
+
+The corrected scores are 0.291 for two clusters, 0.327 for three, and 0.311
+for four. The three-cluster solution has the highest silhouette score, but it
+creates a cluster containing only one posting. The four-cluster solution
+creates two single-posting clusters. We select the highest-scoring candidate
+with at least two postings in every group. Only the two-cluster solution
+passes this rule. It provides a less fragmented career comparison.
+
+Silhouette measures internal separation, not prediction accuracy. A value of
+0.291 indicates overlapping skill profiles rather than sharply separated
+market segments. The unmodified preparation script reproduces the archived
+scores of 0.283, 0.319, and 0.305. The correction removes one false R match;
+the final six/four membership remains unchanged. No claim of out-of-sample
+stability follows from reproducing saved outputs.
 
 ## Final Cluster Solution
 
-```{python}
+```python
 #| label: ml-final-clusters
 #| echo: true
 
@@ -305,6 +319,8 @@ cluster_assignments.to_csv(
 cluster_summary
 ```
 
+{{< include _generated/step3_cluster_summary.qmd >}}
+
 The clustering separates six AI/ML architecture-oriented postings from four
 analytics-and-data postings. The first group contains the AI solution
 architect, enterprise architect, ML architect, and applied scientist roles.
@@ -313,10 +329,14 @@ analyst, and analytics engineer roles.
 
 ## Visualizing the Cluster Structure
 
-```{python}
+```python
 #| label: ml-cluster-map
 #| echo: true
 #| output: false
+#| eval: false
+
+import plotly.graph_objects as go
+from plotly_theme import BLUE, NAVY, TEAL, apply_job_market_theme
 
 try:
     mds_model = MDS(
@@ -423,10 +443,11 @@ interpreted.
 
 ## Skills That Differentiate the Clusters
 
-```{python}
+```python
 #| label: ml-cluster-skill-heatmap
 #| echo: true
 #| output: false
+#| eval: false
 
 cluster_prevalence = feature_matrix.copy()
 cluster_prevalence["CLUSTER_NAME"] = cluster_names
@@ -507,7 +528,7 @@ Customer Success Management, each appearing in three of its four postings.
 
 ## Cluster Membership
 
-```{python}
+```python
 #| label: ml-cluster-membership
 #| echo: true
 
@@ -515,6 +536,8 @@ cluster_assignments.sort_values(
     ["Cluster", "Job Title"]
 ).reset_index(drop=True)
 ```
+
+{{< include _generated/step3_cluster_assignments.qmd >}}
 
 ## Career Interpretation
 
@@ -528,7 +551,10 @@ The cluster results identify two different routes within our filtered market:
 2. **Analytics and Data** emphasizes SQL, visualization, predictive analysis,
    and business-facing applications. This pathway is closer to our current
    strengths in SQL, Data Modeling, and Data Visualization and is therefore
-   the more attainable short-term entry point.
+   our nearer-term role-family search direction. Both clusters have a median
+   reported minimum experience of five years. We should investigate
+   early-career versions of these roles; the observed vacancies do not
+   establish entry-level accessibility.
 
 The salary values do not support a reliable comparison between clusters. All
 six AI/ML Architecture postings report usable salary information, whereas only

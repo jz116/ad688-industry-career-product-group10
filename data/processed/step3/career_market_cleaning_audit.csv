@@ -1,0 +1,19 @@
+metric,value,notes
+source_rows,72498,All rows in the 2024 Lightcast CSV.
+exact_naics_513210_rows,1037,Exact code match in the source CSV.
+exact_naics_rows_in_window,1037,Exact code match from 2024-05-01 through 2024-09-30.
+approved_candidate_ids,10,Approved IDs restored from the saved corpus; role-audit selection not rerun.
+final_panel_rows,10,One row per approved candidate ID.
+core_data_scientist_rows,1,Explicit Data Scientist title.
+adjacent_pathway_rows,9,Approved adjacent role titles.
+valid_salary_rows,7,Annualized usable salary.
+salary_q1,120000,First quartile among valid salaries.
+salary_q3,173250,Third quartile among valid salaries.
+salary_iqr_lower,40125,Lower outlier threshold.
+salary_iqr_upper,253125,Upper outlier threshold.
+salary_outlier_rows,0,Flagged but retained.
+rows_with_reported_experience,10,No years are imputed.
+known_remote_rows,2,Unknown is not treated as onsite.
+rows_with_state,10,Usable state name.
+rows_with_skills,10,Structured or controlled keyword skill.
+near_duplicate_flagged_rows,0,Employer/title/date/location fingerprint.

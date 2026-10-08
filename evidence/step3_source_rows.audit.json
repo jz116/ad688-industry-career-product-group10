@@ -1,0 +1,12 @@
+{
+  "raw_path": "data/raw/step3/lightcast_job_postings.csv",
+  "corpus_path": "data/processed/step3/career_market_descriptions.csv",
+  "source_rows_scanned": 72498,
+  "source_columns": 131,
+  "target_ids": 10,
+  "matched_ids": 10,
+  "missing_ids": [],
+  "duplicate_matching_ids": [],
+  "output": "step3_source_rows.csv",
+  "purpose": "Exact original source rows; missing analysis inputs have not yet been rebuilt."
+}

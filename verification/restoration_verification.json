@@ -1,0 +1,50 @@
+{
+  "original_preparation_script_supplied": true,
+  "original_candidate_audit_supplied": false,
+  "cohort_provenance": "Approved IDs and scope labels from the unchanged saved description corpus",
+  "source_scope": "provided source CSV",
+  "source_rows_scanned_here": 72498,
+  "exact_industry_rows_in_scanned_input": 1037,
+  "exact_industry_window_rows_in_scanned_input": 1037,
+  "earlier_full_source_recovery_scan_reported_rows": 72498,
+  "full_role_selection_audit_rerun": false,
+  "original_code_reproduces_archived_model_scores_membership_summary": true,
+  "original_code_reproduces_archived_chart_tables": {
+    "eda_overview": true,
+    "monthly_posting_summary": true,
+    "role_segment_summary": true,
+    "salary_posting_summary": true,
+    "state_summary": true,
+    "employer_summary": true,
+    "remote_summary": true,
+    "education_summary": true,
+    "market_skill_demand": true,
+    "top_skill_summary": true,
+    "data_completeness_summary": true
+  },
+  "removed_posting_skill": [
+    [
+      "0094418d419dc3a48fda36e0f6f5d4f41fd32459",
+      "R"
+    ]
+  ],
+  "added_posting_skills": [],
+  "original_raw_bridge_rows": 366,
+  "corrected_raw_bridge_rows": 365,
+  "original_model_features": 38,
+  "corrected_model_features": 37,
+  "final_selected_clusters": 2,
+  "final_selected_silhouette": 0.291,
+  "membership_unchanged": true,
+  "membership_ari": 1.0,
+  "skill_gap_profile_counts_unchanged": true,
+  "regression_cases_passed": 12,
+  "figures_refreshed_in_this_run": false,
+  "original_script_sha256": "ccfd163e432172546d86d1799e3b8c8ac9ad440bdd28afa0e104dbcad7a2d938",
+  "corrected_script_sha256": "c0b2449b18d39fad9948cb11f075053853b54f44c3555b1f0866561c91bc5428",
+  "source_sha256": "0768dda3d7d5991d874bb60c85d8935e4c3fe2482936cc7bc85ed60fa061a975",
+  "python": "3.14.4",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "scikit_learn": "1.9.1"
+}

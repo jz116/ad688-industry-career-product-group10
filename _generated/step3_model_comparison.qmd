@@ -1,0 +1,5 @@
+| Candidate Clusters | Silhouette Score | Smallest Cluster | Singleton Clusters |
+| --- | --- | --- | --- |
+| 2 | 0.291 | 4 | 0 |
+| 3 | 0.327 | 1 | 1 |
+| 4 | 0.311 | 1 | 2 |

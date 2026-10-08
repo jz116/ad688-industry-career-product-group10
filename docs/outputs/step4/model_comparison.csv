@@ -1,0 +1,4 @@
+Clusters,Silhouette,Smallest group,Singleton groups,Selected
+2,0.291,4,0,Yes
+3,0.327,1,1,No
+4,0.311,1,2,No

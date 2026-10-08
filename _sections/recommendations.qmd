@@ -1,0 +1,23 @@
+## Our recommended search direction
+
+We recommend a staged career plan. First, search for early-career analytics and data roles in software publishers and match each application to demonstrated SQL, Python, modeling, and visualization work. Examples of search titles include Data Analyst, Business Intelligence Analyst, Junior Analytics Engineer, and Junior Data Scientist. These are proposed search terms, not a claim that the ten-posting sample contains those entry-level vacancies.
+
+Treat ML engineering, MLOps, applied-science, and AI architecture work as longer-term options. The six-posting AI and ML segment signals a different skill combination, while the reported experience requirements limit immediate accessibility. Broader searches can be a next step without changing the historical scope of this project.
+
+## A practical screening process
+
+For each vacancy, check explicit minimum experience, responsibilities, required versus preferred skills, location or remote arrangements, and disclosed compensation. Record missing information as unknown. Evaluate skills through specific artifacts and examples rather than a single readiness percentage. Compare pay only when experience level, location, and disclosure coverage are sufficiently similar.
+
+California and New York, and the employers represented in the sample, provide starting points for exploration. Counts alone do not justify relocation, rank workplace quality, or establish current hiring activity. Verify fresh postings before investing time in an application.
+
+## Our 90 day development plan
+
+**Days 1–30: demonstrate the foundation.** Refactor the market-analysis workflow into reusable Python components. Document the data model, validate joins and missing values, and present an analysis with SQL and clear visualizations. Produce a reproducible portfolio case study with an environment file and a concise account of decisions.
+
+**Days 31–60: strengthen Machine Learning and MLOps.** Build a second workflow on a dataset large enough for appropriate evaluation. Track experiments, preserve model versions, and explain validation choices and limitations. Produce evaluation results, a model card, and reproducible training or analysis instructions. The current ten-posting corpus remains a descriptive case study.
+
+**Days 61–90: show deployment and applied NLP.** Package one small project, demonstrate cloud storage and deployment, and improve the description skill extractor. Manually review a labeled set of job descriptions and measure extraction errors before adding synonyms. Produce a working demonstration, deployment notes, and an error analysis.
+
+## Measures of progress
+
+Our proposed targets are two documented portfolio case studies, one cloud demonstration, and at least three revised self-ratings supported by artifacts. Course completion alone will not increase a rating. Once the first portfolio project is ready, review each cycle of 20 targeted applications to assess whether title choices, evidence, and application materials need adjustment. These are planned actions, not completed achievements or predicted outcomes.

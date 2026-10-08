@@ -29,3 +29,7 @@ refine_target_roles.py
 data/raw/
 *.parquet
 *.zip
+
+# Python cache files
+__pycache__/
+*.py[cod]

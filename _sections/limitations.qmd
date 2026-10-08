@@ -1,0 +1,9 @@
+Our product supports a learning and search plan, but several limits constrain the conclusions.
+
+**Coverage and representativeness.** Ten postings from one industry and five months are not a probability sample of U.S. hiring. One posting represents ten percentage points of this sample. Repeated employer and title combinations may represent related vacancies or templates. We retain the source's industry assignments. Restoration verifies the approved cohort's records and results but does not independently reevaluate every original title exclusion.
+
+**Accessibility and compensation.** The sample is senior-oriented. A closer skill match does not establish entry-level eligibility. Seven postings disclose usable salary, all in adjacent roles, and coverage differs sharply by segment. We cannot estimate a reliable salary premium, rank employers by opportunity quality, or infer the chance of receiving an offer.
+
+**Skills and model design.** Source labels and keyword rules can miss synonyms, match terms out of context, and blur required and preferred skills. The R-language correction illustrates this risk. Binary presence captures mentions rather than expected proficiency. Our gap scale is a planning heuristic based on one self-assessment. A reproduced six/four grouping and silhouette of 0.291 do not establish a general market taxonomy or out-of-sample stability.
+
+**Time and next steps.** These are historical 2024 findings. Before operational use, collect a larger, recent sample within the same industry, seek more entry-level observations, review the original scope decisions, and validate skill extraction against human annotations. Update self-ratings using portfolio evidence. Preserve the versioned panel, skill bridge, code, and audit before considering predictive modeling or a weighted career scorecard.

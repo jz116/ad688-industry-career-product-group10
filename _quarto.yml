@@ -1,38 +1,60 @@
 project:
   type: website
   output-dir: docs
-
+  render:
+    - index.qmd
+    - introduction.qmd
+    - data_cleaning.qmd
+    - eda.qmd
+    - skill_gap_analysis.qmd
+    - career_evaluation.qmd
+    - final_analytics.qmd
+    - final_recommendations.qmd
+    - ml_methods.qmd
+    - nlp_methods.qmd
+    - career_plan.qmd
+    - contributions.qmd
+  resources:
+    - outputs/step4/
+    - final_report.docx
 website:
-  title: "Group 10: Data Science and AI/ML Job Market Analysis"
+  title: "Group 10 Career Evaluation"
   navbar:
     left:
       - href: index.qmd
-        text: "Home"
+        text: Home
       - href: introduction.qmd
-        text: "Project Overview"
-      - href: data_cleaning.qmd
-        text: "Data Preparation"
-      - href: eda.qmd
-        text: "Exploratory Analysis"
-      - href: skill_gap_analysis.qmd
-        text: "Skill Gap Analysis"
-      - href: ml_methods.qmd
-        text: "ML Methods"
-      - href: nlp_methods.qmd
-        text: "NLP Methods"
-      - href: career_plan.qmd
-        text: "Career Strategy"
-
+        text: Scope
+      - text: Evidence
+        menu:
+          - href: data_cleaning.qmd
+            text: Data preparation
+          - href: eda.qmd
+            text: Market baseline
+          - href: skill_gap_analysis.qmd
+            text: Skill gaps
+          - href: nlp_methods.qmd
+            text: NLP evidence
+      - text: Career decisions
+        menu:
+          - href: career_evaluation.qmd
+            text: Evaluation logic
+          - href: final_analytics.qmd
+            text: Final analytics
+          - href: final_recommendations.qmd
+            text: Recommendations
+      - href: contributions.qmd
+        text: Contributions
+  page-footer: "Group 10 · Software Publishers · NAICS 513210 · May–September 2024"
+bibliography: references.bib
+csl: csl/apa.csl
 execute:
-  echo: true
-  eval: true
-
+  eval: false
+  echo: false
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
     code-fold: true
-
+    link-external-newwindow: true

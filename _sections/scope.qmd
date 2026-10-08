@@ -1,0 +1,24 @@
+Our final analysis uses **ten distinct Lightcast job postings from May through September 2024** in U.S. Software Publishers. Earlier exploratory material used a different 2026 source. We exclude those observations from the final market findings, skill comparison, segmentation, and recommendations [@lightcast2024; @group10data].
+
+| Scope decision | Final definition |
+|---|---|
+| Industry | Software Publishers, exact NAICS 513210 |
+| Career pathway | Data Scientist plus explicitly labeled adjacent analytics and AI or ML roles |
+| Geography | United States |
+| Posting window | May 1 through September 30, 2024 |
+| Unit of analysis | One distinct posting ID |
+| Retained sample | 10 postings, including 1 core and 9 adjacent roles |
+
+## Sample construction and restoration
+
+The earlier Step 3 scope audit documented 72,498 source rows and 1,037 exact-industry records before the pathway and date restrictions. The approved cohort contains explicit Data Scientist, data-science-adjacent, applied or decision scientist, AI technical, machine-learning technical, and analytics engineer titles. Occupation codes provide supporting metadata; a generic software title does not qualify solely because its description mentions AI.
+
+Our full-source restoration run scanned **72,498 rows and found all ten approved posting IDs**. Using the original preparation code reproduced the archived baseline tables, skill-demand counts, model scores, and cluster membership. We then removed one false R-programming match caused by the phrase “R D team.” This reduced the recurring model features from 38 to 37 while preserving the ten-posting cohort and its six/four grouping.
+
+The restoration holds the approved IDs and core or adjacent labels fixed using the saved description corpus. It verifies their source records and downstream results; it does not independently rerun the original inclusion and exclusion decisions for every other industry title. The 1,037-record industry count remains an earlier scope-audit figure.
+
+## Cleaning and missing values
+
+The restored panel has one row per posting ID. We standardize dates, salaries, experience, locations, and skill labels. The skill bridge combines normalized source labels with controlled description-keyword matches and records their origin. Alias normalization prevents equivalent terms from counting twice in the model. A separate NLP workflow decodes HTML entities, removes markup and URLs, normalizes whitespace and case, and preserves technical symbols in ten nonempty descriptions.
+
+Salary analysis uses seven usable annual salary-range midpoints. We preserve the other three as missing and do not infer pay from title or employer. An annual midpoint summarizes an advertised range rather than realized earnings or total compensation. Unknown remote and education values remain unknown. Posting IDs connect the panel, skill bridge, descriptions, and model results.

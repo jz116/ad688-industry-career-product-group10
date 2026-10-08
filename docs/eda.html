@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Exploratory Data Analysis – Group 10: Data Science and AI/ML Job Market Analysis</title>
+<title>Market Baseline – Group 10 Career Evaluation</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Group 10: Data Science and AI/ML Job Market Analysis</span>
+    <span class="navbar-title">Group 10 Career Evaluation</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -101,31 +101,53 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./introduction.html"> 
-<span class="menu-text">Project Overview</span></a>
+<span class="menu-text">Scope</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./data_cleaning.html"> 
-<span class="menu-text">Data Preparation</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-evidence" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Evidence</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-evidence">    
+        <li>
+    <a class="dropdown-item" href="./data_cleaning.html">
+ <span class="dropdown-text">Data preparation</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./eda.html" aria-current="page"> 
-<span class="menu-text">Exploratory Analysis</span></a>
+        <li>
+    <a class="dropdown-item" href="./eda.html">
+ <span class="dropdown-text">Market baseline</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./skill_gap_analysis.html"> 
-<span class="menu-text">Skill Gap Analysis</span></a>
+        <li>
+    <a class="dropdown-item" href="./skill_gap_analysis.html">
+ <span class="dropdown-text">Skill gaps</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ml_methods.html"> 
-<span class="menu-text">ML Methods</span></a>
+        <li>
+    <a class="dropdown-item" href="./nlp_methods.html">
+ <span class="dropdown-text">NLP evidence</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./nlp_methods.html"> 
-<span class="menu-text">NLP Methods</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-career-decisions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Career decisions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-career-decisions">    
+        <li>
+    <a class="dropdown-item" href="./career_evaluation.html">
+ <span class="dropdown-text">Evaluation logic</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./final_analytics.html">
+ <span class="dropdown-text">Final analytics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./final_recommendations.html">
+ <span class="dropdown-text">Recommendations</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./career_plan.html"> 
-<span class="menu-text">Career Strategy</span></a>
+    <a class="nav-link" href="./contributions.html"> 
+<span class="menu-text">Contributions</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -143,17 +165,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#market-snapshot" id="toc-market-snapshot" class="nav-link active" data-scroll-target="#market-snapshot">Market snapshot</a>
-  <ul class="collapse">
-  <li><a href="#posting-volume-over-time" id="toc-posting-volume-over-time" class="nav-link" data-scroll-target="#posting-volume-over-time">Posting volume over time</a></li>
-  <li><a href="#core-and-adjacent-pathway-roles" id="toc-core-and-adjacent-pathway-roles" class="nav-link" data-scroll-target="#core-and-adjacent-pathway-roles">Core and adjacent pathway roles</a></li>
-  <li><a href="#reported-salary-midpoints" id="toc-reported-salary-midpoints" class="nav-link" data-scroll-target="#reported-salary-midpoints">Reported salary midpoints</a></li>
-  <li><a href="#geographic-distribution" id="toc-geographic-distribution" class="nav-link" data-scroll-target="#geographic-distribution">Geographic distribution</a></li>
-  <li><a href="#employers-in-the-audited-sample" id="toc-employers-in-the-audited-sample" class="nav-link" data-scroll-target="#employers-in-the-audited-sample">Employers in the audited sample</a></li>
-  <li><a href="#remote-work-reporting" id="toc-remote-work-reporting" class="nav-link" data-scroll-target="#remote-work-reporting">Remote-work reporting</a></li>
-  <li><a href="#skill-demand" id="toc-skill-demand" class="nav-link" data-scroll-target="#skill-demand">Skill demand</a></li>
-  <li><a href="#data-completeness" id="toc-data-completeness" class="nav-link" data-scroll-target="#data-completeness">Data completeness</a></li>
-  </ul></li>
+  <li><a href="#demand-and-geography" id="toc-demand-and-geography" class="nav-link active" data-scroll-target="#demand-and-geography">Demand and geography</a></li>
+  <li><a href="#pay-and-accessibility" id="toc-pay-and-accessibility" class="nav-link" data-scroll-target="#pay-and-accessibility">Pay and accessibility</a></li>
   </ul>
 </nav>
     </div>
@@ -162,8 +175,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exploratory Data Analysis</h1>
-<p class="subtitle lead">Data Science and Adjacent AI/ML Roles in Software Publishers</p>
+<h1 class="title">Market Baseline</h1>
 </div>
 
 
@@ -180,146 +192,62 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="market-snapshot" class="level2">
-<h2 class="anchored" data-anchor-id="market-snapshot">Market snapshot</h2>
-<p>We analyzed 72,498 Lightcast job postings. We applied the exact Software Publishers industry code (NAICS 513210), the May–September 2024 date window, and our documented title-based pathway rules. Our final audited sample contains <strong>10 distinct postings</strong>: one core Data Scientist posting and nine adjacent AI, machine-learning, analytics, or applied-science postings.</p>
+<p>The retained sample describes a narrow set of advertised roles, with substantially more adjacent technical roles than exact Data Scientist titles.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Indicator</th>
-<th style="text-align: right;">Our Step 3 result</th>
+<th>Result</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Audited pathway postings</td>
-<td style="text-align: right;">10</td>
+<td>Distinct postings</td>
+<td>10</td>
 </tr>
 <tr class="even">
-<td>Core Data Scientist postings</td>
-<td style="text-align: right;">1 (10%)</td>
+<td>Core and adjacent roles</td>
+<td>1 core and 9 adjacent</td>
 </tr>
 <tr class="odd">
-<td>Adjacent pathway postings</td>
-<td style="text-align: right;">9 (90%)</td>
+<td>Usable advertised salary</td>
+<td>7 of 10 postings</td>
 </tr>
 <tr class="even">
-<td>Postings with usable salary</td>
-<td style="text-align: right;">7 (70%)</td>
+<td>Median annual salary midpoint</td>
+<td>$173,200 among those 7 postings</td>
 </tr>
 <tr class="odd">
-<td>Median salary midpoint</td>
-<td style="text-align: right;">$173,200</td>
+<td>Salary midpoint range</td>
+<td>$120,000 to $195,000</td>
 </tr>
 <tr class="even">
-<td>Explicitly remote postings</td>
-<td style="text-align: right;">2 (20%)</td>
+<td>Remote status</td>
+<td>2 explicitly remote and 8 unknown</td>
 </tr>
 <tr class="odd">
-<td>Remote status unknown</td>
-<td style="text-align: right;">8 (80%)</td>
-</tr>
-<tr class="even">
-<td>Postings with extracted skills</td>
-<td style="text-align: right;">10 (100%)</td>
+<td>Education</td>
+<td>6 bachelor’s-degree requirements and 4 unknown</td>
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a narrowly defined pathway sample, not a market-wide estimate. Counts, percentages, salaries, and skill frequencies below describe these 10 audited postings only. Detailed SOC labels were not used as a standalone inclusion rule because they mapped 1,034 of the 1,037 industry postings to Data Scientists even when the job titles did not support that interpretation.</p>
-</div>
-</div>
-<section id="posting-volume-over-time" class="level3">
-<h3 class="anchored" data-anchor-id="posting-volume-over-time">Posting volume over time</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/step3/monthly_posting_volume.png" class="img-fluid figure-img" alt="The audited sample contains one posting in May, one in June, four in July, two in August, and two in September 2024."></p>
-<figcaption>Monthly number of audited career-pathway postings from May through September 2024.</figcaption>
+<p><img src="figures/step4/market_snapshot.png" class="img-fluid figure-img" style="width:6.1in" alt="California has five postings, New York two, and Colorado, Indiana, and Massachusetts one each. Seven salary midpoints range from 120000 to 195000 dollars with a median of 173200 dollars."></p>
+<figcaption>Geography for ten postings and the seven reported salary midpoints. The dashed line marks the overall salary median.</figcaption>
 </figure>
 </div>
-<p>July contains four of the 10 retained postings, the largest monthly count in the sample. May and June contain one each, while August and September contain two each. With only 10 observations, these values should not be interpreted as evidence of a broader seasonal or growth trend.</p>
+<section id="demand-and-geography" class="level2">
+<h2 class="anchored" data-anchor-id="demand-and-geography">Demand and geography</h2>
+<p>Monthly counts are one in May, one in June, four in July, two in August, and two in September. These small counts do not establish market growth or seasonality. The role mix consists of four AI technical postings, two data-science-adjacent postings, and one each in core data science, machine learning, applied or decision science, and analytics engineering.</p>
+<p>California accounts for five postings and New York for two. Colorado, Indiana, and Massachusetts contribute one each. C3 Iot, Klaviyo, and Workday have two postings apiece; Guidewire Software, Microsoft, Sigma Computing, and Theoris Group have one each. These are search leads, not employer-quality or cost-of-living-adjusted location rankings.</p>
 </section>
-<section id="core-and-adjacent-pathway-roles" class="level3">
-<h3 class="anchored" data-anchor-id="core-and-adjacent-pathway-roles">Core and adjacent pathway roles</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/step3/role_segment_distribution.png" class="img-fluid figure-img" alt="The sample contains four AI technical roles, two data-science-adjacent roles, and one each in machine learning, core data science, applied or decision science, and analytics engineering."></p>
-<figcaption>Role composition of the audited career-pathway sample.</figcaption>
-</figure>
-</div>
-<p>Only one posting has an explicit core Data Scientist title. The largest segment is AI Technical Role with four postings. Two postings are Data Science Adjacent Roles, and the remaining three adjacent segments contain one posting each. The result supports evaluating adjacent AI and analytics pathways, but those roles remain labeled separately because their responsibilities and skill profiles are not interchangeable with core data science.</p>
-</section>
-<section id="reported-salary-midpoints" class="level3">
-<h3 class="anchored" data-anchor-id="reported-salary-midpoints">Reported salary midpoints</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/step3/salary_midpoints.png" class="img-fluid figure-img" alt="Seven adjacent-role postings report usable annualized salary midpoints ranging from 120,000 to 195,000 dollars, with a median of 173,200 dollars."></p>
-<figcaption>Annualized salary midpoint for each posting with usable salary data.</figcaption>
-</figure>
-</div>
-<p>Seven postings report usable annualized salary ranges. Their midpoints range from <strong>$120,000 to $195,000</strong>, with a median of <strong>$173,200</strong>. All seven salary observations belong to adjacent roles; the one core Data Scientist posting has no usable salary. The salary results therefore describe reported pay among the adjacent-role subset and should not be presented as an estimate for core Data Scientist positions.</p>
-</section>
-<section id="geographic-distribution" class="level3">
-<h3 class="anchored" data-anchor-id="geographic-distribution">Geographic distribution</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/step3/hiring_by_state.png" class="img-fluid figure-img" alt="California contains five postings, New York contains two, and Colorado, Indiana, and Massachusetts contain one each."></p>
-<figcaption>Audited career-pathway postings by state.</figcaption>
-</figure>
-</div>
-<p>California accounts for five postings and New York for two. Colorado, Indiana, and Massachusetts contribute one posting each. This concentration indicates where the audited employers advertised these particular roles; it is not a national state-level demand ranking.</p>
-</section>
-<section id="employers-in-the-audited-sample" class="level3">
-<h3 class="anchored" data-anchor-id="employers-in-the-audited-sample">Employers in the audited sample</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/step3/top_employers.png" class="img-fluid figure-img" alt="C3 IoT, Klaviyo, and Workday have two postings each; four other employers have one each."></p>
-<figcaption>Employers represented in the audited pathway sample.</figcaption>
-</figure>
-</div>
-<p>C3 IoT, Klaviyo, and Workday each contribute two postings. Guidewire Software, Microsoft, Sigma Computing, and Theoris Group each contribute one. Because the sample is small, employer counts are descriptive and may reflect repeated locations or posting dates rather than sustained hiring volume.</p>
-</section>
-<section id="remote-work-reporting" class="level3">
-<h3 class="anchored" data-anchor-id="remote-work-reporting">Remote-work reporting</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/step3/remote_status.png" class="img-fluid figure-img" alt="Two postings are explicitly remote and eight have unknown remote status."></p>
-<figcaption>Reported remote-work status in the audited pathway sample.</figcaption>
-</figure>
-</div>
-<p>Two postings are explicitly identified as remote. The remaining eight have unknown remote status and are not assumed to be onsite. The defensible result is that at least 20% of the audited sample is explicitly remote; the data cannot support a complete remote-versus-onsite comparison.</p>
-</section>
-<section id="skill-demand" class="level3">
-<h3 class="anchored" data-anchor-id="skill-demand">Skill demand</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/step3/top_skills.png" class="img-fluid figure-img" alt="Artificial Intelligence, Machine Learning, and Sales appear in six postings each. MLOps, Python, Data Science, Computer Science, and Detail Oriented appear in five each."></p>
-<figcaption>Most frequently requested skills in the audited pathway sample.</figcaption>
-</figure>
-</div>
-<p>Artificial Intelligence, Machine Learning, and Sales each appear in six of the 10 postings. MLOps, Python, Data Science, Computer Science, and Detail Oriented each appear in five. The combination of technical and customer-facing skills reflects the sample’s strong representation of solution-architecture and enterprise-AI roles. Skill percentages do not sum to 100% because a posting can request many skills. Equivalent labels such as <code>Generative AI</code> and <code>Generative Artificial Intelligence</code> are consolidated before counting.</p>
-</section>
-<section id="data-completeness" class="level3">
-<h3 class="anchored" data-anchor-id="data-completeness">Data completeness</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/step3/data_completeness.png" class="img-fluid figure-img" alt="Posting date, employer, state, minimum experience, and skills are complete. Salary is usable for seven postings, education for six, and remote status for two."></p>
-<figcaption>Coverage of the main analytical fields in the audited sample.</figcaption>
-</figure>
-</div>
-<p>Posting date, employer, state, reported minimum experience, and skills are available for all 10 postings. Salary is usable for seven, education for six, and remote status for two. The analysis retains missing values explicitly and does not infer salary, education, or remote status from other fields.</p>
+<section id="pay-and-accessibility" class="level2">
+<h2 class="anchored" data-anchor-id="pay-and-accessibility">Pay and accessibility</h2>
+<p>All seven salary observations belong to adjacent roles. The sole core Data Scientist posting has no usable pay, so the sample cannot estimate its typical salary. Both restored skill segments have a median minimum experience requirement of five years. That result and the senior-oriented titles indicate an accessibility barrier for a recent graduate; a stronger skill match does not remove it.</p>
+<p>The two remote postings establish only an explicitly remote share of 20% in this sample. The other eight are not confirmed onsite. We therefore avoid a remote-versus-onsite market-share claim or a remote-status classifier.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -410,6 +338,11 @@ Warning
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -724,6 +657,19 @@ Warning
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Group 10 · Software Publishers · NAICS 513210 · May–September 2024</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

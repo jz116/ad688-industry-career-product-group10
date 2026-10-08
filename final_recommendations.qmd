@@ -1,0 +1,5 @@
+---
+title: "Final Recommendations"
+---
+
+{{< include _sections/recommendations.qmd >}}

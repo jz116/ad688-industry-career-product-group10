@@ -1,0 +1,16 @@
+Group 10 presentation alignment with the verified final analysis
+
+Use the restored combined-skill model consistently. No new model track is needed.
+
+Slide 1: Replace recovery-pending wording with source restoration verified.
+Slide 3: Distinguish the earlier documented 1,037-industry-record count from the full-source restoration, which scanned 72,498 rows and recovered the ten approved IDs. The restoration did not rerun every title inclusion/exclusion decision.
+Slide 6: Change candidate silhouettes to 0.291 (2), 0.327 (3), and 0.311 (4). State 37 recurring skills from combined source-label and description-keyword evidence. Select 2 clusters because it is the only candidate with at least 2 postings in each cluster.
+Slide 8: Change 5 structured MLOps records to 5 postings in the prepared skill bridge. There are 3 source-label postings and 3 narrow-text matches; broader preparation rules recognize joined MLOps text in two additional C3 Iot postings.
+Slide 9: Replace restore missing inputs as a future task with the remaining limits: small historical sample, title-selection audit not rerun, uneven salary coverage, and senior experience requirements.
+Slide 11: Update method details to 37 features and final scores 0.291 / 0.327 / 0.311. Reproduction and the one-match correction do not establish out-of-sample stability.
+Slide 14: Cite the restored preparation script, corrected model outputs, and final report alongside the literature.
+Slide 15: Mark the panel, skill bridge, original-code reproduction, and corrected model as verified. Keep GitHub Pages publication and actual team contributions pending until completed.
+
+Keep the 6/4 membership split, $173,200 median across 7 salary observations, 2 remote / 8 unknown, and all 8 skill-profile gap values. Refresh the speaker notes, evidence dropdown labels, and any score captions to match.
+
+The presentation files themselves are not edited by this package.

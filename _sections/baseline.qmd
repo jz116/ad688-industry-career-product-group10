@@ -1,0 +1,25 @@
+The retained sample describes a narrow set of advertised roles, with substantially more adjacent technical roles than exact Data Scientist titles.
+
+| Indicator | Result |
+|---|---|
+| Distinct postings | 10 |
+| Core and adjacent roles | 1 core and 9 adjacent |
+| Usable advertised salary | 7 of 10 postings |
+| Median annual salary midpoint | $173,200 among those 7 postings |
+| Salary midpoint range | $120,000 to $195,000 |
+| Remote status | 2 explicitly remote and 8 unknown |
+| Education | 6 bachelor's-degree requirements and 4 unknown |
+
+![Geography for ten postings and the seven reported salary midpoints. The dashed line marks the overall salary median.](figures/step4/market_snapshot.png){width=6.1in fig-alt="California has five postings, New York two, and Colorado, Indiana, and Massachusetts one each. Seven salary midpoints range from 120000 to 195000 dollars with a median of 173200 dollars."}
+
+## Demand and geography
+
+Monthly counts are one in May, one in June, four in July, two in August, and two in September. These small counts do not establish market growth or seasonality. The role mix consists of four AI technical postings, two data-science-adjacent postings, and one each in core data science, machine learning, applied or decision science, and analytics engineering.
+
+California accounts for five postings and New York for two. Colorado, Indiana, and Massachusetts contribute one each. C3 Iot, Klaviyo, and Workday have two postings apiece; Guidewire Software, Microsoft, Sigma Computing, and Theoris Group have one each. These are search leads, not employer-quality or cost-of-living-adjusted location rankings.
+
+## Pay and accessibility
+
+All seven salary observations belong to adjacent roles. The sole core Data Scientist posting has no usable pay, so the sample cannot estimate its typical salary. Both restored skill segments have a median minimum experience requirement of five years. That result and the senior-oriented titles indicate an accessibility barrier for a recent graduate; a stronger skill match does not remove it.
+
+The two remote postings establish only an explicitly remote share of 20% in this sample. The other eight are not confirmed onsite. We therefore avoid a remote-versus-onsite market-share claim or a remote-status classifier.
